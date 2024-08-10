@@ -1,0 +1,49 @@
+// TYpography
+@mixin title($font-size: 2rem) {
+    font-family: $font-title;
+    font-weight: 900;
+    color: $secondary-main;
+    font-size: $font-size;
+}
+@mixin sub-title($font-size: 1.5rem) {
+    font-family: $font-title;
+    font-weight: bolder;
+    color: $secondary-main;
+    font-size: $font-size;
+}
+@mixin text($font-size: 1rem) {
+    font-family: $font-text;
+    font-weight: normal;
+    color: $secondary-main;
+    font-size: $font-size;
+}
+@mixin custom-text($font-family, $font-weight, $color) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    color: $color;
+}
+
+// Components
+@mixin hr-heading($color: black) {
+    border: 0.35rem $color solid;
+    width: 8vw;
+    opacity: 0.8;
+}
+
+// Style
+@mixin mask-dark($opacity: 0.15) {
+    background-color: rgba(251, 251, 251, $opacity);
+}
+
+// Animation
+@mixin nav-item-border
+{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 6px;
+    left: 0%;
+    bottom: 0;
+    background-color: $secondary-dark;
+    transition: all ease-in-out .2s;
+}

@@ -1,0 +1,31 @@
+// Fonts and icons
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../../node_modules/typeface-roboto/index.css';
+@import '../../node_modules/typeface-open-sans/index.css';
+
+// Variables and mixins
+@import 'variables';
+@import 'mixins';
+
+// Custom bootstrap and utilities
+@import 'custom-bootstrap';
+@import 'utilities-api.scss';
+
+// MDBootstrap
+@import 'mdb.free';
+
+// Typography
+.title
+{
+   @include title;
+   text-align: center;
+}
+.sub-title
+{
+   @include sub-title;
+}
+.text
+{
+   @include text;
+}
+
