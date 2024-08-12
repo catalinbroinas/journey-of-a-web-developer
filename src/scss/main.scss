@@ -29,3 +29,46 @@
    @include text;
 }
 
+// Old code from my private project
+// Intro
+#intro-career
+{
+   height: 50vh;
+   position: relative;
+   z-index: 0;
+}
+
+.intro
+{
+   .title
+   {
+      color: $secondary-light;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+   }
+   .sub-title
+   {
+      color: $secondary-light;
+      font-weight: bold;
+      text-align: center;
+   }
+   .text
+   {
+      color: $secondary-light;
+      font-weight: bolder;
+   }
+   i
+   {
+      color: $secondary-light;
+   }
+}
+// Intro
+
+// Components
+.mask-dark
+{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+// Components
+// Old code from my private project
