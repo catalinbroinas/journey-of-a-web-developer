@@ -65,10 +65,69 @@
 }
 // Intro
 
+// Section
+#road-to-programmer
+{
+   position: relative;
+   z-index: 1;
+}
+.week
+{
+   background-color: $primary-main;
+   padding: 2rem;
+}
+
 // Components
 .mask-dark
 {
    background-color: rgba(0, 0, 0, 0.5);
+}
+.week-icon
+{
+   color: $secondary-dark;
+}
+
+.week-15-forms 
+{
+   background-image: url('../../img/odin-2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   .week-15-icon 
+   {
+      position: absolute;
+      width: 4rem;
+      height: auto;
+   }
+   .html-icon 
+   {
+      top: 15%;
+      left: 10%;
+   }
+   .css-icon
+   {
+      top: 15%;
+      right: 10%;
+   }
+}
+
+.alert-warning
+{
+   border-left: 0.5rem solid $warning;
+}
+.alert-danger
+{
+   border-left: 0.5rem solid $danger;
+}
+.alert-info
+{
+   border-left: 0.5rem solid $info;
+} 
+
+.card .custom-cover {
+   height: 100%;
+   width: auto;
+   object-fit: cover;
 }
 // Components
 // Old code from my private project
