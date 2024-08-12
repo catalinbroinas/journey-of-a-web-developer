@@ -17502,4 +17502,8 @@ fieldset:disabled .btn-group-vertical > .btn {
   object-fit: cover;
 }
 
+.bg-gray {
+  background-color: #FBFBFB;
+}
+
 /*# sourceMappingURL=style.css.map */
