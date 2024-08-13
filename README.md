@@ -2,6 +2,10 @@
 
 This repository documents my journey as a web developer, starting from August 28, 2023. It includes detailed records of my weekly progress, tutorials, courses, quizzes, exercises, and projects. The information is structured by week, showcasing the main topics covered and the total days and hours worked.
 
+## Live Demo
+
+You can view the live demo of this project [here](https://catalinbroinas.github.io/journey-of-a-web-developer/).
+
 ## Overview
 
 - **Project Origin:** Developed as part of my private project "My Biography."
