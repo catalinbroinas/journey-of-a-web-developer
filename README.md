@@ -6,6 +6,11 @@ This repository documents my journey as a web developer, starting from August 28
 
 You can view the live demo of this project [here](https://catalinbroinas.github.io/journey-of-a-web-developer/).
 
+## Notes
+
+- For local development, use `npm install` to get all necessary dependencies.
+- For deployment on GitHub Pages, CDN links are used for fonts and icons to ensure availability.
+
 ## Overview
 
 - **Project Origin:** Developed as part of my private project "My Biography."
