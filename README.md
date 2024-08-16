@@ -30,7 +30,15 @@ The main platform for learning is **The Odin Project**.
 
 ## Screenshots
 
-Screenshots from my private project showcasing various weeks:
+### Repository Overview
+
+Below is a screenshot of the repository for my private project, showcasing the number of commits and overall development activity:
+
+![private-project](https://github.com/user-attachments/assets/491a7a73-38a8-417d-86ee-9c972d3136d4)
+
+### Weekly Progress
+
+Here are some screenshots from my private project that highlight the progress made during different weeks:
 
 ![Week 1](https://github.com/user-attachments/assets/db5bdf00-30a9-4817-93a8-da1e9e8864ab)
 ![Week 2](https://github.com/user-attachments/assets/c0560c8b-138d-474c-9897-61f6c86b9160)
