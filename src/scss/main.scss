@@ -34,9 +34,7 @@
    height: 50vh;
    padding: 0;
    background-color: $primary-dark;
-   background-size: cover;
-   background-repeat: no-repeat;
-
+   
    .intro-title {
       @include custom-text($font-title, 700, 4rem, $secondary-light);
    }
@@ -54,7 +52,6 @@
 
 #weekly-progress-intro {
    background-image: url('../../img/backgrounds/bridge-road.jpg');
-   background-position: center;
 }
 
 // Style

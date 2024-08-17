@@ -17428,8 +17428,6 @@ fieldset:disabled .btn-group-vertical > .btn {
   height: 50vh;
   padding: 0;
   background-color: #CC0000;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .intro .intro-title {
   font-family: "Roboto", Arial, Verdana, sans-serif;
@@ -17455,7 +17453,6 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 #weekly-progress-intro {
   background-image: url("../../img/backgrounds/bridge-road.jpg");
-  background-position: center;
 }
 
 .mask-dark {
