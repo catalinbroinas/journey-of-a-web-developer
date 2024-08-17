@@ -17424,4 +17424,71 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 1rem;
 }
 
+.intro {
+  height: 50vh;
+  padding: 0;
+  background-color: #CC0000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro .intro-title {
+  font-family: "Roboto", Arial, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+}
+.intro .intro-sub-title {
+  font-family: "Open Sans", Verdana, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+}
+.intro .intro-text {
+  font-family: "Roboto", Arial, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+.intro .mask-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#weekly-progress-intro {
+  background-image: url("../../img/backgrounds/bridge-road.jpg");
+  background-position: center;
+}
+
+.mask-dark {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 1399px) {
+  .intro .intro-title {
+    font-size: 3.5rem;
+  }
+  .intro .intro-sub-title {
+    font-size: 2rem;
+  }
+  .intro .intro-text {
+    font-size: 1.35rem;
+  }
+  #weekly-progress-intro {
+    height: 60vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .intro .intro-title {
+    font-size: 2.5rem;
+  }
+  .intro .intro-sub-title {
+    font-size: 1.75rem;
+  }
+  .intro .intro-text {
+    font-size: 1rem;
+  }
+  #weekly-progress-intro {
+    height: 60vh;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

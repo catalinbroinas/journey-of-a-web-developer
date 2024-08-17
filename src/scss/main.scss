@@ -29,3 +29,71 @@
    @include text;
 }
 
+// Intro
+.intro {
+   height: 50vh;
+   padding: 0;
+   background-color: $primary-dark;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   .intro-title {
+      @include custom-text($font-title, 700, 4rem, $secondary-light);
+   }
+   .intro-sub-title {
+      @include custom-text($font-text, 700, 2.5rem, $secondary-light);
+   }
+   .intro-text {
+      @include custom-text($font-title, 500, 1.5rem, $secondary-light);
+   }
+
+   .mask-dark {
+      @include mask-dark(0.5);
+   }
+}
+
+#weekly-progress-intro {
+   background-image: url('../../img/backgrounds/bridge-road.jpg');
+   background-position: center;
+}
+
+// Style
+.mask-dark {
+   @include mask-dark;
+}
+
+// Extra large devices
+@media only screen and (max-width: 1399px) {
+   .intro {
+      .intro-title {
+         font-size: 3.5rem
+      }
+      .intro-sub-title {
+         font-size: 2rem;
+      }
+      .intro-text {
+         font-size: 1.35rem;
+      }
+   }
+   #weekly-progress-intro {
+      height: 60vh;
+   }
+}
+
+// Small devices
+@media only screen and (max-width: 767px) {
+   .intro {
+      .intro-title {
+         font-size: 2.5rem
+      }
+      .intro-sub-title {
+         font-size: 1.75rem;
+      }
+      .intro-text {
+         font-size: 1rem;
+      }
+   }
+   #weekly-progress-intro {
+      height: 60vh;
+   }
+}

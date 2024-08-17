@@ -17,9 +17,10 @@
     color: $secondary-main;
     font-size: $font-size;
 }
-@mixin custom-text($font-family, $font-weight, $color) {
+@mixin custom-text($font-family, $font-weight, $font-size, $color) {
     font-family: $font-family;
     font-weight: $font-weight;
+    font-size: $font-size;
     color: $color;
 }
 
@@ -32,7 +33,7 @@
 
 // Style
 @mixin mask-dark($opacity: 0.15) {
-    background-color: rgba(251, 251, 251, $opacity);
+    background-color: rgba(0, 0, 0, $opacity);
 }
 
 // Animation
