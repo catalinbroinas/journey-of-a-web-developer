@@ -80,8 +80,8 @@
    }
 }
 
-// Small devices
-@media only screen and (max-width: 767px) {
+// Small devices (portrait)
+@media only screen and (max-width: 767px) and (orientation: portrait) {
    .intro {
       .intro-title {
          font-size: 2.5rem
@@ -95,5 +95,23 @@
    }
    #weekly-progress-intro {
       height: 60vh;
+   }
+}
+
+// Small devices (landscape)
+@media only screen and (max-width: 933px) and (orientation: landscape) {
+   .intro {
+      .intro-title {
+         font-size: 2.5rem
+      }
+      .intro-sub-title {
+         font-size: 1.75rem;
+      }
+      .intro-text {
+         font-size: 1rem;
+      }
+   }
+   #weekly-progress-intro {
+      height: 80vh;
    }
 }

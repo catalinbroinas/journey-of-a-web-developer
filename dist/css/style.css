@@ -17476,7 +17476,7 @@ fieldset:disabled .btn-group-vertical > .btn {
     height: 60vh;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
   .intro .intro-title {
     font-size: 2.5rem;
   }
@@ -17488,6 +17488,20 @@ fieldset:disabled .btn-group-vertical > .btn {
   }
   #weekly-progress-intro {
     height: 60vh;
+  }
+}
+@media only screen and (max-width: 933px) and (orientation: landscape) {
+  .intro .intro-title {
+    font-size: 2.5rem;
+  }
+  .intro .intro-sub-title {
+    font-size: 1.75rem;
+  }
+  .intro .intro-text {
+    font-size: 1rem;
+  }
+  #weekly-progress-intro {
+    height: 80vh;
   }
 }
 
