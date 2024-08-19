@@ -129,6 +129,8 @@
    width: auto;
    object-fit: cover;
 }
+// Old code from my private project
+
 
 .btn-intro {
    background-color: rgba($color: white, $alpha: 0.15);
@@ -146,13 +148,27 @@
    color: white;
    border: 1px solid white;
 }
+.btn-scroll
+{
+   position: fixed;
+   bottom: 5vh;
+   right: 5vw;
+   z-index: 99;
+   background-color: $primary-light;
+   color: $primary-dark;
+}
+.btn-scroll:hover
+{
+   background-color: $primary-main;
+   color: $primary-dark;
+}
 // Components
 
+// Old code from my private project
 // Styles
 .bg-gray
 {
    background-color: $primary-main;
 }
 // Styles
-
 // Old code from my private project

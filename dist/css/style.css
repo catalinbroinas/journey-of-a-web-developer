@@ -17519,6 +17519,20 @@ fieldset:disabled .btn-group-vertical > .btn {
   border: 1px solid white;
 }
 
+.btn-scroll {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  z-index: 99;
+  background-color: #FFEBEE;
+  color: #CC0000;
+}
+
+.btn-scroll:hover {
+  background-color: #FBFBFB;
+  color: #CC0000;
+}
+
 .bg-gray {
   background-color: #FBFBFB;
 }
