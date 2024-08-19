@@ -2910,7 +2910,7 @@ textarea.form-control-lg {
   --mdb-btn-bg: transparent;
   --mdb-btn-border-width: 2px;
   --mdb-btn-border-color: transparent;
-  --mdb-btn-border-radius: 0.25rem;
+  --mdb-btn-border-radius: 0;
   --mdb-btn-hover-border-color: transparent;
   --mdb-btn-box-shadow: 0 4px 9px -4px rgba(var(--mdb-box-shadow-color-rgb), 0.35);
   --mdb-btn-disabled-opacity: 0.65;
@@ -3681,7 +3681,7 @@ textarea.form-control-lg {
 }
 
 .btn-group {
-  border-radius: 0.25rem;
+  border-radius: 0;
 }
 .btn-group > :not(.btn-check:first-child) + .btn,
 .btn-group > .btn-group:not(:first-child) {
@@ -3904,7 +3904,7 @@ textarea.form-control-lg {
   --mdb-navbar-toggler-font-size: 1.25rem;
   --mdb-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2879, 79, 79, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --mdb-navbar-toggler-border-color: rgba(var(--mdb-emphasis-color-rgb), 0.15);
-  --mdb-navbar-toggler-border-radius: 0.25rem;
+  --mdb-navbar-toggler-border-radius: 0;
   --mdb-navbar-toggler-focus-width: 0.25rem;
   --mdb-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   position: relative;
@@ -15207,7 +15207,7 @@ input[type=file].form-control.is-invalid:focus-within ~ .form-file-label .form-f
   --mdb-btn-padding-bottom: 0.5rem;
   --mdb-btn-border-width: 0;
   --mdb-btn-border-color: none;
-  --mdb-btn-border-radius: 0.25rem;
+  --mdb-btn-border-radius: 0;
   --mdb-btn-box-shadow: 0 4px 9px -4px rgba(var(--mdb-box-shadow-color-rgb), 0.35);
   --mdb-btn-hover-box-shadow: 0 8px 9px -4px rgba(var(--mdb-box-shadow-color-rgb), 0.15), 0 4px 18px 0 rgba(var(--mdb-box-shadow-color-rgb), 0.1);
   --mdb-btn-focus-box-shadow: 0 8px 9px -4px rgba(var(--mdb-box-shadow-color-rgb), 0.15), 0 4px 18px 0 rgba(var(--mdb-box-shadow-color-rgb), 0.1);
@@ -16453,7 +16453,7 @@ fieldset:disabled .btn-group-vertical > .btn {
 .btn-group,
 .btn-group-lg > .btn,
 .btn-group-sm > .btn {
-  --mdb-btn-border-radius: 0.25rem;
+  --mdb-btn-border-radius: 0;
   border-radius: var(--mdb-btn-border-radius);
 }
 
@@ -17404,14 +17404,14 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 .title {
   font-family: "Roboto", Arial, Verdana, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   color: #332D2D;
   text-align: center;
 }
 
 .sub-title {
   font-family: "Roboto", Arial, Verdana, sans-serif;
-  font-weight: bolder;
+  font-weight: 700;
   color: #332D2D;
 }
 
@@ -17500,6 +17500,23 @@ fieldset:disabled .btn-group-vertical > .btn {
   height: 100%;
   width: auto;
   object-fit: cover;
+}
+
+.btn-intro {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.btn-intro i {
+  color: inherit;
+}
+
+.btn-intro:hover,
+.btn-intro:active {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 .bg-gray {
