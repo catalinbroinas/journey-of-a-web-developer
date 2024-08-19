@@ -1,8 +1,13 @@
 import { DomHandler } from "./module/utility.js";
 
 function PageContent() {
-    const { scrollToLastElement } = DomHandler();
     const lastWeekButton = document.querySelector('#last-week-button');
+    const scrollUpButton = document.querySelector('#scroll-up-button');
+
+    const {
+        scrollToLastElement,
+        scrollToTop
+    } = DomHandler();
 
     const addEvents = () => {
         if (lastWeekButton) {
@@ -12,6 +17,8 @@ function PageContent() {
                 }, 300);
             });
         }
+
+        scrollToTop(scrollUpButton);
     };
 
     return {
