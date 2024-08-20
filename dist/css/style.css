@@ -17455,6 +17455,15 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-image: url("../../img/backgrounds/bridge-road.jpg");
 }
 
+.custom-checkbox {
+  width: 20rem;
+  margin-top: 0.25rem;
+}
+.custom-checkbox .form-check-label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .mask-dark {
   background-color: rgba(0, 0, 0, 0.15);
 }

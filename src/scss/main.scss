@@ -54,6 +54,17 @@
    background-image: url('../../img/backgrounds/bridge-road.jpg');
 }
 
+// Components
+.custom-checkbox {
+   width: 20rem;
+   margin-top: 0.25rem;
+
+   .form-check-label {
+      font-weight: bold;
+      font-size: 1rem;
+   }
+}
+
 // Style
 .mask-dark {
    @include mask-dark;
