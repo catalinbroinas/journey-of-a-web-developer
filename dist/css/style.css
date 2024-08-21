@@ -4956,7 +4956,7 @@ textarea.form-control-lg {
 
 .list-group {
   --mdb-list-group-color: var(--mdb-body-color);
-  --mdb-list-group-bg: transparent;
+  --mdb-list-group-bg: white;
   --mdb-list-group-border-color: var(--mdb-border-color);
   --mdb-list-group-border-width: var(--mdb-border-width);
   --mdb-list-group-border-radius: 0.5rem;
@@ -4968,7 +4968,7 @@ textarea.form-control-lg {
   --mdb-list-group-action-active-color: var(--mdb-body-color);
   --mdb-list-group-action-active-bg: var(--mdb-secondary-bg);
   --mdb-list-group-disabled-color: rgba(var(--mdb-body-color-rgb), 0.5);
-  --mdb-list-group-disabled-bg: transparent;
+  --mdb-list-group-disabled-bg: white;
   --mdb-list-group-active-color: #fff;
   --mdb-list-group-active-bg: #3b71ca;
   --mdb-list-group-active-border-color: #3b71ca;
