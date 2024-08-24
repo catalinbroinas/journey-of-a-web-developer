@@ -12,9 +12,7 @@ function PageContent() {
     const addEvents = () => {
         if (lastWeekButton) {
             lastWeekButton.addEventListener('click', (event) => {
-                setTimeout(() => {
-                    scrollToLastElement(event, 'week');
-                }, 300);
+                setTimeout(() => scrollToLastElement('week'), 300);
             });
         }
 

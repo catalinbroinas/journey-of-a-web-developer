@@ -1,16 +1,12 @@
 function DomHandler() {
     // Scroll page to last element
-    const scrollToLastElement = (event, elementClass) => {
-        const button = event.target;
+    const scrollToLastElement = (elementClass, behavior = 'smooth') => {
         const element = document.querySelector(`.${elementClass}:last-of-type`);
 
-        if (element && button) {
-            element.setAttribute('id', `last-${elementClass}`);
-            button.setAttribute('href', `#last-${elementClass}`);
-
-            setTimeout(() => {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }, 300);
+        if (element) {
+            element.scrollIntoView({ behavior });
+        } else {
+            console.error('Element with class ${elementClass} not found.');
         }
     };
 
