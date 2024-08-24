@@ -18,11 +18,19 @@
 .title
 {
    @include title;
-   text-align: center;
+}
+.title-small {
+   @include title(1.5rem);
 }
 .sub-title
 {
    @include sub-title;
+}
+.sub-title-big {
+   @include sub-title(2rem);
+}
+.sub-title-small {
+   @include sub-title(1.25rem);
 }
 .text
 {
@@ -32,7 +40,6 @@
 // Intro
 .intro {
    height: 50vh;
-   padding: 0;
    background-color: $primary-dark;
    
    .intro-title {
@@ -54,10 +61,14 @@
    background-image: url('../../img/backgrounds/bridge-road.jpg');
 }
 
+// Sections
+.week-container {
+   background-color: $primary-main;
+}
+
 // Components
 .custom-checkbox {
    width: 20rem;
-   margin-top: 0.25rem;
 
    .form-check-label {
       font-weight: bold;
@@ -65,9 +76,23 @@
    }
 }
 
+// Content
+.logo-icons {
+   width: 75px;
+   height: auto;
+} 
+
 // Style
 .mask-dark {
    @include mask-dark;
+}
+
+// HD+ Devices
+@media only screen and (max-width: 1899px) {
+   .logo-icons {
+      width: 50px;
+      height: auto;
+   }
 }
 
 // Extra large devices
@@ -86,6 +111,10 @@
    #weekly-progress-intro {
       height: 60vh;
    }
+   .logo-icons {
+      width: 50px;
+      height: auto;
+   } 
 }
 
 // Small devices (portrait)
