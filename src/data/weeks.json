@@ -1,0 +1,179 @@
+[
+  {
+    "year": 2023,
+    "months": [
+      {
+        "month": {
+          "number": 8,
+          "name": "august"
+        },
+        "weeks": [
+          {
+            "week": 1,
+            "learning": [
+              {
+                "chapters": [
+                  {
+                    "image": {
+                      "source": "html5.jpg",
+                      "name": "HTML 5 logo"
+                    },
+                    "title": "HTML 5",
+                    "tasks": [
+                      {
+                        "name": "Tutorial W3Schools",
+                        "status": "completed"
+                      },
+                      {
+                        "name": "Exercises W3Schools",
+                        "status": "completed"
+                      },
+                      {
+                        "name": "Quiz W3Schools",
+                        "status": "completed"
+                      },
+                      {
+                        "name": "Tutorial CodeAcademy",
+                        "status": "completed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge.jpg",
+                "image_name": "Bridge",
+                "title": "My 27 Biography",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Flexbox",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Grid system",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Position",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Cards",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Icons",
+                "technology": "MDB 5"
+              }
+            ],
+            "working time": {
+              "days": 5,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              "html-icon.png",
+              "css-icon.png",
+              "javascript-icon.png",
+              "mdb5.png"
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "number": 9,
+          "name": "september"
+        },
+        "weeks": [
+          {
+            "week": 2,
+            "learning": [
+              {
+                "chapters": [
+                  {
+                    "image": {
+                      "source": "css3.jpg",
+                      "name": "CSS 3 logo"
+                    },
+                    "title": "CSS 3",
+                    "tasks": [
+                      {
+                        "name": "Tutorial W3Schools",
+                        "status": "completed"
+                      },
+                      {
+                        "name": "Exercises W3Schools",
+                        "status": "completed"
+                      },
+                      {
+                        "name": "Quiz W3Schools",
+                        "status": "completed"
+                      },
+                      {
+                        "name": "Tutorial CodeAcademy",
+                        "status": "completed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge.jpg",
+                "image_name": "Bridge",
+                "title": "My 27 Biography",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Flexbox",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Grid system",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Position",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Group list",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Badge",
+                "technology": "MDB 5"
+              }
+            ],
+            "working time": {
+              "days": 5,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              "html-icon.png",
+              "css-icon.png",
+              "javascript-icon.png",
+              "mdb5.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "months": []
+  }
+]
