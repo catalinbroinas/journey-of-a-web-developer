@@ -72,7 +72,7 @@ function DomUtilityManager() {
 
         // Adding list items with icons
         if (itemsWithIcon.length) {
-            forEach(({ text, iconClass }) => {
+            itemsWithIcon.forEach(({ text, iconClass }) => {
                 const listItem = createDOMElement({
                     elementTag: 'li',
                     elementClass: ['list-group-item', 'd-flex', 'justify-content-between', 'align-items-center'].concat(itemClass)
@@ -90,8 +90,8 @@ function DomUtilityManager() {
         }
 
         // Adding list items with badges
-        if (itemsWithBadge) {
-            forEach(({ text, badgeText, badgeClass }) => {
+        if (itemsWithBadge.length) {
+            itemsWithBadge.forEach(({ text, badgeText, badgeClass }) => {
                 const listItem = createDOMElement({
                     elementTag: 'li',
                     elementClass: [
