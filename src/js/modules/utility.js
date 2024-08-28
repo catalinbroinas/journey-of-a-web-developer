@@ -115,10 +115,147 @@ function DomUtilityManager() {
         return list;
     };
 
+    // Creates an image element for the card
+    const createCardImage = (imageSource = '', imageName = '', imageClass = []) => {
+        return createDOMElement({
+            elementTag: 'img',
+            elementAttributes: { 'src': `/img/${imageSource}`, 'alt': imageName },
+            elementClass: imageClass
+        });
+    };
+
+    // Creates 'card-header' element for the card
+    const createCardHeader = ({
+        headerClass = [],
+        headerTitleText = '',
+        headerTitleClass = [],
+        headerIconClass = []
+    }) => {
+        // Create card header container
+        const cardHeader = createDOMElement({
+            elementTag: 'div',
+            elementClass: ['card-header'].concat(headerClass)
+        });
+
+        // Create card title if title text is provided
+        if (headerTitleText) {
+            const title = createDOMElement({
+                elementTag: 'h4',
+                elementClass: ['card-title'].concat(headerTitleClass),
+                elementText: headerTitleText
+            });
+
+            header.appendChild(title);
+        }
+
+        // Add icon if icon classes are provided
+        if (headerIconClass.length > 0) {
+            const icon = createDOMElement({
+                elementTag: 'i',
+                elementClass: headerIconClass
+            });
+
+            cardHeader.appendChild(icon);
+        }
+
+        return cardHeader;
+    };
+
+    // Creates 'card-body' element for the card
+    const createCardBody = ({
+        bodyClass = [],
+        bodyTitle = '',
+        bodyText = '',
+        bodyListItems = [],
+        bodyListItemsWithIcon = [],
+        bodyListItemsWithBadge = []
+    }) => {
+        // Create card body container
+        const cardBody = createDOMElement({
+            elementTag: 'div',
+            elementClass: ['card-body'].concat(bodyClass)
+        });
+
+        // Add title if provided
+        if (bodyTitle) {
+            const title = createDOMElement({
+                elementTag: 'h5',
+                elementClass: ['card-title'],
+                elementText: bodyTitle
+            });
+            cardBody.appendChild(title);
+        }
+
+        // Add text if provided
+        if (bodyText) {
+            const text = createDOMElement({
+                elementTag: 'p',
+                elementClass: ['card-text'],
+                elementText: bodyText
+            });
+            cardBody.appendChild(text);
+        }
+
+        // Add simple list if items are provided
+        if (bodyListItems.length > 0) {
+            const list = createList({
+                items: bodyListItems
+            });
+            cardBody.appendChild(list);
+        }
+
+        // Add list with icons if itemsWithIcon are provided
+        if (bodyListItemsWithIcon.length > 0) {
+            const list = createList({
+                itemsWithIcon: bodyListItemsWithIcon
+            });
+            cardBody.appendChild(list);
+        }
+
+        // Add list with badge if itemsWithBadge are provided
+        if (bodyListItemsWithBadge.length > 0) {
+            const list = createList({
+                itemsWithBadge: bodyListItemsWithBadge
+            });
+            cardBody.appendChild(list);
+        }
+
+        return cardBody;
+    };
+
+    // Constructs a complete card with image, header, and body
+    const buildCard = ({
+        cardClass = [],
+        cardImage = {},
+        cardHeader = {},
+        cardBody = {}
+    }) => {
+        // Create card container
+        const card = createDOMElement({
+            elementTag: 'div',
+            elementClass: ['card'].concat(cardClass)
+        });
+
+        if (cardImage.imageSource) {
+            card.appendChild(createCardImage(cardImage.imageSource, cardImage.imageName, cardImage.imageClass));
+        }
+
+        if (cardHeader.headerTitleText) {
+            card.appendChild(createCardHeader(cardHeader));
+        }
+
+        if (Object.keys(cardBody).length > 0) {
+            card.appendChild(createCardBody(cardBody));
+        }
+
+        return card;
+    };
+
     return {
         clearPageContent,
         createDOMElement,
-        createList
+        createList,
+        buildCard
     };
 }
 
