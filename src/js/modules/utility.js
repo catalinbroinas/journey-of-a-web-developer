@@ -45,9 +45,80 @@ function DomUtilityManager() {
         return element;
     };
 
+    // Build a list group with optional icons and badges
+    const createList = ({
+        listClass = ['list-group-light'],
+        itemClass = [],
+        items = [],
+        itemsWithIcon = [],
+        itemsWithBadge = []
+    }) => {
+        const list = createDOMElement({
+            elementTag: 'ul',
+            elementClass: ['list-group'].concat(listClass)
+        });
+
+        // Adding simple list item
+        if (items.length) {
+            items.forEach((text) => {
+                const listItem = createDOMElement({
+                    elementTag: 'li',
+                    elementClass: ['list-group-item'].concat(itemClass),
+                    elementText: text
+                });
+                list.appendChild(listItem);
+            });
+        }
+
+        // Adding list items with icons
+        if (itemsWithIcon.length) {
+            forEach(({ text, iconClass }) => {
+                const listItem = createDOMElement({
+                    elementTag: 'li',
+                    elementClass: ['list-group-item', 'd-flex', 'justify-content-between', 'align-items-center'].concat(itemClass)
+                });
+
+                const icon = createDOMElement({
+                    elementTag: 'i',
+                    elementClass: iconClass
+                });
+
+                listItem.appendChild(icon);
+                listItem.insertAdjacentText('afterbegin', text);
+                list.appendChild(listItem);
+            });
+        }
+
+        // Adding list items with badges
+        if (itemsWithBadge) {
+            forEach(({ text, badgeText, badgeClass }) => {
+                const listItem = createDOMElement({
+                    elementTag: 'li',
+                    elementClass: [
+                        'list-group-item',
+                        'd-flex', 'justify-content-between', 'align-items-center'
+                    ].concat(itemClass),
+                    elementText: text
+                });
+
+                const badge = createDOMElement({
+                    elementTag: 'span',
+                    elementClass: ['badge'].concat(badgeClass),
+                    elementText: badgeText
+                });
+
+                listItem.appendChild(badge);
+                list.appendChild(listItem);
+            });
+        }
+
+        return list;
+    };
+
     return {
         clearPageContent,
-        createDOMElement
+        createDOMElement,
+        createList
     };
 }
 
