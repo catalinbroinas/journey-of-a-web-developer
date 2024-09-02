@@ -289,12 +289,59 @@ function WeekDomManager() {
         return wrapper;
     };
 
+    // Create `technologies used `section
+    const createTechnologiesUsedSection = (images) => {
+        // Create wrapper
+        const wrapper = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col-xxl-12', 'col-xl-6', 'col-lg-12', 'col-md-6']
+        });
+
+        // Create title
+        const title = domUtility.createDOMElement({
+            elementTag: 'h4',
+            elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
+            elementText: 'Technologies used'
+        });
+
+        // Create items wrapper
+        const itemsWrapper = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['d-flex', 'flex-wrap', 'justify-content-center', 'align-items-center']
+        });
+
+        wrapper.appendChild(title);
+        wrapper.appendChild(itemsWrapper);
+
+        images.forEach((image) => {
+            const item = domUtility.createDOMElement({
+                elementTag: 'div',
+                elementClass: ['p-2']
+            });
+
+            const imageElement = domUtility.createDOMElement({
+                elementTag: 'img',
+                elementClass: ['img-fluid'], // Optional: Add image class if needed
+                elementAttributes: {
+                    'alt': image.name || 'Technology',
+                    'src': image.source || 'img/default-tech.png' // Fallback image
+                }
+            });
+
+            item.appendChild(imageElement);
+            itemsWrapper.appendChild(item);
+        });
+
+        return wrapper;
+    };
+
     const buildWeekElement = ({
         weekId,
         chapters,
         projects,
         concepts,
-        workTime
+        workTime,
+        technologies
     }) => {
         // Create week container
         const weekContainer = domUtility.createDOMElement({
@@ -339,6 +386,9 @@ function WeekDomManager() {
         // Build `working time` section
         const workTimeSection = createWorkTimeSection(workTime.days, workTime.hours);
 
+        // Build `technologies used` section
+        const technologiesUsedSection = createTechnologiesUsedSection(technologies);
+
         weekContainer.appendChild(weekTitle);
         weekContainer.appendChild(weekTitleDivider);
 
@@ -347,6 +397,7 @@ function WeekDomManager() {
         weekContainer.appendChild(conceptsSection);
 
         overViewRow.appendChild(workTimeSection);
+        overViewRow.appendChild(technologiesUsedSection);
 
         weekContainer.appendChild(overViewRow);
 
