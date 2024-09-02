@@ -107,7 +107,7 @@ function WeekDomManager() {
         return wrapper;
     };
 
-    // Create a project for projects section
+    // Create card for projects section
     const createProjectElement = ({
         image,
         header,
@@ -132,6 +132,7 @@ function WeekDomManager() {
         return project;
     };
 
+    // Create projects section
     const createProjectsSection = (projects) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
@@ -156,10 +157,42 @@ function WeekDomManager() {
         return wrapper;
     };
 
+    // Create `In-depth concepts section
+    const createConceptsSection = (concepts) => {
+        // Create wrapper
+        const wrapper = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col-xxl-2', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+        });
+
+        // Create title
+        const title = domUtility.createDOMElement({
+            elementTag: 'h4',
+            elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
+            elementText: 'In-depth concepts'
+        });
+
+        // Create the task list
+        const conceptList = domUtility.createList({
+            itemClass: ['text', 'px-4'],
+            itemsWithBadge: concepts.map((concept) => ({
+                text: concept.name,
+                badgeClass: ['badge-light', 'px-3', 'py-2'],
+                badgeText: concept.technology
+            }))
+        });
+
+        wrapper.appendChild(title);
+        wrapper.appendChild(conceptList);
+
+        return wrapper;
+    };
+
     const buildWeekElement = ({
         weekId,
         chapters,
-        projects
+        projects,
+        concepts
     }) => {
         // Create week container
         const weekContainer = domUtility.createDOMElement({
@@ -187,11 +220,15 @@ function WeekDomManager() {
         // Build projects section
         const projectsSection = createProjectsSection(projects);
 
+        // Build `In-depth concepts` section 
+        const conceptsSection = createConceptsSection(concepts);
+
         weekContainer.appendChild(weekTitle);
         weekContainer.appendChild(weekTitleDivider);
 
         weekContainer.appendChild(learningSection);
         weekContainer.appendChild(projectsSection);
+        weekContainer.appendChild(conceptsSection);
 
         return weekContainer;
     };
