@@ -107,9 +107,59 @@ function WeekDomManager() {
         return wrapper;
     };
 
+    // Create a project for projects section
+    const createProjectElement = ({
+        image,
+        header,
+        body
+    }) => {
+        const project = domUtility.buildCard({
+            cardClass: ['card', 'border-0', 'rounded-0'],
+            cardImage: {
+                imageSource: image.source || 'img/backgrounds/bridge.jpg',
+                imageName: image.name || 'Bridge',
+                imageClass: image.class || 'card-img-top'
+            },
+            cardHeader: {
+                headerClass: ['d-flex', 'align-items-center', 'justify-content-between', 'px-5'],
+                headerTitleText: header.text || 'Project Name',
+                headerTitleClass: header.class || '',
+                headerIconClass: header.icon || ''
+            },
+            cardBody: body || {}
+        });
+
+        return project;
+    };
+
+    const createProjectsSection = (projects) => {
+        // Create wrapper
+        const wrapper = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col-xxl-3', 'col-xl-4', 'col-lg-5', 'col-md-6', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+        });
+
+        // Create title
+        const title = domUtility.createDOMElement({
+            elementTag: 'h4',
+            elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
+            elementText: 'Projects'
+        });
+
+        wrapper.appendChild(title);
+
+        projects.forEach((project) => {
+            const projectElement = createProjectElement(project);
+            wrapper.appendChild(projectElement);
+        });
+
+        return wrapper;
+    };
+
     const buildWeekElement = ({
         weekId,
-        chapters
+        chapters,
+        projects
     }) => {
         // Create week container
         const weekContainer = domUtility.createDOMElement({
@@ -132,11 +182,16 @@ function WeekDomManager() {
         });
 
         // Build learning section
-        const learning = createLearningSection(chapters);
+        const learningSection = createLearningSection(chapters);
+
+        // Build projects section
+        const projectsSection = createProjectsSection(projects);
 
         weekContainer.appendChild(weekTitle);
         weekContainer.appendChild(weekTitleDivider);
-        weekContainer.appendChild(learning);
+
+        weekContainer.appendChild(learningSection);
+        weekContainer.appendChild(projectsSection);
 
         return weekContainer;
     };
