@@ -188,11 +188,113 @@ function WeekDomManager() {
         return wrapper;
     };
 
+    // Create `working time section
+    const createWorkTimeSection = (days, hours) => {
+        // Create wrapper
+        const wrapper = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col-xxl-12', 'col-xl-6', 'col-lg-12', 'col-md-6', 'col-12']
+        });
+
+        // Create title
+        const title = domUtility.createDOMElement({
+            elementTag: 'h4',
+            elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
+            elementText: 'Working time'
+        });
+
+        wrapper.appendChild(title);
+
+        // Create work time row
+        const workTimeRow = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['row', 'row-cols-sm-2', 'row-cols-1', 'g-4', 'px-sm-0', 'px-5']
+        });
+
+        // Function to create a card element
+        const createCardElement = (iconClass, iconTitle, text) => {
+            // Create card
+            const card = domUtility.createDOMElement({
+                elementTag: 'div',
+                elementClass: ['card']
+            });
+
+            // Create card body
+            const cardBody = domUtility.createDOMElement({
+                elementTag: 'div',
+                elementClass: ['card-body']
+            });
+
+            // Create content container
+            const contentContainer = domUtility.createDOMElement({
+                elementTag: 'div',
+                elementClass: ['d-flex', 'justify-content-around', 'align-items-center', 'px-1']
+            });
+
+            // Create icon element
+            const iconElement = domUtility.createDOMElement({
+                elementTag: 'i',
+                elementClass: [iconClass, 'fa-3x', 'me-sm-3', 'text-primary'],
+                elementAttributes: {
+                    'data-mdb-tooltip-init': '',
+                    'data-mdb-placement': 'bottom',
+                    'title': iconTitle
+                }
+            });
+
+            // Create text element
+            const textElement = domUtility.createDOMElement({
+                elementTag: 'h6',
+                elementClass: ['sub-title-big', 'm-0'],
+                elementText: text
+            });
+
+            // Append icon and text to content container
+            contentContainer.appendChild(iconElement);
+            contentContainer.appendChild(textElement);
+
+            // Append content container to card body
+            cardBody.appendChild(contentContainer);
+
+            // Append card body to card
+            card.appendChild(cardBody);
+
+            return card;
+        };
+
+        // Create Days Card
+        const daysCard = createCardElement('fa-solid fa-calendar-days', 'Days worked', days);
+
+        // Create Hours Card
+        const hoursCard = createCardElement('fa-solid fa-clock', 'Hours worked', hours);
+
+        // Append cards to work time row
+        const daysColumn = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col']
+        });
+        daysColumn.appendChild(daysCard);
+
+        const hoursColumn = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col']
+        });
+        hoursColumn.appendChild(hoursCard);
+
+        workTimeRow.appendChild(daysColumn);
+        workTimeRow.appendChild(hoursColumn);
+
+        wrapper.appendChild(workTimeRow);
+
+        return wrapper;
+    };
+
     const buildWeekElement = ({
         weekId,
         chapters,
         projects,
-        concepts
+        concepts,
+        workTime
     }) => {
         // Create week container
         const weekContainer = domUtility.createDOMElement({
@@ -223,12 +325,30 @@ function WeekDomManager() {
         // Build `In-depth concepts` section 
         const conceptsSection = createConceptsSection(concepts);
 
+        // Create overview wrapper
+        const overViewWrapper = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['col-xxl-3', 'col-xl-8', 'col-lg-6', 'col-md-12', 'col-sm-10', 'col-12', 'mb-0']
+        });
+
+        const overViewRow = domUtility.createDOMElement({
+            elementTag: 'div',
+            elementClass: ['row', 'gy-5']
+        });
+
+        // Build `working time` section
+        const workTimeSection = createWorkTimeSection(workTime.days, workTime.hours);
+
         weekContainer.appendChild(weekTitle);
         weekContainer.appendChild(weekTitleDivider);
 
         weekContainer.appendChild(learningSection);
         weekContainer.appendChild(projectsSection);
         weekContainer.appendChild(conceptsSection);
+
+        overViewRow.appendChild(workTimeSection);
+
+        weekContainer.appendChild(overViewRow);
 
         return weekContainer;
     };
