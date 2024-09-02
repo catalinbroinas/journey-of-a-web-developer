@@ -178,10 +178,26 @@
               "notice": {}
             },
             "technologies": [
-              "html-icon.png",
-              "css-icon.png",
-              "javascript-icon.png",
-              "mdb5.png"
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              }
             ]
           }
         ]
