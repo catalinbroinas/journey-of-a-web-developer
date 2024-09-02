@@ -23,7 +23,7 @@ function WeekDomManager() {
 
     // Create a chapter for learning section
     const createChapterElement = ({
-        image, title, tasks
+        image, title = '', tasks
     }) => {
         // Create content wrapper for chapter
         const chapterWrapper = domUtility.createDOMElement({
@@ -56,13 +56,15 @@ function WeekDomManager() {
         });
 
         // Create Chapter title
-        const chapterTitle = domUtility.createDOMElement({
-            elementTag: 'h5',
-            elementClass: ['sub-title-small', 'text-center', 'mb-3'],
-            elementText: title
-        });
+        if (title) {
+            const chapterTitle = domUtility.createDOMElement({
+                elementTag: 'h5',
+                elementClass: ['sub-title-small', 'text-center', 'mb-3'],
+                elementText: title
+            });
 
-        listWrapper.appendChild(chapterTitle);
+            listWrapper.appendChild(chapterTitle);
+        }
 
         // Create the task list
         const taskList = domUtility.createList({
@@ -99,10 +101,12 @@ function WeekDomManager() {
         wrapper.appendChild(title);
 
         // Iterate through each chapter
-        chapters.forEach((chapter) => {
-            const chapterElement = createChapterElement(chapter);
-            wrapper.appendChild(chapterElement);
-        });
+        if (chapters.length > 0) {
+            chapters.forEach((chapter) => {
+                const chapterElement = createChapterElement(chapter);
+                wrapper.appendChild(chapterElement);
+            });
+        }
 
         return wrapper;
     };
@@ -116,8 +120,8 @@ function WeekDomManager() {
         const project = domUtility.buildCard({
             cardClass: ['card', 'border-0', 'rounded-0'],
             cardImage: {
-                imageSource: image.source || 'img/backgrounds/bridge.jpg',
-                imageName: image.name || 'Bridge',
+                imageSource: image.source || 'img/webDev.webp',
+                imageName: image.name || 'Web development',
                 imageClass: image.class || 'card-img-top'
             },
             cardHeader: {
@@ -149,10 +153,13 @@ function WeekDomManager() {
 
         wrapper.appendChild(title);
 
-        projects.forEach((project) => {
-            const projectElement = createProjectElement(project);
-            wrapper.appendChild(projectElement);
-        });
+        // Iterate through each project
+        if (projects.length > 0) {
+            projects.forEach((project) => {
+                const projectElement = createProjectElement(project);
+                wrapper.appendChild(projectElement);
+            });
+        }
 
         return wrapper;
     };
@@ -171,19 +178,20 @@ function WeekDomManager() {
             elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
             elementText: 'In-depth concepts'
         });
+        wrapper.appendChild(title);
 
         // Create the task list
-        const conceptList = domUtility.createList({
-            itemClass: ['text', 'px-4'],
-            itemsWithBadge: concepts.map((concept) => ({
-                text: concept.name,
-                badgeClass: ['badge-light', 'px-3', 'py-2'],
-                badgeText: concept.technology
-            }))
-        });
-
-        wrapper.appendChild(title);
-        wrapper.appendChild(conceptList);
+        if (concepts.length > 0) {
+            const conceptList = domUtility.createList({
+                itemClass: ['text', 'px-4'],
+                itemsWithBadge: concepts.map((concept) => ({
+                    text: concept.name,
+                    badgeClass: ['badge-light', 'px-3', 'py-2'],
+                    badgeText: concept.technology
+                }))
+            });
+            wrapper.appendChild(conceptList);
+        }
 
         return wrapper;
     };
@@ -290,7 +298,7 @@ function WeekDomManager() {
     };
 
     // Create `technologies used `section
-    const createTechnologiesUsedSection = (images) => {
+    const createTechnologiesUsedSection = (icons) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
@@ -313,24 +321,26 @@ function WeekDomManager() {
         wrapper.appendChild(title);
         wrapper.appendChild(itemsWrapper);
 
-        images.forEach((image) => {
-            const item = domUtility.createDOMElement({
-                elementTag: 'div',
-                elementClass: ['p-2']
-            });
+        if (icons.length > 0) {
+            icons.forEach((icon) => {
+                const item = domUtility.createDOMElement({
+                    elementTag: 'div',
+                    elementClass: ['p-2']
+                });
 
-            const imageElement = domUtility.createDOMElement({
-                elementTag: 'img',
-                elementClass: ['img-fluid'], // Optional: Add image class if needed
-                elementAttributes: {
-                    'alt': image.name || 'Technology',
-                    'src': image.source || 'img/default-tech.png' // Fallback image
-                }
-            });
+                const imageElement = domUtility.createDOMElement({
+                    elementTag: 'img',
+                    elementClass: ['img-fluid'],
+                    elementAttributes: {
+                        'alt': icon.name,
+                        'src': icon.source
+                    }
+                });
 
-            item.appendChild(imageElement);
-            itemsWrapper.appendChild(item);
-        });
+                item.appendChild(imageElement);
+                itemsWrapper.appendChild(item);
+            });
+        }
 
         return wrapper;
     };
@@ -363,43 +373,53 @@ function WeekDomManager() {
             elementClass: ['hr', 'hr-blurry', 'mb-4']
         });
 
+        weekContainer.appendChild(weekTitle);
+        weekContainer.appendChild(weekTitleDivider);
+
         // Build learning section
-        const learningSection = createLearningSection(chapters);
+        if (chapters) {
+            const learningSection = createLearningSection(chapters);
+            weekContainer.appendChild(learningSection);
+        }
 
         // Build projects section
-        const projectsSection = createProjectsSection(projects);
+        if (projects) {
+            const projectsSection = createProjectsSection(projects);
+            weekContainer.appendChild(projectsSection);
+        }
 
         // Build `In-depth concepts` section 
-        const conceptsSection = createConceptsSection(concepts);
+        if (concepts) {
+            const conceptsSection = createConceptsSection(concepts);
+            weekContainer.appendChild(conceptsSection);
+        }
 
         // Create overview wrapper
-        const overViewWrapper = domUtility.createDOMElement({
+        const overviewWrapper = domUtility.createDOMElement({
             elementTag: 'div',
             elementClass: ['col-xxl-3', 'col-xl-8', 'col-lg-6', 'col-md-12', 'col-sm-10', 'col-12', 'mb-0']
         });
 
-        const overViewRow = domUtility.createDOMElement({
+        // Create overview row
+        const overviewRow = domUtility.createDOMElement({
             elementTag: 'div',
             elementClass: ['row', 'gy-5']
         });
 
         // Build `working time` section
-        const workTimeSection = createWorkTimeSection(workTime.days, workTime.hours);
+        if (workTime) {
+            const workTimeSection = createWorkTimeSection(workTime.days, workTime.hours);
+            overviewRow.appendChild(workTimeSection);
+        }
 
         // Build `technologies used` section
-        const technologiesUsedSection = createTechnologiesUsedSection(technologies);
+        if (technologies) {
+            const technologiesUsedSection = createTechnologiesUsedSection(technologies);
+            overviewRow.appendChild(technologiesUsedSection);
+        }
 
-        weekContainer.appendChild(weekTitle);
-        weekContainer.appendChild(weekTitleDivider);
-
-        weekContainer.appendChild(learningSection);
-        weekContainer.appendChild(projectsSection);
-        weekContainer.appendChild(conceptsSection);
-
-        overViewRow.appendChild(workTimeSection);
-        overViewRow.appendChild(technologiesUsedSection);
-
-        weekContainer.appendChild(overViewRow);
+        overviewWrapper.appendChild(overviewRow);
+        weekContainer.appendChild(overviewWrapper);
 
         return weekContainer;
     };
