@@ -1,4 +1,14 @@
 function DomUtilityManager() {
+    const statusIconClasses = {
+        completed: 'fas fa-circle-check text-success',
+        'in-progress': 'fas fa-spinner text-primary',
+        unstarted: 'fas fa-circle-xmark text-danger',
+        postponed: 'fas fa-hourglass-half text-info',
+        default: 'fas fa-question-circle text-muted'
+    };
+
+    const getStatusIconClass = (status) => statusIconClasses[status] || statusIconClasses.default;
+
     const clearPageContent = (container) => {
         while (container.firstChild) {
             container.removeChild(container.firstChild);
@@ -255,7 +265,8 @@ function DomUtilityManager() {
         clearPageContent,
         createDOMElement,
         createList,
-        buildCard
+        buildCard,
+        getStatusIconClass
     };
 }
 
