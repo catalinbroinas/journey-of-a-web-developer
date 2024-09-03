@@ -68,7 +68,7 @@
                 "technology": "MDB 5"
               }
             ],
-            "working time": {
+            "working_time": {
               "days": 5,
               "hours": 30,
               "notice": {}
@@ -164,7 +164,7 @@
                 "technology": "MDB 5"
               }
             ],
-            "working time": {
+            "working_time": {
               "days": 5,
               "hours": 30,
               "notice": {}
