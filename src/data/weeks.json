@@ -12,31 +12,27 @@
             "week": 1,
             "learning": [
               {
-                "chapters": [
+                "image": {
+                  "source": "html5.jpg",
+                  "name": "HTML 5 logo"
+                },
+                "title": "HTML 5",
+                "tasks": [
                   {
-                    "image": {
-                      "source": "html5.jpg",
-                      "name": "HTML 5 logo"
-                    },
-                    "title": "HTML 5",
-                    "tasks": [
-                      {
-                        "name": "Tutorial W3Schools",
-                        "status": "completed"
-                      },
-                      {
-                        "name": "Exercises W3Schools",
-                        "status": "completed"
-                      },
-                      {
-                        "name": "Quiz W3Schools",
-                        "status": "completed"
-                      },
-                      {
-                        "name": "Tutorial CodeAcademy",
-                        "status": "completed"
-                      }
-                    ]
+                    "name": "Tutorial W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Exercises W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Quiz W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Tutorial CodeAcademy",
+                    "status": "completed"
                   }
                 ]
               }
@@ -112,31 +108,27 @@
             "week": 2,
             "learning": [
               {
-                "chapters": [
+                "image": {
+                  "source": "css3.jpg",
+                  "name": "CSS 3 logo"
+                },
+                "title": "CSS 3",
+                "tasks": [
                   {
-                    "image": {
-                      "source": "css3.jpg",
-                      "name": "CSS 3 logo"
-                    },
-                    "title": "CSS 3",
-                    "tasks": [
-                      {
-                        "name": "Tutorial W3Schools",
-                        "status": "completed"
-                      },
-                      {
-                        "name": "Exercises W3Schools",
-                        "status": "completed"
-                      },
-                      {
-                        "name": "Quiz W3Schools",
-                        "status": "completed"
-                      },
-                      {
-                        "name": "Tutorial CodeAcademy",
-                        "status": "completed"
-                      }
-                    ]
+                    "name": "Tutorial W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Exercises W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Quiz W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Tutorial CodeAcademy",
+                    "status": "completed"
                   }
                 ]
               }
