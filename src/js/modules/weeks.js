@@ -424,8 +424,44 @@ function WeekDomManager() {
         return weekContainer;
     };
 
-    const renderWeeks = () => {
+    const renderWeeks = (data) => {
+        const container = document.querySelector('#weekly-progress-content');
+        domUtility.clearPageContent(container);
 
+        // Check if data is available and has elements
+        if (data && data.length) {
+            // Iterate through each year in the data
+            data.forEach((yearData) => {
+                const { year, months } = yearData;
+
+                // Check if months are available and have elements
+                if (months && months.length) {
+                    // Iterate through each month in the year
+                    months.forEach((monthData) => {
+                        const { month, weeks } = monthData;
+
+                        // Check if weeks are available and have elements
+                        if (weeks && weeks.length) {
+                            // Iterate through each week in the month
+                            weeks.forEach((weekData) => {
+                                const { week, learning, projects, concepts, working_time, technologies } = weekData;
+
+                                // Create and append the week element
+                                const weekElement = buildWeekElement({
+                                    weekId: week,
+                                    chapters: learning,
+                                    projects,
+                                    concepts,
+                                    workTime: working_time,
+                                    technologies
+                                });
+                                container.appendChild(weekElement);
+                            });
+                        }
+                    });
+                }
+            });
+        }
     };
 
     return { renderWeeks };
