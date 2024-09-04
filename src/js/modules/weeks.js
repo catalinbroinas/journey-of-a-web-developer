@@ -21,7 +21,7 @@ async function WeekDataProvider() {
 function WeekDomManager() {
     const domUtility = DomUtilityManager();
 
-    // Create a chapter for learning section
+    // Create a chapter for `learning` section
     const createChapterElement = ({
         image, title = '', tasks
     }) => {
@@ -52,7 +52,7 @@ function WeekDomManager() {
         // Create list wrapper
         const listWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxxl-6', 'col-xxl-7', 'col-md-7']
+            elementClass: ['col-xxxl-6', 'col-md-7']
         });
 
         // Create Chapter title
@@ -83,7 +83,7 @@ function WeekDomManager() {
         return chapterWrapper;
     };
 
-    // Create learning section
+    // Create `learning` section
     const createLearningSection = (chapters) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
@@ -97,11 +97,11 @@ function WeekDomManager() {
             elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
             elementText: 'Learning'
         });
-
         wrapper.appendChild(title);
 
-        // Iterate through each chapter
-        if (chapters.length > 0) {
+        // Check if chapter is available and has elements
+        if (chapters?.length) {
+            // Iterate through each chapter
             chapters.forEach((chapter) => {
                 const chapterElement = createChapterElement(chapter);
                 wrapper.appendChild(chapterElement);
@@ -111,7 +111,7 @@ function WeekDomManager() {
         return wrapper;
     };
 
-    // Create card for projects section
+    // Create card for `projects` section
     const createProjectElement = ({
         image_source,
         image_name,
@@ -138,7 +138,7 @@ function WeekDomManager() {
         return project;
     };
 
-    // Create projects section
+    // Create `projects` section
     const createProjectsSection = (projects) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
@@ -152,11 +152,10 @@ function WeekDomManager() {
             elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
             elementText: 'Projects'
         });
-
         wrapper.appendChild(title);
 
         // Iterate through each project
-        if (projects.length > 0) {
+        if (projects?.length) {
             projects.forEach((project) => {
                 const projectElement = createProjectElement(project);
                 wrapper.appendChild(projectElement);
@@ -166,12 +165,12 @@ function WeekDomManager() {
         return wrapper;
     };
 
-    // Create `In-depth concepts section
+    // Create `In-depth concepts` section
     const createConceptsSection = (concepts) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-2', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+            elementClass: ['col-xxl-2', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12', 'mb-md-0', 'mb-5']
         });
 
         // Create title
@@ -183,7 +182,7 @@ function WeekDomManager() {
         wrapper.appendChild(title);
 
         // Create the task list
-        if (concepts.length > 0) {
+        if (concepts?.length) {
             const conceptList = domUtility.createList({
                 itemClass: ['text', 'px-4'],
                 itemsWithBadge: concepts.map((concept) => ({
@@ -198,7 +197,7 @@ function WeekDomManager() {
         return wrapper;
     };
 
-    // Create `working time section
+    // Create `working time` section
     const createWorkTimeSection = (days, hours) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
@@ -212,7 +211,6 @@ function WeekDomManager() {
             elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
             elementText: 'Working time'
         });
-
         wrapper.appendChild(title);
 
         // Create work time row
@@ -221,7 +219,7 @@ function WeekDomManager() {
             elementClass: ['row', 'row-cols-sm-2', 'row-cols-1', 'g-4', 'px-sm-0', 'px-5']
         });
 
-        // Function to create a card element
+        // Create a card element
         const createCardElement = (iconClass, iconTitle, text) => {
             // Create card
             const card = domUtility.createDOMElement({
@@ -259,14 +257,11 @@ function WeekDomManager() {
                 elementText: text
             });
 
-            // Append icon and text to content container
             contentContainer.appendChild(iconElement);
             contentContainer.appendChild(textElement);
 
-            // Append content container to card body
             cardBody.appendChild(contentContainer);
 
-            // Append card body to card
             card.appendChild(cardBody);
 
             return card;
@@ -278,13 +273,14 @@ function WeekDomManager() {
         // Create Hours Card
         const hoursCard = createCardElement('fa-clock', 'Hours worked', hours);
 
-        // Append cards to work time row
+        // Create container and add Days Card
         const daysColumn = domUtility.createDOMElement({
             elementTag: 'div',
             elementClass: ['col']
         });
         daysColumn.appendChild(daysCard);
 
+        // Create container and add Hours Card
         const hoursColumn = domUtility.createDOMElement({
             elementTag: 'div',
             elementClass: ['col']
@@ -299,7 +295,7 @@ function WeekDomManager() {
         return wrapper;
     };
 
-    // Create `technologies used `section
+    // Create `technologies used`section
     const createTechnologiesUsedSection = (icons) => {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
@@ -313,17 +309,18 @@ function WeekDomManager() {
             elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
             elementText: 'Technologies used'
         });
+        wrapper.appendChild(title);
 
         // Create items wrapper
         const itemsWrapper = domUtility.createDOMElement({
             elementTag: 'div',
             elementClass: ['d-flex', 'flex-wrap', 'justify-content-center', 'align-items-center']
         });
-
-        wrapper.appendChild(title);
         wrapper.appendChild(itemsWrapper);
 
-        if (icons.length > 0) {
+        // Check if icons is available and has elements
+        if (icons?.length) {
+            // Iterate through each elements and create it
             icons.forEach((icon) => {
                 const item = domUtility.createDOMElement({
                     elementTag: 'div',
@@ -332,11 +329,10 @@ function WeekDomManager() {
 
                 const imageElement = domUtility.createDOMElement({
                     elementTag: 'img',
-                    elementClass: ['img-fluid'],
+                    elementClass: ['img-fluid', 'logo-icons'],
                     elementAttributes: {
                         'alt': icon.name,
-                        'src': `img/icons/${icon.image}`,
-                        'class': 'img-fluid logo-icons'
+                        'src': `img/icons/${icon.image}`
                     }
                 });
 
@@ -369,23 +365,22 @@ function WeekDomManager() {
             elementClass: ['title', 'text-center'],
             elementText: `Week ${weekId}`
         });
+        weekContainer.appendChild(weekTitle);
 
         // Create week divider
         const weekTitleDivider = domUtility.createDOMElement({
             elementTag: 'hr',
             elementClass: ['hr', 'hr-blurry', 'mb-4']
         });
-
-        weekContainer.appendChild(weekTitle);
         weekContainer.appendChild(weekTitleDivider);
 
-        // Build learning section
+        // Build `learning` section
         if (chapters) {
             const learningSection = createLearningSection(chapters);
             weekContainer.appendChild(learningSection);
         }
 
-        // Build projects section
+        // Build `projects` section
         if (projects) {
             const projectsSection = createProjectsSection(projects);
             weekContainer.appendChild(projectsSection);
@@ -432,19 +427,19 @@ function WeekDomManager() {
         domUtility.clearPageContent(container);
 
         // Check if data is available and has elements
-        if (data && data.length) {
+        if (data?.length) {
             // Iterate through each year in the data
             data.forEach((yearData) => {
                 const { year, months } = yearData;
 
                 // Check if months are available and have elements
-                if (months && months.length) {
+                if (months?.length) {
                     // Iterate through each month in the year
                     months.forEach((monthData) => {
                         const { month, weeks } = monthData;
 
                         // Check if weeks are available and have elements
-                        if (weeks && weeks.length) {
+                        if (weeks?.length) {
                             // Iterate through each week in the month
                             weeks.forEach((weekData) => {
                                 const { week, learning, projects, concepts, working_time, technologies } = weekData;

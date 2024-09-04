@@ -64,6 +64,13 @@
 // Sections
 .week-container {
    background-color: $primary-main;
+
+   .week {
+      margin-bottom: 2rem;
+   }
+   .week:last-of-type {
+      margin-bottom: 0;
+   }
 }
 
 // Components

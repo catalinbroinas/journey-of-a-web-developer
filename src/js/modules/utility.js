@@ -1,10 +1,10 @@
 function DomUtilityManager() {
     const statusIconClasses = {
-        completed: ['fas', 'fa-circle-check', 'text-success'],
-        'in-progress': ['fas', 'fa-spinner', 'text-primary'],
-        unstarted: ['fas', 'fa-circle-xmark', 'text-danger'],
-        postponed: ['fas', 'fa-hourglass-half', 'text-info'],
-        default: ['fas', 'fa-question-circle', 'text-muted']
+        completed: ['fa-solid', 'fa-circle-check', 'text-success'],
+        'in-progress': ['fa-solid', 'fa-spinner', 'text-primary'],
+        unstarted: ['fa-solid', 'fa-circle-xmark', 'text-danger'],
+        postponed: ['fa-solid', 'fa-hourglass-half', 'text-info'],
+        default: ['fa-solid', 'fa-circle-question', 'text-muted']
     };
 
     const getStatusIconClass = (status) => statusIconClasses[status] || statusIconClasses.default;

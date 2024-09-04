@@ -18536,6 +18536,12 @@ fieldset:disabled .btn-group-vertical > .btn {
 .week-container {
   background-color: #FBFBFB;
 }
+.week-container .week {
+  margin-bottom: 2rem;
+}
+.week-container .week:last-of-type {
+  margin-bottom: 0;
+}
 
 .custom-checkbox {
   width: 20rem;
