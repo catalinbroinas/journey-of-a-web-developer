@@ -1,10 +1,10 @@
 function DomUtilityManager() {
     const statusIconClasses = {
-        completed: 'fas fa-circle-check text-success',
-        'in-progress': 'fas fa-spinner text-primary',
-        unstarted: 'fas fa-circle-xmark text-danger',
-        postponed: 'fas fa-hourglass-half text-info',
-        default: 'fas fa-question-circle text-muted'
+        completed: ['fas', 'fa-circle-check', 'text-success'],
+        'in-progress': ['fas', 'fa-spinner', 'text-primary'],
+        unstarted: ['fas', 'fa-circle-xmark', 'text-danger'],
+        postponed: ['fas', 'fa-hourglass-half', 'text-info'],
+        default: ['fas', 'fa-question-circle', 'text-muted']
     };
 
     const getStatusIconClass = (status) => statusIconClasses[status] || statusIconClasses.default;
@@ -26,8 +26,10 @@ function DomUtilityManager() {
     }) => {
         const element = document.createElement(elementTag);
 
-        if (elementClass.length) {
+        if (Array.isArray(elementClass)) {
             elementClass.forEach(className => element.classList.add(className));
+        } else {
+            console.error('elementClass is not an array:', elementClass);
         }
 
         if (elementId) {
@@ -155,7 +157,7 @@ function DomUtilityManager() {
                 elementText: headerTitleText
             });
 
-            header.appendChild(title);
+            cardHeader.appendChild(title);
         }
 
         // Add icon if icon classes are provided

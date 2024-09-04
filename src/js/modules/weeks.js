@@ -43,7 +43,7 @@ function WeekDomManager() {
             elementClass: ['img-fluid', 'rounded-7', 'shadow-3-strong', 'mb-md-0', 'mb-4'],
             elementAttributes: {
                 'alt': image.name || 'Web development',
-                'src': image.source ? `img/${image.source}` : 'img/webDev.webp'
+                'src': image.source ? `img/logos/${image.source}` : 'img/webDev.webp'
             }
         });
 
@@ -113,24 +113,26 @@ function WeekDomManager() {
 
     // Create card for projects section
     const createProjectElement = ({
-        image,
-        header,
-        body
+        image_source,
+        image_name,
+        title,
+        status,
+        tasks
     }) => {
         const project = domUtility.buildCard({
             cardClass: ['card', 'border-0', 'rounded-0'],
             cardImage: {
-                imageSource: image.source || 'img/webDev.webp',
-                imageName: image.name || 'Web development',
-                imageClass: image.class || 'card-img-top'
+                imageSource: `projects/${image_source}` || 'img/webDev.webp',
+                imageName: image_name || 'Web development',
+                imageClass: ['card-img-top', 'rounded-0']
             },
             cardHeader: {
                 headerClass: ['d-flex', 'align-items-center', 'justify-content-between', 'px-5'],
-                headerTitleText: header.text || 'Project Name',
-                headerTitleClass: header.class || '',
-                headerIconClass: header.icon || ''
+                headerTitleText: title || 'Project Name',
+                headerTitleClass: ['sub-title-small', 'm-0'],
+                headerIconClass: domUtility.getStatusIconClass(status)
             },
-            cardBody: body || {}
+            cardBody: tasks || {}
         });
 
         return project;
@@ -242,7 +244,7 @@ function WeekDomManager() {
             // Create icon element
             const iconElement = domUtility.createDOMElement({
                 elementTag: 'i',
-                elementClass: [iconClass, 'fa-3x', 'me-sm-3', 'text-primary'],
+                elementClass: ['fa-solid', iconClass, 'fa-3x', 'me-sm-3', 'text-primary'],
                 elementAttributes: {
                     'data-mdb-tooltip-init': '',
                     'data-mdb-placement': 'bottom',
@@ -271,10 +273,10 @@ function WeekDomManager() {
         };
 
         // Create Days Card
-        const daysCard = createCardElement('fa-solid fa-calendar-days', 'Days worked', days);
+        const daysCard = createCardElement('fa-calendar-days', 'Days worked', days);
 
         // Create Hours Card
-        const hoursCard = createCardElement('fa-solid fa-clock', 'Hours worked', hours);
+        const hoursCard = createCardElement('fa-clock', 'Hours worked', hours);
 
         // Append cards to work time row
         const daysColumn = domUtility.createDOMElement({
@@ -333,7 +335,8 @@ function WeekDomManager() {
                     elementClass: ['img-fluid'],
                     elementAttributes: {
                         'alt': icon.name,
-                        'src': icon.source
+                        'src': `img/icons/${icon.image}`,
+                        'class': 'img-fluid logo-icons'
                     }
                 });
 
