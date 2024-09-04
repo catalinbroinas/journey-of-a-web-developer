@@ -18542,6 +18542,13 @@ fieldset:disabled .btn-group-vertical > .btn {
 .week-container .week:last-of-type {
   margin-bottom: 0;
 }
+.week-container .title {
+  text-transform: capitalize;
+}
+.week-container .title-small::first-letter,
+.week-container .sub-title-small::first-letter {
+  text-transform: uppercase;
+}
 
 .custom-checkbox {
   width: 20rem;

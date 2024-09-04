@@ -71,6 +71,15 @@
    .week:last-of-type {
       margin-bottom: 0;
    }
+
+   .title {
+      text-transform: capitalize;
+   }
+
+   .title-small::first-letter,
+   .sub-title-small::first-letter {
+      text-transform: uppercase;
+   }
 }
 
 // Components
