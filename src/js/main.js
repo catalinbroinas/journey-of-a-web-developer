@@ -17,40 +17,12 @@ async function MainDomManager() {
         }
     };
 
-    // Load and render the data for weekly navigation
-    const weeklyNavigation = async () => {
-        try {
-            const yearData = [];
-            const monthData = [];
-
-            if (data?.length) {
-                data.forEach(yearObj => {
-                    const { year, months } = yearObj;
-                    yearData.push(year);
-
-                    if (months?.length) {
-                        months.forEach((monthObj) => {
-                            const { month } = monthObj;
-                            monthData.push(month.name);
-                        });
-                    }
-                });
-            }
-
-            domManager.renderNavigation(yearData, monthData);
-        } catch (error) {
-            console.error('Weekly navigation data are not available! Message:', error);
-        }
-    };
-
     return {
-        weeklyProgress,
-        weeklyNavigation
+        weeklyProgress
     };
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
     const domManager = await MainDomManager();
     domManager.weeklyProgress();
-    domManager.weeklyNavigation();
 });
