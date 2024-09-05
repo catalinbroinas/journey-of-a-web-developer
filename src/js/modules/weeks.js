@@ -15,7 +15,15 @@ async function WeekDataProvider() {
         }
     };
 
-    return { loadWeeksData };
+    const loadYearsList = async () => {
+        const data = await loadWeeksData();
+        return data?.map(yearData => yearData.year) || [];
+    };
+
+    return {
+        loadWeeksData,
+        loadYearsList
+    };
 }
 
 function WeekDomManager() {
