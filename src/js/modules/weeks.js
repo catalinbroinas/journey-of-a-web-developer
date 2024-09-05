@@ -20,9 +20,16 @@ async function WeekDataProvider() {
         return data?.map(yearData => yearData.year) || [];
     };
 
+    const loadMonthsListByYear = async (year) => {
+        const data = await loadWeeksData();
+        const selectedYearData = data.find(yearData => yearData.year === year);
+        return selectedYearData ? selectedYearData.months.map(monthData => monthData.month.name) : [];
+    };
+
     return {
         loadWeeksData,
-        loadYearsList
+        loadYearsList,
+        loadMonthsListByYear
     };
 }
 
