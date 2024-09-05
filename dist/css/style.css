@@ -18549,6 +18549,18 @@ fieldset:disabled .btn-group-vertical > .btn {
 .week-container .sub-title-small::first-letter {
   text-transform: uppercase;
 }
+.week-container .chapter {
+  margin-bottom: 2rem;
+}
+.week-container .chapter:last-of-type {
+  margin-bottom: 0;
+}
+.week-container .card-project {
+  margin-bottom: 2rem;
+}
+.week-container .card-project:last-of-type {
+  margin-bottom: 0;
+}
 
 .custom-checkbox {
   width: 20rem;

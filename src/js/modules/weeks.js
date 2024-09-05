@@ -28,7 +28,7 @@ function WeekDomManager() {
         // Create content wrapper for chapter
         const chapterWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['row']
+            elementClass: ['row', 'chapter']
         });
 
         // Create image wrapper
@@ -120,7 +120,7 @@ function WeekDomManager() {
         tasks
     }) => {
         const project = domUtility.buildCard({
-            cardClass: ['card', 'border-0', 'rounded-0'],
+            cardClass: ['card', 'border-0', 'rounded-0', 'card-project'],
             cardImage: {
                 imageSource: `projects/${image_source}` || 'img/webDev.webp',
                 imageName: image_name || 'Web development',

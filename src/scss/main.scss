@@ -80,6 +80,20 @@
    .sub-title-small::first-letter {
       text-transform: uppercase;
    }
+
+   .chapter {
+      margin-bottom: 2rem;
+   }
+   .chapter:last-of-type {
+      margin-bottom: 0;
+   }
+
+   .card-project {
+      margin-bottom: 2rem;
+   }
+   .card-project:last-of-type {
+      margin-bottom: 0;
+   }
 }
 
 // Components
