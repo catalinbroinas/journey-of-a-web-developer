@@ -17,12 +17,25 @@ async function MainDomManager() {
         }
     };
 
+    const weeklyNavigation = async () => {
+        try {
+            const years = await dataProvider.loadYearsList();
+            const initialMonths = await dataProvider.loadMonthsListByYear(years[0]);
+
+            domManager.renderNavigation(years, initialMonths, dataProvider.loadMonthsListByYear);
+        } catch (error) {
+            console.error('Weekly navigation data are not available! Message:', error);
+        }
+    };
+
     return {
-        weeklyProgress
+        weeklyProgress,
+        weeklyNavigation
     };
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
     const domManager = await MainDomManager();
     domManager.weeklyProgress();
+    domManager.weeklyNavigation();
 });

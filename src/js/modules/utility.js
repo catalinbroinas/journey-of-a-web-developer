@@ -302,10 +302,10 @@ function DomUtilityManager() {
     // Clear and update <select> options
     const updateSelectOptions = (selectElement, optionsArray, selectedOption = '') => {
         // Clear existing options
-        domUtility.clearPageContent(selectElement);
+        clearPageContent(selectElement);
 
         // Add options to <select> element
-        const fragment = domUtility.createSelectOptions(optionsArray, selectedOption);
+        const fragment = createSelectOptions(optionsArray, selectedOption);
         selectElement.appendChild(fragment);
     };
 
