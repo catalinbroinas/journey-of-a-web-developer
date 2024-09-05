@@ -263,12 +263,27 @@ function DomUtilityManager() {
         return card;
     };
 
+    // Creates an <option> element for a <select> dropdown
+    const createOptionElement = ({ optionValue, optionText, optionDisabled = false }) => {
+        const option = document.createElement('option');
+
+        option.setAttribute('value', optionValue);
+        option.textContent = optionText;
+
+        if (optionDisabled) {
+            option.setAttribute('disabled', 'disabled');
+        }
+
+        return option;
+    };
+
     return {
         clearPageContent,
         createDOMElement,
         createList,
         buildCard,
-        getStatusIconClass
+        getStatusIconClass,
+        createOptionElement
     };
 }
 
