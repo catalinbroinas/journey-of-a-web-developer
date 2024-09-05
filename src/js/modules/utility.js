@@ -277,13 +277,36 @@ function DomUtilityManager() {
         return option;
     };
 
+    // Creates <option> elements for a <select>, with an optional pre-selected option
+    const createSelectOptions = (options, selectedOption = '') => {
+        const fragment = document.createDocumentFragment();
+
+        if (options?.length) {
+            options.forEach((option) => {
+                const optionElement = createOptionElement({
+                    optionValue: option,
+                    optionText: option
+                });
+
+                if (option === selectedOption) {
+                    optionElement.selected = true;
+                }
+
+                fragment.appendChild(optionElement);
+            });
+        }
+
+        return fragment;
+    };
+
     return {
         clearPageContent,
         createDOMElement,
         createList,
         buildCard,
         getStatusIconClass,
-        createOptionElement
+        createOptionElement,
+        createSelectOptions
     };
 }
 
