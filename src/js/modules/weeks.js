@@ -465,7 +465,23 @@ function WeekDomManager() {
         }
     };
 
-    return { renderWeeks };
+    const renderNavigation = (years, months) => {
+        const yearSelect = document.querySelector('#years-select');
+        const monthSelect = document.querySelector('#months-select');
+
+        // Clear existing options
+        domUtility.clearPageContent(yearSelect);
+        domUtility.clearPageContent(monthSelect);
+
+        // Populate with dynamic options
+        yearSelect.appendChild(domUtility.createSelectOptions(years));
+        monthSelect.appendChild(domUtility.createSelectOptions(months));
+    };
+
+    return {
+        renderWeeks,
+        renderNavigation
+    };
 }
 
 export { WeekDataProvider, WeekDomManager };
