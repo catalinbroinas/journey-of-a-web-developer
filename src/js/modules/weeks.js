@@ -264,6 +264,9 @@ function WeekDomManager() {
 
             card.appendChild(cardBody);
 
+            // Init tooltip
+            const tooltipInstance = new mdb.Tooltip(iconElement);
+
             return card;
         };
 
