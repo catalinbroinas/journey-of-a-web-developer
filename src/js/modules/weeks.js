@@ -440,7 +440,12 @@ function WeekDomManager() {
         return weekContainer;
     };
 
-    const renderWeeks = (data) => {
+    const renderWeeks = (
+        data,
+        selectedYear = null,
+        selectedMonth = null,
+        showAllWeeks = false
+    ) => {
         const container = document.querySelector('#weekly-progress-content');
         domUtility.clearPageContent(container);
 
@@ -450,11 +455,21 @@ function WeekDomManager() {
             data.forEach((yearData) => {
                 const { year, months } = yearData;
 
+                // Only render weeks for the selected year
+                if (selectedYear && selectedYear !== year) {
+                    return;
+                }
+
                 // Check if months are available and have elements
                 if (months?.length) {
                     // Iterate through each month in the year
                     months.forEach((monthData) => {
                         const { month, weeks } = monthData;
+
+                        // Only render weeks for the selected month unless "All weeks" is checked
+                        if (selectedMonth && selectedMonth !== month.name && !showAllWeeks) {
+                            return;
+                        }
 
                         // Check if weeks are available and have elements
                         if (weeks?.length) {
