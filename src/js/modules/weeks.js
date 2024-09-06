@@ -480,9 +480,14 @@ function WeekDomManager() {
         }
     };
 
-    const renderNavigation = (years, initialMonths, loadMonthsForYear) => {
+    const renderNavigation = async (years, initialMonths) => {
+        if (!years?.length) {
+            throw new Error('No years available for navigation.');
+        }
+
         const yearSelect = document.querySelector('#years-select');
         const monthSelect = document.querySelector('#months-select');
+        const dataProvider = await WeekDataProvider();
 
         // Render initial year and month options
         domUtility.updateSelectOptions(yearSelect, years);
@@ -491,7 +496,7 @@ function WeekDomManager() {
         // Update months based on the selected year
         yearSelect.addEventListener('change', async () => {
             const selectedYear = parseInt(yearSelect.value);
-            const newMonths = await loadMonthsForYear(selectedYear);
+            const newMonths = await dataProvider.loadMonthsListByYear(selectedYear);
 
             domUtility.updateSelectOptions(monthSelect, newMonths);
         });
