@@ -38,9 +38,38 @@ async function MainDomManager() {
         }
     };
 
+    // Retrieves and process weekly data based on selected options
+    const updateWeeklyContent = async () => {
+        // Get year and month selects and checkbox
+        const yearSelect = document.querySelector('#years-select');
+        const monthSelect = document.querySelector('#months-select');
+        const allWeeksCheckbox = document.querySelector('#all-weeks');
+
+        // Get weekly data
+        const { data, domManager } = await loadWeeksData();
+
+        // Update the weekly content based on selected year, month, and checkbox status
+        const updateWeeksView = async () => {
+            const selectedYear = parseInt(yearSelect.value);
+            const selectedMonth = monthSelect.value;
+            domManager.renderWeeks(data, selectedYear, selectedMonth, allWeeksCheckbox.checked);
+        };
+
+        // Event listeners
+        monthSelect.addEventListener('change', updateWeeksView);
+        allWeeksCheckbox.addEventListener('change', updateWeeksView);
+        yearSelect.addEventListener('change', async () => {
+            if (!allWeeksCheckbox.checked) {
+                allWeeksCheckbox.checked = true;
+            }
+            updateWeeksView();
+        });
+    };
+
     return {
         weeklyProgress,
-        weeklyNavigation
+        weeklyNavigation,
+        updateWeeklyContent
     };
 }
 
@@ -48,4 +77,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     const domManager = await MainDomManager();
     domManager.weeklyProgress();
     domManager.weeklyNavigation();
+    domManager.updateWeeklyContent();
 });
