@@ -106,6 +106,14 @@
    }
 }
 
+.form-select {
+   text-transform: capitalize;
+
+   option {
+      text-transform: capitalize;
+   }
+}
+
 // Content
 .logo-icons {
    width: 75px;

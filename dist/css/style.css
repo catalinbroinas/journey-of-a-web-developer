@@ -18570,6 +18570,13 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 1rem;
 }
 
+.form-select {
+  text-transform: capitalize;
+}
+.form-select option {
+  text-transform: capitalize;
+}
+
 .logo-icons {
   width: 75px;
   height: auto;
