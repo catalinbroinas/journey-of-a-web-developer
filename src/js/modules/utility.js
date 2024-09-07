@@ -304,9 +304,26 @@ function DomUtilityManager() {
     };
 
     // Clear and update <select> options
-    const updateSelectOptions = (selectElement, optionsArray, selectedOption = '') => {
+    const updateSelectOptions = (selectElement, optionsArray, placeholder = '', selectedOption = '') => {
+        // Check if element exists
+        if (!selectElement) {
+            console.error(`Select element is not found.`);
+            return;
+        }
+
         // Clear existing options
         clearPageContent(selectElement);
+
+        // Optional, add a placeholder option as the first item
+        if (placeholder) {
+            const placeholderOption = createOptionElement({
+                optionValue: '',
+                optionText: placeholder,
+                optionDisabled: true,
+                optionSelected: !selectedOption // Select placeholder if no other option is selected
+            });
+            selectElement.appendChild(placeholderOption);
+        }
 
         // Add options to <select> element
         const fragment = createSelectOptions(optionsArray, selectedOption);

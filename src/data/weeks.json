@@ -198,6 +198,103 @@
   },
   {
     "year": 2024,
-    "months": []
+    "months": [
+      {
+        "month": {
+          "number": 10,
+          "name": "october"
+        },
+        "weeks": [
+          {
+            "week": 11,
+            "learning": [
+              {
+                "image": {
+                  "source": "html5.jpg",
+                  "name": "HTML 5 logo"
+                },
+                "title": "HTML 5",
+                "tasks": [
+                  {
+                    "name": "Tutorial W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Exercises W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Quiz W3Schools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Tutorial CodeAcademy",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge.jpg",
+                "image_name": "Bridge",
+                "title": "My 27 Biography",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Flexbox",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Grid system",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Position",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Cards",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Icons",
+                "technology": "MDB 5"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
