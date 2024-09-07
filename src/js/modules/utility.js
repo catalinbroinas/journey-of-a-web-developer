@@ -264,15 +264,19 @@ function DomUtilityManager() {
     };
 
     // Creates an <option> element for a <select> dropdown
-    const createOptionElement = ({ optionValue, optionText, optionDisabled = false }) => {
+    const createOptionElement = ({
+        optionValue,
+        optionText,
+        optionDisabled = false,
+        optionSelected = false
+    }) => {
         const option = document.createElement('option');
 
-        option.setAttribute('value', optionValue);
+        option.value = optionValue;
         option.textContent = optionText;
 
-        if (optionDisabled) {
-            option.setAttribute('disabled', 'disabled');
-        }
+        option.disabled = optionDisabled;
+        option.selected = optionSelected;
 
         return option;
     };
