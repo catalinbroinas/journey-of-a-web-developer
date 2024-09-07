@@ -125,6 +125,10 @@
    @include mask-dark;
 }
 
+.hidden {
+   display: none;
+}
+
 // HD+ Devices
 @media only screen and (max-width: 1899px) {
    .logo-icons {

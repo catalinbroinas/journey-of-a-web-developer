@@ -18586,6 +18586,10 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 1899px) {
   .logo-icons {
     width: 50px;

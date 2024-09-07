@@ -59,10 +59,9 @@ async function MainDomManager() {
         monthSelect.addEventListener('change', updateWeeksView);
         allWeeksCheckbox.addEventListener('change', updateWeeksView);
         yearSelect.addEventListener('change', async () => {
-            if (!allWeeksCheckbox.checked) {
-                allWeeksCheckbox.checked = true;
+            if (allWeeksCheckbox.checked) {
+                updateWeeksView();
             }
-            updateWeeksView();
         });
     };
 

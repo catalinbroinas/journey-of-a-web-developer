@@ -500,20 +500,36 @@ function WeekDomManager() {
             throw new Error('No years available for navigation.');
         }
 
+        // Get year, month selects, and checkbox
         const yearSelect = document.querySelector('#years-select');
         const monthSelect = document.querySelector('#months-select');
+        const allWeeksCheckbox = document.querySelector('#all-weeks');
+
+        // Get weekly data
         const dataProvider = await WeekDataProvider();
 
-        // Render initial year and month options
-        domUtility.updateSelectOptions(yearSelect, years);
-        domUtility.updateSelectOptions(monthSelect, initialMonths);
+        // Set placeholder option for year and month selects
+        const placeholderMonth = 'Choose a month';
+        const placeholderYear = 'Select a year';
 
-        // Update months based on the selected year
+        // Render initial year and month options
+        domUtility.updateSelectOptions(yearSelect, years, placeholderYear);
+        domUtility.updateSelectOptions(monthSelect, initialMonths, placeholderMonth);
+
+        // Update months when a year is selected
         yearSelect.addEventListener('change', async () => {
             const selectedYear = parseInt(yearSelect.value);
             const newMonths = await dataProvider.loadMonthsListByYear(selectedYear);
 
-            domUtility.updateSelectOptions(monthSelect, newMonths);
+            domUtility.updateSelectOptions(monthSelect, newMonths, placeholderMonth);
+        });
+
+        allWeeksCheckbox.addEventListener('change', async () => {
+            if (allWeeksCheckbox.checked) {
+                monthSelect.classList.add('hidden');
+            } else {
+                monthSelect.classList.remove('hidden');
+            }
         });
     };
 
