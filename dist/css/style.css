@@ -18572,9 +18572,27 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 .form-select {
   text-transform: capitalize;
+  background-color: #FFEBEE;
+  color: #D50000;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: 2px solid #CC0000;
 }
 .form-select option {
   text-transform: capitalize;
+  background-color: #FFEBEE;
+  color: #D50000;
+}
+.form-select option[disabled] {
+  color: #332D2D;
+}
+.form-select option:checked {
+  font-weight: bold;
+}
+.form-select:hover, .form-select:focus {
+  background-color: #FBFBFB;
+  color: #332D2D;
+  border: 2px solid #CC0000;
 }
 
 .logo-icons {

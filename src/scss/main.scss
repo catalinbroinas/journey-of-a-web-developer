@@ -108,9 +108,31 @@
 
 .form-select {
    text-transform: capitalize;
-
+   background-color: $primary-light;
+   color: $secondary-dark;
+   border-radius: 5px;
+   padding: 0.5rem 1rem;
+   border: 2px solid $primary-dark;
+   
    option {
       text-transform: capitalize;
+      background-color: $primary-light;
+      color: $secondary-dark; 
+   }
+
+   option[disabled] {
+      color: $secondary-main;
+   }
+
+   option:checked {
+      font-weight: bold;
+   }
+
+   &:hover,
+   &:focus {
+      background-color: $primary-main;
+      color: $secondary-main;
+      border: 2px solid $primary-dark;
    }
 }
 
