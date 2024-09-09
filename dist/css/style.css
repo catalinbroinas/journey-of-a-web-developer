@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-@import '../../node_modules/typeface-roboto/index.css';
-@import '../../node_modules/typeface-open-sans/index.css';
 :root,
 [data-mdb-theme=light] {
   --mdb-red: #f44336;
