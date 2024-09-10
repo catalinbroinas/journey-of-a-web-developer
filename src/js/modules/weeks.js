@@ -1,4 +1,4 @@
-import { DomUtilityManager } from "./utility.js";
+import { DomUtilityManager, StringUtilityManager } from "./utility.js";
 
 async function WeekDataProvider() {
     const loadWeeksData = async () => {
@@ -35,6 +35,7 @@ async function WeekDataProvider() {
 
 function WeekDomManager() {
     const domUtility = DomUtilityManager();
+    const stringUtility = StringUtilityManager();
 
     // Create a chapter for `learning` section
     const createChapterElement = ({
@@ -516,12 +517,17 @@ function WeekDomManager() {
         domUtility.updateSelectOptions(yearSelect, years, placeholderYear);
         domUtility.updateSelectOptions(monthSelect, initialMonths, placeholderMonth);
 
+        // Capitalize first word from each option
+        stringUtility.capitalizeSelectOptions(yearSelect);
+        stringUtility.capitalizeSelectOptions(monthSelect);
+
         // Update months when a year is selected
         yearSelect.addEventListener('change', async () => {
             const selectedYear = parseInt(yearSelect.value);
             const newMonths = await dataProvider.loadMonthsListByYear(selectedYear);
 
             domUtility.updateSelectOptions(monthSelect, newMonths, placeholderMonth);
+            stringUtility.capitalizeSelectOptions(monthSelect);
         });
 
         allWeeksCheckbox.addEventListener('change', async () => {

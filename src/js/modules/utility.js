@@ -342,4 +342,25 @@ function DomUtilityManager() {
     };
 }
 
-export { DomUtilityManager };
+function StringUtilityManager() {
+    // Capitalize first word from a text
+    const capitalizeFirstLetter = (text) => {
+        return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+    };
+
+    // Capitalize each option from a select
+    const capitalizeSelectOptions = (selectElement) => {
+        if (selectElement) {
+            Array.from(selectElement.options).forEach((option) => {
+                option.text = capitalizeFirstLetter(option.text);
+            });
+        }
+    };
+
+    return {
+        capitalizeFirstLetter,
+        capitalizeSelectOptions
+    };
+}
+
+export { DomUtilityManager, StringUtilityManager };

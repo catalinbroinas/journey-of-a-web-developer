@@ -18571,7 +18571,6 @@ fieldset:disabled .btn-group-vertical > .btn {
 }
 
 .form-select {
-  text-transform: capitalize;
   background-color: #FFEBEE;
   color: #D50000;
   border-radius: 5px;
@@ -18580,7 +18579,6 @@ fieldset:disabled .btn-group-vertical > .btn {
   transition: all 0.3s ease-in-out;
 }
 .form-select option {
-  text-transform: capitalize;
   background-color: #FFEBEE;
   color: #D50000;
 }
