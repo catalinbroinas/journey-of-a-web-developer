@@ -8,6 +8,7 @@ async function MainDomManager() {
         const years = await dataProvider.loadYearsList();
         const lastYear = years[years.length - 1];
         const initialMonths = await dataProvider.loadMonthsListByYear(lastYear);
+        const lastMonth = initialMonths[initialMonths.length - 1];
         const domManager = WeekDomManager();
 
         return {
@@ -16,6 +17,7 @@ async function MainDomManager() {
             years,
             lastYear,
             initialMonths,
+            lastMonth,
             domManager
         };
     };
@@ -23,8 +25,8 @@ async function MainDomManager() {
     // Load and render the data weekly
     const weeklyProgress = async () => {
         try {
-            const { data, domManager } = await loadWeeksData();
-            domManager.renderWeeks(data);
+            const { data, lastYear, lastMonth, domManager } = await loadWeeksData();
+            domManager.renderWeeks(data, lastYear, lastMonth);
         } catch (error) {
             console.error('Weekly progress data are not available! Message:', error);
         }
