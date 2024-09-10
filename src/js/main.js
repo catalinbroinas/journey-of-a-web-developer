@@ -1,6 +1,6 @@
 import { WeekDataProvider, WeekDomManager } from "./modules/weeks.js";
 
-async function MainDomManager() {
+async function MainDataProvider() {
     // Load weeks data
     const loadWeeksData = async () => {
         const dataProvider = await WeekDataProvider();
@@ -9,7 +9,6 @@ async function MainDomManager() {
         const lastYear = years[years.length - 1];
         const initialMonths = await dataProvider.loadMonthsListByYear(lastYear);
         const lastMonth = initialMonths[initialMonths.length - 1];
-        const domManager = WeekDomManager();
 
         return {
             dataProvider,
@@ -17,22 +16,32 @@ async function MainDomManager() {
             years,
             lastYear,
             initialMonths,
-            lastMonth,
-            domManager
+            lastMonth
         };
     };
+
+    return { loadWeeksData };
+}
+
+async function MainDomManager() {
+    // DOM features
+    const weekDomManager = WeekDomManager();
+
+    // Data features
+    const mainDataProvider = await MainDataProvider();
+    const loadWeeksData = await mainDataProvider.loadWeeksData();
 
     // Load weekly data once and reuse for both weekly progress and navigation
     const loadAndRenderWeeklyData = async () => {
         try {
             // Load data
-            const { data, years, lastYear, lastMonth, initialMonths, domManager } = await loadWeeksData();
+            const { data, years, lastYear, lastMonth, initialMonths } = loadWeeksData;
 
             // Render weekly progress
-            domManager.renderWeeks(data, lastYear, lastMonth);
+            weekDomManager.renderWeeks(data, lastYear, lastMonth);
 
             // Render navigation (years and months <select>)
-            domManager.renderNavigation(years, initialMonths);
+            weekDomManager.renderNavigation(years, initialMonths);
         } catch (error) {
             console.error(`Failed to load and render weekly data. Error: ${error.message}`);
             throw new Error('Unable to load weekly data. Please try again later.');
@@ -52,13 +61,13 @@ async function MainDomManager() {
         }
 
         // Get weekly data
-        const { data, domManager } = await loadWeeksData();
+        const { data } = loadWeeksData;
 
         // Update the weekly content based on selected year, month, and checkbox status
         const updateWeeksView = async () => {
             const selectedYear = parseInt(yearSelect.value);
             const selectedMonth = monthSelect.value;
-            domManager.renderWeeks(data, selectedYear, selectedMonth, allWeeksCheckbox.checked);
+            weekDomManager.renderWeeks(data, selectedYear, selectedMonth, allWeeksCheckbox.checked);
         };
 
         // Event listeners
