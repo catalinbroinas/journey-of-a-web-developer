@@ -22,32 +22,34 @@ async function MainDomManager() {
         };
     };
 
-    // Load and render the data weekly
-    const weeklyProgress = async () => {
+    // Load weekly data once and reuse for both weekly progress and navigation
+    const loadAndRenderWeeklyData = async () => {
         try {
-            const { data, lastYear, lastMonth, domManager } = await loadWeeksData();
-            domManager.renderWeeks(data, lastYear, lastMonth);
-        } catch (error) {
-            console.error('Weekly progress data are not available! Message:', error);
-        }
-    };
+            // Load data
+            const { data, years, lastYear, lastMonth, initialMonths, domManager } = await loadWeeksData();
 
-    // Load and render the data navigation (<select> years and months)
-    const weeklyNavigation = async () => {
-        try {
-            const { years, initialMonths, domManager } = await loadWeeksData();
+            // Render weekly progress
+            domManager.renderWeeks(data, lastYear, lastMonth);
+
+            // Render navigation (years and months <select>)
             domManager.renderNavigation(years, initialMonths);
         } catch (error) {
-            console.error('Weekly navigation data are not available! Message:', error);
+            console.error(`Failed to load and render weekly data. Error: ${error.message}`);
+            throw new Error('Unable to load weekly data. Please try again later.');
         }
     };
 
     // Retrieves and process weekly data based on selected options
-    const updateWeeklyContent = async () => {
+    const initWeeklyContentUpdate = async () => {
         // Get year and month selects and checkbox
         const yearSelect = document.querySelector('#years-select');
         const monthSelect = document.querySelector('#months-select');
         const allWeeksCheckbox = document.querySelector('#all-weeks');
+
+        if (!yearSelect || !monthSelect || !allWeeksCheckbox) {
+            console.error('Required elements are not found in the DOM');
+            throw new Error('Critical DOM elements are missing.');
+        }
 
         // Get weekly data
         const { data, domManager } = await loadWeeksData();
@@ -69,16 +71,23 @@ async function MainDomManager() {
         });
     };
 
-    return {
-        weeklyProgress,
-        weeklyNavigation,
-        updateWeeklyContent
+    // Initialize weekly progress app and set up event listeners
+    const initWeeklyApp = async () => {
+        try {
+            // Load and render data
+            await loadAndRenderWeeklyData();
+
+            // Set up event listeners
+            await initWeeklyContentUpdate();
+        } catch (error) {
+            console.error('Error initializing weekly app:', error);
+        }
     };
+
+    return { initWeeklyApp };
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
     const domManager = await MainDomManager();
-    domManager.weeklyProgress();
-    domManager.weeklyNavigation();
-    domManager.updateWeeklyContent();
+    domManager.initWeeklyApp();
 });
