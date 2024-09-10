@@ -112,7 +112,8 @@
    color: $secondary-dark;
    border-radius: 5px;
    padding: 0.5rem 1rem;
-   border: 2px solid $primary-dark;
+   border: none;
+   transition: all .3s ease-in-out;
    
    option {
       text-transform: capitalize;
@@ -147,8 +148,8 @@
    @include mask-dark;
 }
 
-.hidden {
-   display: none;
+.hidden-select {
+   visibility: hidden;
 }
 
 // HD+ Devices
@@ -179,6 +180,13 @@
       width: 50px;
       height: auto;
    } 
+}
+
+// Medium devices
+@media only screen and (max-width: 991px) {
+   .hidden-select {
+      display: none;
+   }
 }
 
 // Small devices (portrait)

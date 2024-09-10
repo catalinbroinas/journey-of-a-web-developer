@@ -526,9 +526,9 @@ function WeekDomManager() {
 
         allWeeksCheckbox.addEventListener('change', async () => {
             if (allWeeksCheckbox.checked) {
-                monthSelect.classList.add('hidden');
+                monthSelect.classList.add('hidden-select');
             } else {
-                monthSelect.classList.remove('hidden');
+                monthSelect.classList.remove('hidden-select');
             }
         });
     };
