@@ -514,8 +514,10 @@ function WeekDomManager() {
         const placeholderYear = 'Select a year';
 
         // Render initial year and month options
-        domUtility.updateSelectOptions(yearSelect, years, placeholderYear);
-        domUtility.updateSelectOptions(monthSelect, initialMonths, placeholderMonth);
+        const lastYear = years[years.length - 1];
+        const lastMonth = initialMonths[initialMonths.length - 1];
+        domUtility.updateSelectOptions(yearSelect, years, placeholderYear, lastYear);
+        domUtility.updateSelectOptions(monthSelect, initialMonths, placeholderMonth, lastMonth);
 
         // Capitalize first word from each option
         stringUtility.capitalizeSelectOptions(yearSelect);

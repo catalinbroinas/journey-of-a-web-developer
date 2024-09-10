@@ -6,13 +6,15 @@ async function MainDomManager() {
         const dataProvider = await WeekDataProvider();
         const data = await dataProvider.loadWeeksData();
         const years = await dataProvider.loadYearsList();
-        const initialMonths = await dataProvider.loadMonthsListByYear(years[0]);
+        const lastYear = years[years.length - 1];
+        const initialMonths = await dataProvider.loadMonthsListByYear(lastYear);
         const domManager = WeekDomManager();
 
         return {
             dataProvider,
             data,
             years,
+            lastYear,
             initialMonths,
             domManager
         };
