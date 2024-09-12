@@ -56,6 +56,10 @@
                 "technology": "MDB 5"
               },
               {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
                 "name": "Content & Styles",
                 "technology": "MDB 5"
               },
@@ -81,10 +85,6 @@
               {
                 "image": "css-icon.png",
                 "name": "CSS 3 logo"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript logo"
               },
               {
                 "image": "mdb5.png",
@@ -189,6 +189,110 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              }
+            ]
+          },
+          {
+            "week": 3,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "Introduction",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Prerequisites",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Git Basics",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "HTML Foundations",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "CSS Foundations",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "Flexbox",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "Javascript Basics",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "Conclusion",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [],
+            "concepts": [
+              {
+                "name": "Staging Environment",
+                "technology": "Git"
+              },
+              {
+                "name": "Commit",
+                "technology": "Git"
+              },
+              {
+                "name": "Branch",
+                "technology": "Git"
+              },
+              {
+                "name": "Branch Merge",
+                "technology": "Git"
+              },
+              {
+                "name": "Pull & Push",
+                "technology": "GitHub"
+              },
+              {
+                "name": "Pull & Push Branch",
+                "technology": "GitHub"
+              },
+              {
+                "name": "GitHub Flow",
+                "technology": "GitHub"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
               },
               {
                 "image": "mdb5.png",
