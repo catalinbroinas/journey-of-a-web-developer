@@ -241,7 +241,15 @@
                 ]
               }
             ],
-            "projects": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Recipes",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
             "concepts": [
               {
                 "name": "Staging Environment",
@@ -270,6 +278,10 @@
               {
                 "name": "GitHub Flow",
                 "technology": "GitHub"
+              },
+              {
+                "name": "Command Line Basics",
+                "technology": "OS"
               }
             ],
             "working_time": {
@@ -293,6 +305,206 @@
               {
                 "image": "gitHub.png",
                 "name": "gitHub"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              }
+            ]
+          },
+          {
+            "week": 4,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "CSS Foundations",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Flexbox",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Javascript Basics",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "Conclusion",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Landing Page",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "DevTools",
+                "technology": "Browser"
+              },
+              {
+                "name": "Box Model",
+                "technology": "CSS"
+              },
+              {
+                "name": "Block vs Inline",
+                "technology": "CSS"
+              },
+              {
+                "name": "Introduction",
+                "technology": "CSS Flexbox"
+              },
+              {
+                "name": "Growing and Shrinking",
+                "technology": "CSS Flexbox"
+              },
+              {
+                "name": "Axes",
+                "technology": "CSS Flexbox"
+              },
+              {
+                "name": "Alignment",
+                "technology": "CSS Flexbox"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 31,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              }
+            ]
+          },
+          {
+            "week": 5,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Variables and Operators",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Data Types and Conditionals",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Developer Tools",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Function Basics",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Problem Solving",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Understanding Errors",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Rock Paper Scissors",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "View and change DOM",
+                "technology": "Browser"
+              },
+              {
+                "name": "Mobile Simulation",
+                "technology": "Browser"
+              },
+              {
+                "name": "Debug JavaScript",
+                "technology": "Browser"
+              },
+              {
+                "name": "Pause code with breakpoints",
+                "technology": "Browser"
+              },
+              {
+                "name": "DevTools console",
+                "technology": "Browser"
+              },
+              {
+                "name": "Call Stack",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 31,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
               },
               {
                 "image": "mdb5.png",
