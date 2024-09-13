@@ -513,6 +513,395 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 10,
+          "name": "october"
+        },
+        "weeks": [
+          {
+            "week": 6,
+            "learning": [
+              {
+                "image": {
+                  "source": "javascript-wide.png",
+                  "name": "Javascript logo"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "W3Schools JS Tutorial",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "W3Schools JS Exercises",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "W3Schools JS Quiz",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Campion",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "Date",
+                "technology": "JS"
+              },
+              {
+                "name": "Scroll",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              }
+            ]
+          },
+          {
+            "week": 7,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Clean Code",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Installing Node.js",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Arrays and Loops",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "DOM Manipulation and Events",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Object Basics",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Rock Paper Scissors",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Etch-a-Sketch",
+                "status": "postponed",
+                "tasks": []
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Calculator",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Installing NVM & Node",
+                "technology": "Node.js"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Test Driven Development",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              }
+            ]
+          },
+          {
+            "week": 8,
+            "learning": [
+              {
+                "image": {
+                  "source": "javascript-wide.png",
+                  "name": "Javascript logo"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "Objects",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Functions",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Classes",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Async",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "HTML DOM",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Browser BOM",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Rock Paper Scissors",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Flexbox",
+                "technology": "CSS"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "DOM Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 25,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 9,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Object Basics",
+                    "status": "in-progress"
+                  },
+                  {
+                    "name": "Conclusion",
+                    "status": "unstarted"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Etch-a-Sketch",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Flexbox",
+                "technology": "CSS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 15,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
