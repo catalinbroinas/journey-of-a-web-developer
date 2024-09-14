@@ -1398,6 +1398,423 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 12,
+          "name": "december"
+        },
+        "weeks": [
+          {
+            "week": 15,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Intermediate CSS Concepts",
+                "tasks": [
+                  {
+                    "name": "CSS Functions",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Custom Properties",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Browser Compatibility",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Frameworks and Preprocessors",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Forms",
+                "tasks": [
+                  {
+                    "name": "Form Basics",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Form Validation",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Sign-up Form",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Functions: calc, min, max & clamp",
+                "technology": "CSS"
+              },
+              {
+                "name": "Custom properties",
+                "technology": "CSS"
+              },
+              {
+                "name": "Scope",
+                "technology": "CSS"
+              },
+              {
+                "name": "Media Queries",
+                "technology": "CSS"
+              },
+              {
+                "name": "Frameworks overview",
+                "technology": "CSS"
+              },
+              {
+                "name": "Preprocessors overview",
+                "technology": "CSS"
+              },
+              {
+                "name": "Form element",
+                "technology": "HTML"
+              },
+              {
+                "name": "Form controls",
+                "technology": "HTML"
+              },
+              {
+                "name": "Buttons",
+                "technology": "HTML"
+              },
+              {
+                "name": "Organizing form elements",
+                "technology": "HTML"
+              },
+              {
+                "name": "Styling forms",
+                "technology": "CSS"
+              },
+              {
+                "name": "Built-in HTML validations",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Custom validations",
+                "technology": "CSS & JS"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 24,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 16,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Grid CSS",
+                "tasks": [
+                  {
+                    "name": "Introduction to Grid",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Creating a Grid",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Positioning Grid Elements",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Advanced Grid Properties",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Using Flexbox and Grid",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Admin Dashboard",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Grid container",
+                "technology": "CSS"
+              },
+              {
+                "name": "Grid tracks",
+                "technology": "CSS"
+              },
+              {
+                "name": "Implicit & Explicit grid",
+                "technology": "CSS"
+              },
+              {
+                "name": "inspecting CSS Grid in DevTools",
+                "technology": "Browser"
+              },
+              {
+                "name": "Gap",
+                "technology": "CSS"
+              },
+              {
+                "name": "Tracks, lines, and cells",
+                "technology": "CSS"
+              },
+              {
+                "name": "Position items",
+                "technology": "CSS"
+              },
+              {
+                "name": "Repeat function",
+                "technology": "CSS"
+              },
+              {
+                "name": "Fractional units",
+                "technology": "CSS"
+              },
+              {
+                "name": "Min & max track sizes",
+                "technology": "CSS"
+              },
+              {
+                "name": "Dynamic min & max sizes",
+                "technology": "CSS"
+              },
+              {
+                "name": "auto-fit & auto-fill",
+                "technology": "CSS"
+              },
+              {
+                "name": "Use auto-fit/auto-fill along with minmax()",
+                "technology": "CSS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 27,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 17,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "random-numbers.jpg",
+                "image_name": "Numbers on blue background",
+                "title": "Random Numbers",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Display & Position",
+                "technology": "CSS"
+              },
+              {
+                "name": "Form Styling",
+                "technology": "CSS"
+              },
+              {
+                "name": "Form Validation",
+                "technology": "CSS & JS"
+              },
+              {
+                "name": "Buttons",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "DOM Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 21,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 18,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "random-numbers.jpg",
+                "image_name": "Numbers on blue background",
+                "title": "Random Numbers Game",
+                "status": "unstarted",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "in-progress",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Headers",
+                "technology": "MDB 5"
+              }
+            ],
+            "working_time": {
+              "days": 3,
+              "hours": 5,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
