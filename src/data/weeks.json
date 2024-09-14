@@ -902,6 +902,502 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 11,
+          "name": "november"
+        },
+        "weeks": [
+          {
+            "week": 10,
+            "learning": [
+              {
+                "image": {
+                  "source": "javascript-wide.png",
+                  "name": "Javascript logo"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "Web APIs",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "AJAX",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "JSON",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "JS vs JQuery",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Graphics",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Object Basics",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Conclusion",
+                    "status": "unstarted"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Calculator",
+                "status": "in-progress",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Math",
+                "technology": "JS"
+              },
+              {
+                "name": "Object",
+                "technology": "JS"
+              },
+              {
+                "name": "forEach",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 16,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 11,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Conclusion",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Calculator",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Flexbox",
+                "technology": "CSS"
+              },
+              {
+                "name": "Position",
+                "technology": "CSS"
+              },
+              {
+                "name": "Math",
+                "technology": "JS"
+              },
+              {
+                "name": "forEach",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 14,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 12,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Etch a sketch",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Calculator",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Typography",
+                "technology": "CSS"
+              },
+              {
+                "name": "Icons",
+                "technology": "Font Awesome"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 26,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 13,
+            "learning": [
+              {
+                "image": {
+                  "source": "javascript-wide.png",
+                  "name": "Javascript logo"
+                },
+                "tasks": [
+                  {
+                    "name": "CodeAcademy Tutorial",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Odin Repository",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Typography",
+                "technology": "CSS"
+              },
+              {
+                "name": "Theme colors",
+                "technology": "CSS"
+              },
+              {
+                "name": "Shadow & Borders",
+                "technology": "CSS"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "Icons",
+                "technology": "Font Awesome"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 24,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 14,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Intermediate HTML Concepts",
+                "tasks": [
+                  {
+                    "name": "Introduction",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Emmet",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "SVG",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Tables",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Intermediate CSS Concepts",
+                "tasks": [
+                  {
+                    "name": "Default Styles",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "CSS Units",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "More Text Styles",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "More CSS Properties",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Advanced Selectors",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Positioning",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Emmet abbreviations",
+                "technology": "VSCode"
+              },
+              {
+                "name": "Image format",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Create simple SVGs",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Default browser styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Reset & Normalize stylesheets",
+                "technology": "CSS"
+              },
+              {
+                "name": "Absolute & Relative units",
+                "technology": "CSS"
+              },
+              {
+                "name": "Fonts & Text styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Background & Borders",
+                "technology": "CSS"
+              },
+              {
+                "name": "Box shadow & Text shadow",
+                "technology": "CSS"
+              },
+              {
+                "name": "Overflow & Opacity",
+                "technology": "CSS"
+              },
+              {
+                "name": "Pseudo-selectors",
+                "technology": "CSS"
+              },
+              {
+                "name": "Static & Relative positioning",
+                "technology": "CSS"
+              },
+              {
+                "name": "Absolute positioning",
+                "technology": "CSS"
+              },
+              {
+                "name": "Fixed & Sticky positioning",
+                "technology": "CSS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 21,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
