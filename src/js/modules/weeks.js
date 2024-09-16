@@ -104,7 +104,7 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-4', 'col-xl-7', 'col-lg-7', 'col-md-12', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+            elementClass: ['col-xxl-4', 'col-lg-7', 'col-md-12', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
         });
 
         // Create title
@@ -217,7 +217,7 @@ function WeekDomManager() {
                 itemClass: ['text', 'px-4'],
                 itemsWithBadge: concepts.map((concept) => ({
                     text: concept.name,
-                    badgeClass: ['badge-light', 'px-3', 'py-2'],
+                    badgeClass: ['badge-light', 'px-3', 'py-2', 'ms-5'],
                     badgeText: concept.technology
                 }))
             });

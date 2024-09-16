@@ -18644,7 +18644,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 1899px) {
+@media only screen and (max-width: 2500px) {
   .logo-icons {
     width: 50px;
     height: auto;

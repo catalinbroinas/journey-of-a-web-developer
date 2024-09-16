@@ -183,8 +183,8 @@
    visibility: hidden;
 }
 
-// HD+ Devices
-@media only screen and (max-width: 1899px) {
+// Under 2k Devices
+@media only screen and (max-width: 2500px) {
    .logo-icons {
       width: 50px;
       height: auto;
