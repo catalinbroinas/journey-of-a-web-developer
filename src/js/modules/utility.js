@@ -155,29 +155,31 @@ function DomUtilityManager() {
 
         // Add specific icon
         if (icon) {
+            // Create icon element
+            const alertIcon = createDOMElement({
+                elementTag: 'i',
+                elementClass: ['fa-solid']
+            });
+
             // Add specific class
             switch (type) {
                 case 'info':
-                    iconClass = 'fa-circle-info';
+                    alertIcon.classList.add('fa-circle-info');
                     break;
                 case 'success':
-                    iconClass = 'fa-circle-check';
+                    alertIcon.classList.add('fa-circle-check');
                     break;
                 case 'warning':
-                    iconClass = 'fa-triangle-exclamation';
+                    alertIcon.classList.add('fa-triangle-exclamation');
                     break;
                 case 'danger':
-                    iconClass = 'fa-circle-xmark';
+                    alertIcon.classList.add('fa-circle-xmark');
                     break;
                 default:
-                    iconClass = 'fa-exclamation';
+                    alertIcon.classList.add('fa-exclamation');
                     break;
             }
 
-            const alertIcon = createDOMElement({
-                elementTag: 'i',
-                elementClass: ['fa-solid', iconClass]
-            });
             alert.appendChild(alertIcon);
         }
 
