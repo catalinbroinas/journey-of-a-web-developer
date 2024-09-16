@@ -1,10 +1,11 @@
 function DomUtilityManager() {
     const statusIconClasses = {
-        completed: ['fa-solid', 'fa-circle-check', 'text-success'],
-        'in-progress': ['fa-solid', 'fa-spinner', 'text-primary'],
-        unstarted: ['fa-solid', 'fa-circle-xmark', 'text-danger'],
-        postponed: ['fa-solid', 'fa-hourglass-half', 'text-info'],
-        default: ['fa-solid', 'fa-circle-question', 'text-muted']
+        added: ['fa-solid', 'fa-circle', 'text-dark', 'ms-5'],
+        completed: ['fa-solid', 'fa-circle-check', 'text-success', 'ms-5'],
+        'in-progress': ['fa-solid', 'fa-spinner', 'text-primary', 'ms-5'],
+        unstarted: ['fa-solid', 'fa-circle-xmark', 'text-danger', 'ms-5'],
+        postponed: ['fa-solid', 'fa-hourglass-half', 'text-info', 'ms-5'],
+        default: ['fa-solid', 'fa-circle-question', 'text-muted', 'ms-5']
     };
 
     const getStatusIconClass = (status) => statusIconClasses[status] || statusIconClasses.default;
@@ -125,6 +126,69 @@ function DomUtilityManager() {
         }
 
         return list;
+    };
+
+    // Build an alert element
+    const createAlertElement = ({ text, type = 'default', icon = true }) => {
+        // Check if exits text
+        if (!text) {
+            console.error(`Alert element must have a text property, received: ${text}`);
+            return;
+        }
+
+        // Check if the type is valid
+        const validType = ['default', 'info', 'success', 'warning', 'danger'];
+        if (!validType.includes(type)) {
+            console.error(`Alert type "${type}" is not a valid type. Expected one of: ${validType.join(', ')}`);
+            return;
+        }
+
+        // Alert wrapper
+        const alert = createDOMElement({
+            elementTag: 'div',
+            elementClass: ['custom-alert', `alert-${type}`],
+            elementAttributes: {
+                role: 'alert',
+                'aria-live': 'polite'
+            }
+        });
+
+        // Add specific icon
+        if (icon) {
+            // Add specific class
+            switch (type) {
+                case 'info':
+                    iconClass = 'fa-circle-info';
+                    break;
+                case 'success':
+                    iconClass = 'fa-circle-check';
+                    break;
+                case 'warning':
+                    iconClass = 'fa-triangle-exclamation';
+                    break;
+                case 'danger':
+                    iconClass = 'fa-circle-xmark';
+                    break;
+                default:
+                    iconClass = 'fa-exclamation';
+                    break;
+            }
+
+            const alertIcon = createDOMElement({
+                elementTag: 'i',
+                elementClass: ['fa-solid', iconClass]
+            });
+            alert.appendChild(alertIcon);
+        }
+
+        const alertText = createDOMElement({
+            elementTag: 'p',
+            elementClass: ['text', 'alert-text'],
+            elementText: text
+        });
+        alert.appendChild(alertText);
+
+        return alert;
     };
 
     // Creates an image element for the card
@@ -334,6 +398,7 @@ function DomUtilityManager() {
         clearPageContent,
         createDOMElement,
         createList,
+        createAlertElement,
         buildCard,
         getStatusIconClass,
         createOptionElement,
