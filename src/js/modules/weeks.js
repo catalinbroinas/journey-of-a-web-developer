@@ -122,6 +122,13 @@ function WeekDomManager() {
                 const chapterElement = createChapterElement(chapter);
                 wrapper.appendChild(chapterElement);
             });
+        } else {
+            const alert = domUtility.createAlertElement({
+                text: 'There is no added content for this week.',
+                type: 'info',
+                icon: true
+            });
+            wrapper.appendChild(alert);
         }
 
         return wrapper;

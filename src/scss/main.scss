@@ -96,7 +96,7 @@
    }
 }
 
-// Components
+// Forms
 .custom-checkbox {
    width: 20rem;
 
@@ -133,6 +133,39 @@
       color: $secondary-main;
       border: 2px solid $primary-dark;
    }
+}
+
+// Components
+.custom-alert {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: start;
+   align-items: center;
+   gap: 1rem;
+   padding: 1rem;
+   font-size: 1.75rem;
+   border-left: 0.5rem solid #332D2D;
+   border-radius: 0.25rem;
+   animation: fadeIn 0.5s ease-in-out;
+
+   .alert-text {
+      @include sub-title;
+      font-size: 1rem;
+      color: inherit;
+      margin: 0;
+      padding: 0;
+   }
+}
+
+.custom-alert.alert-info {
+   background-color: #E3F2FD;
+   color: #3B71CA;
+   border-color: #3B71CA;
+}
+
+@keyframes fadeIn {
+   from { opacity: 0; }
+   to { opacity: 1; }
 }
 
 // Content
