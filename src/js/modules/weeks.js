@@ -183,6 +183,13 @@ function WeekDomManager() {
                 const projectElement = createProjectElement(project);
                 wrapper.appendChild(projectElement);
             });
+        } else {
+            const alert = domUtility.createAlertElement({
+                text: 'There is no added content for this week.',
+                type: 'info',
+                icon: true
+            });
+            wrapper.appendChild(alert);
         }
 
         return wrapper;
@@ -215,6 +222,13 @@ function WeekDomManager() {
                 }))
             });
             wrapper.appendChild(conceptList);
+        } else {
+            const alert = domUtility.createAlertElement({
+                text: 'There is no added content for this week.',
+                type: 'info',
+                icon: true
+            });
+            wrapper.appendChild(alert);
         }
 
         return wrapper;
@@ -365,6 +379,13 @@ function WeekDomManager() {
                 item.appendChild(imageElement);
                 itemsWrapper.appendChild(item);
             });
+        } else {
+            const alert = domUtility.createAlertElement({
+                text: 'There is no added content for this week.',
+                type: 'info',
+                icon: true
+            });
+            wrapper.appendChild(alert);
         }
 
         return wrapper;
