@@ -768,7 +768,6 @@
                 "image_source": "odin.jpg",
                 "image_name": "The Odin Project",
                 "title": "Rock Paper Scissors",
-                "status": "completed",
                 "tasks": [
                   {
                     "name": "UI Design",

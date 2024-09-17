@@ -89,7 +89,11 @@
    }
 
    .card-project {
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
+
+      .card-title {
+         @include title(1.25rem);
+      }
    }
    .card-project:last-of-type {
       margin-bottom: 0;

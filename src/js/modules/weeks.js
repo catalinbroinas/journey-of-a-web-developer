@@ -150,12 +150,12 @@ function WeekDomManager() {
                 imageClass: ['card-img-top', 'rounded-6', 'shadow-3-strong', 'mt-n3']
             },
             cardHeader: {
-                headerClass: ['d-flex', 'align-items-center', 'px-3'],
+                headerClass: ['d-flex', 'align-items-center', 'p-3'],
                 headerTitleText: title || 'Project Name',
-                headerTitleClass: ['sub-title-small', 'text-center', 'flex-grow-1', 'm-0'],
-                headerIconClass: domUtility.getStatusIconClass(status)
+                headerTitleClass: ['text-center', 'flex-grow-1', 'm-0'],
+                headerIconClass: status ? domUtility.getStatusIconClass(status) : []
             },
-            cardBody: tasks ? {
+            cardBody: tasks && tasks.length > 0 ? {
                 bodyClass: ['py-0', 'px-3'],
                 bodyListItemsClass: ['text'],
                 bodyListItemsWithIcon: tasks.map((task) => ({

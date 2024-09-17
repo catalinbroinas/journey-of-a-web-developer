@@ -18556,7 +18556,13 @@ fieldset:disabled .btn-group-vertical > .btn {
   margin-bottom: 0;
 }
 .week-container .card-project {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+.week-container .card-project .card-title {
+  font-family: "Roboto", Arial, Verdana, sans-serif;
+  font-weight: 700;
+  color: #332D2D;
+  font-size: 1.25rem;
 }
 .week-container .card-project:last-of-type {
   margin-bottom: 0;
