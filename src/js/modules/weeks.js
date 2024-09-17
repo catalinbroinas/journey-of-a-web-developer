@@ -143,16 +143,16 @@ function WeekDomManager() {
         tasks
     }) => {
         const project = domUtility.buildCard({
-            cardClass: ['card', 'border-0', 'rounded-0', 'card-project'],
+            cardClass: ['card', 'border', 'border-0', 'rounded-0', 'px-3', 'card-project'],
             cardImage: {
                 imageSource: `projects/${image_source}` || 'img/webDev.webp',
                 imageName: image_name || 'Web development',
-                imageClass: ['card-img-top', 'rounded-0']
+                imageClass: ['card-img-top', 'rounded-6', 'shadow-3-strong', 'mt-n3']
             },
             cardHeader: {
-                headerClass: ['d-flex', 'align-items-center', 'justify-content-between', 'px-5'],
+                headerClass: ['d-flex', 'align-items-center', 'px-3'],
                 headerTitleText: title || 'Project Name',
-                headerTitleClass: ['sub-title-small', 'm-0'],
+                headerTitleClass: ['sub-title-small', 'text-center', 'flex-grow-1', 'm-0'],
                 headerIconClass: domUtility.getStatusIconClass(status)
             },
             cardBody: tasks || {}
