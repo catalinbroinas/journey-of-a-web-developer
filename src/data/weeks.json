@@ -769,7 +769,16 @@
                 "image_name": "The Odin Project",
                 "title": "Rock Paper Scissors",
                 "status": "completed",
-                "tasks": []
+                "tasks": [
+                  {
+                    "name": "UI Design",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Live Score",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "concepts": [

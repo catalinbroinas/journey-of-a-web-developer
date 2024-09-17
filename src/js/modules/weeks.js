@@ -155,7 +155,14 @@ function WeekDomManager() {
                 headerTitleClass: ['sub-title-small', 'text-center', 'flex-grow-1', 'm-0'],
                 headerIconClass: domUtility.getStatusIconClass(status)
             },
-            cardBody: tasks || {}
+            cardBody: tasks ? {
+                bodyClass: ['py-0', 'px-3'],
+                bodyListItemsClass: ['text'],
+                bodyListItemsWithIcon: tasks.map((task) => ({
+                    text: task.name,
+                    iconClass: domUtility.getStatusIconClass(task.status)
+                }))
+            } : {}
         });
 
         return project;

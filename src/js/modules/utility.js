@@ -245,6 +245,7 @@ function DomUtilityManager() {
         bodyTitle = '',
         bodyText = '',
         bodyListItems = [],
+        bodyListItemsClass = [],
         bodyListItemsWithIcon = [],
         bodyListItemsWithBadge = []
     }) => {
@@ -285,6 +286,7 @@ function DomUtilityManager() {
         // Add list with icons if itemsWithIcon are provided
         if (bodyListItemsWithIcon.length > 0) {
             const list = createList({
+                itemClass: bodyListItemsClass,
                 itemsWithIcon: bodyListItemsWithIcon
             });
             cardBody.appendChild(list);
