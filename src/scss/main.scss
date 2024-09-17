@@ -89,7 +89,8 @@
    }
 
    .card-project {
-      margin-bottom: 3rem;
+      margin: 0 auto 3rem;
+      max-width: 450px;
 
       .card-title {
          @include title(1.25rem);
@@ -97,6 +98,11 @@
    }
    .card-project:last-of-type {
       margin-bottom: 0;
+   }
+
+   .card-work-time {
+      max-width: 225px;
+      margin: auto;
    }
 }
 

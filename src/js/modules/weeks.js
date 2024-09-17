@@ -50,7 +50,7 @@ function WeekDomManager() {
         // Create image wrapper
         const imageWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxxl-6', 'col-xxl-5', 'col-md-5', 'my-auto']
+            elementClass: ['col-ultra-6', 'col-md-5', 'text-center', 'my-auto']
         });
 
         // Create Chapter Image
@@ -68,7 +68,7 @@ function WeekDomManager() {
         // Create list wrapper
         const listWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxxl-6', 'col-md-7']
+            elementClass: ['col-ultra-6', 'col-md-7']
         });
 
         // Create Chapter title
@@ -104,7 +104,7 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-4', 'col-lg-7', 'col-md-12', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+            elementClass: ['col-xxxl-4', 'col-xl-5', 'col-lg-7', 'col-md-12', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
         });
 
         // Create title
@@ -207,7 +207,7 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-2', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12', 'mb-md-0', 'mb-5']
+            elementClass: ['col-xxxl-2', 'col-xxl-3', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12', 'mb-md-0', 'mb-5']
         });
 
         // Create title
