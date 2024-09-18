@@ -2322,6 +2322,121 @@
                 "name": "gitHub logo"
               }
             ]
+          },
+          {
+            "week": 23,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "Objects and Object Constructors",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Factory Functions and the Module Pattern",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "javascript-wide.png",
+                "image_name": "Javascript logo",
+                "title": "Javascript Objects - Liverpool",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "Bootstrap & MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "Bootstrap & MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "Bootstrap & MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "Bootstrap & MDB 5"
+              },
+              {
+                "name": "Object constructors",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototype",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototypes and Inheritance",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototypal Inheritance",
+                "technology": "JS"
+              },
+              {
+                "name": "The `this` keyword",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 20,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "bootstrap.png",
+                "name": "Bootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
           }
         ]
       }
