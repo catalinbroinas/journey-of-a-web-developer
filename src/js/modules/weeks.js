@@ -50,7 +50,7 @@ function WeekDomManager() {
         // Create image wrapper
         const imageWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-ultra-6', 'col-md-5', 'text-center', 'my-auto']
+            elementClass: ['col-ultra-6', 'col-sm-5', 'col-12', 'text-center', 'my-auto']
         });
 
         // Create Chapter Image
@@ -68,7 +68,7 @@ function WeekDomManager() {
         // Create list wrapper
         const listWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-ultra-6', 'col-md-7']
+            elementClass: ['col-ultra-6', 'col-sm-7', 'col-12']
         });
 
         // Create Chapter title
@@ -104,7 +104,10 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxxl-4', 'col-xl-5', 'col-lg-7', 'col-md-12', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+            elementClass: [
+                'col-xxxl-4', 'col-xxl-5', 'col-xl-6', 'col-lg-7',
+                'col-12', 'order-1', 'mb-xxxl-0', 'mb-5'
+            ]
         });
 
         // Create title
@@ -143,7 +146,7 @@ function WeekDomManager() {
         tasks
     }) => {
         const project = domUtility.buildCard({
-            cardClass: ['card', 'border', 'border-0', 'rounded-0', 'px-3', 'card-project'],
+            cardClass: ['border', 'border-0', 'rounded-0', 'px-3', 'card-project'],
             cardImage: {
                 imageSource: `projects/${image_source}` || 'img/webDev.webp',
                 imageName: image_name || 'Web development',
@@ -173,13 +176,16 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-3', 'col-xl-4', 'col-lg-5', 'col-md-6', 'col-sm-10', 'col-12', 'mb-xxl-0', 'mb-5']
+            elementClass: [
+                'col-xxxl-3', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12',
+                'order-xxl-2', 'order-lg-3', 'order-2', 'mb-xxxl-0', 'mb-5'
+            ]
         });
 
         // Create title
         const title = domUtility.createDOMElement({
             elementTag: 'h4',
-            elementClass: ['title-small', 'text-center', 'mb-md-5', 'mb-4'],
+            elementClass: ['title-small', 'text-center', 'mb-5'],
             elementText: 'Projects'
         });
         wrapper.appendChild(title);
@@ -207,7 +213,10 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxxl-2', 'col-xxl-3', 'col-xl-4', 'col-md-6', 'col-sm-10', 'col-12', 'mb-md-0', 'mb-5']
+            elementClass: [
+                'col-ultra-2', 'col-xxl-3', 'col-xl-4', 'col-lg-5', 'col-md-6', 'col-sm-10',
+                'col-12', 'order-xxl-3', 'order-lg-2', 'order-3', 'mb-xxxl-0', 'mb-5'
+            ]
         });
 
         // Create title
@@ -246,7 +255,10 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-12', 'col-xl-6', 'col-lg-12', 'col-md-6', 'col-12']
+            elementClass: [
+                'col-xxxl-12', 'col-xxl-5', 'col-xl-8', 'col-lg-12',
+                'col-md-6', 'col-12'
+            ]
         });
 
         // Create title
@@ -260,7 +272,10 @@ function WeekDomManager() {
         // Create work time row
         const workTimeRow = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['row', 'row-cols-sm-2', 'row-cols-1', 'g-4', 'px-sm-0', 'px-5']
+            elementClass: [
+                'row', 'row-cols-ultra-2', 'row-cols-xxxl-1', 'row-cols-sm-2',
+                'row-cols-1', 'g-4', 'px-sm-0', 'px-5'
+            ]
         });
 
         // Create a card element
@@ -268,7 +283,7 @@ function WeekDomManager() {
             // Create card
             const card = domUtility.createDOMElement({
                 elementTag: 'div',
-                elementClass: ['card']
+                elementClass: ['card', 'card-work-time']
             });
 
             // Create card body
@@ -347,7 +362,7 @@ function WeekDomManager() {
         // Create wrapper
         const wrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-12', 'col-xl-6', 'col-lg-12', 'col-md-6']
+            elementClass: ['col-xxxl-12', 'col-xxl-7', 'col-xl-6', 'col-lg-12', 'col-md-6', 'col-12']
         });
 
         // Create title
@@ -409,7 +424,12 @@ function WeekDomManager() {
         // Create week container
         const weekContainer = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['row', 'justify-content-md-start', 'justify-content-center', 'week'],
+            elementClass: [
+                'row',
+                'justify-content-xxxl-center', 'justify-content-xxl-start',
+                'justify-content-xl-center', 'justify-content-md-start',
+                'justify-content-center', 'week'
+            ],
             elementId: `week-${weekId}`
         });
 
@@ -449,7 +469,10 @@ function WeekDomManager() {
         // Create overview wrapper
         const overviewWrapper = domUtility.createDOMElement({
             elementTag: 'div',
-            elementClass: ['col-xxl-3', 'col-xl-8', 'col-lg-6', 'col-md-12', 'col-sm-10', 'col-12', 'mb-0']
+            elementClass: [
+                'col-ultra-3', 'col-xxxl-2', 'col-xxl-10', 'col-xl-8', 'col-lg-6',
+                'col-md-12', 'col-sm-10', 'col-12', 'order-4', 'mb-0'
+            ]
         });
 
         // Create overview row

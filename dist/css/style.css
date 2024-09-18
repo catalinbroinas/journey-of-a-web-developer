@@ -19596,7 +19596,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-color: #FBFBFB;
 }
 .week-container .week {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .week-container .week:last-of-type {
   margin-bottom: 0;

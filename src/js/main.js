@@ -98,5 +98,5 @@ async function MainDomManager() {
 
 document.addEventListener('DOMContentLoaded', async () => {
     const domManager = await MainDomManager();
-    // domManager.initWeeklyApp();
+    domManager.initWeeklyApp();
 });

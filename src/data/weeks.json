@@ -299,16 +299,16 @@
                 "name": "CSS 3 logo"
               },
               {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
                 "image": "git.png",
                 "name": "Git"
               },
               {
                 "image": "gitHub.png",
                 "name": "gitHub"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               }
             ]
           },
@@ -395,16 +395,16 @@
                 "name": "CSS 3 logo"
               },
               {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
                 "image": "git.png",
                 "name": "Git"
               },
               {
                 "image": "gitHub.png",
                 "name": "gitHub"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               }
             ]
           },
@@ -499,16 +499,16 @@
                 "name": "Javascript logo"
               },
               {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
                 "image": "git.png",
                 "name": "Git logo"
               },
               {
                 "image": "gitHub.png",
                 "name": "gitHub logo"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               }
             ]
           }
@@ -599,16 +599,16 @@
                 "name": "Javascript logo"
               },
               {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
                 "image": "git.png",
                 "name": "Git logo"
               },
               {
                 "image": "gitHub.png",
                 "name": "gitHub logo"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               }
             ]
           },
@@ -713,16 +713,16 @@
                 "name": "Javascript logo"
               },
               {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
                 "image": "git.png",
                 "name": "Git logo"
               },
               {
                 "image": "gitHub.png",
                 "name": "gitHub logo"
-              },
-              {
-                "image": "npm.png",
-                "name": "npm logo"
               }
             ]
           },
