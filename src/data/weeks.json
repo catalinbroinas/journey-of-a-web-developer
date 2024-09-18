@@ -2439,6 +2439,133 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 2,
+          "name": "february"
+        },
+        "weeks": [
+          {
+            "week": 24,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "Factory Functions and the Module Pattern",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Tic Tac Toe",
+                "status": "in-progress",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Sidebar",
+                "technology": "CSS"
+              },
+              {
+                "name": "List Group",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Links & Buttons",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "Scope",
+                "technology": "JS"
+              },
+              {
+                "name": "Closures",
+                "technology": "JS"
+              },
+              {
+                "name": "Private variables and functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototypal inheritance with factories",
+                "technology": "JS"
+              },
+              {
+                "name": "The module pattern: IIFEs",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 27,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
