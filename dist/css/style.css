@@ -19631,6 +19631,9 @@ fieldset:disabled .btn-group-vertical > .btn {
   max-width: 225px;
   margin: auto;
 }
+.week-container .card-work-time .icon-work-time {
+  color: #2962FF;
+}
 
 .custom-checkbox {
   width: 20rem;

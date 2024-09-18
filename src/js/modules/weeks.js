@@ -301,7 +301,7 @@ function WeekDomManager() {
             // Create icon element
             const iconElement = domUtility.createDOMElement({
                 elementTag: 'i',
-                elementClass: ['fa-solid', iconClass, 'fa-3x', 'me-sm-3', 'text-primary'],
+                elementClass: ['fa-solid', iconClass, 'fa-3x', 'me-sm-3', 'icon-work-time'],
                 elementAttributes: {
                     'data-mdb-tooltip-init': '',
                     'data-mdb-placement': 'bottom',

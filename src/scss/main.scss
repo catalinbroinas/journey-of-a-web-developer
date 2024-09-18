@@ -103,6 +103,10 @@
    .card-work-time {
       max-width: 225px;
       margin: auto;
+
+      .icon-work-time {
+         color: $primary-dark;
+      }
    }
 }
 
