@@ -1825,5 +1825,506 @@
         ]
       }
     ]
+  },
+  {
+    "year": 2024,
+    "months": [
+      {
+        "month": {
+          "number": 1,
+          "name": "january"
+        },
+        "weeks": [
+          {
+            "week": 19,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "new-year-2024.jpg",
+                "image_name": "City on night period",
+                "title": "New Year 2024",
+                "status": "in-progress",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Simple hero with background & text",
+                "technology": "SVG"
+              },
+              {
+                "name": "Callback function",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 3,
+              "hours": 14,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 20,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "new-year-2024.jpg",
+                "image_name": "City on night period",
+                "title": "New Year 2024",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "random-numbers.jpg",
+                "image_name": "Numbers on blue background",
+                "title": "Random Numbers Game",
+                "status": "postponed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 29,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 21,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Introduction",
+                "tasks": [
+                  {
+                    "name": "How This Course Will Work",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "A Quick Review",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "Organizing Code Introduction",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Objects and Object Constructors",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "new-year-2024.jpg",
+                "image_name": "City on night period",
+                "title": "New Year 2024",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "random-numbers.jpg",
+                "image_name": "Numbers on blue background",
+                "title": "Random Numbers Game",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Rock Paper Scissors",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Position",
+                "technology": "CSS"
+              },
+              {
+                "name": "Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "Math",
+                "technology": "JS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Object constructors",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototype",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototypes and Inheritance",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototypal Inheritance",
+                "technology": "JS"
+              },
+              {
+                "name": "The `this` keyword",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 32,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 22,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "Factory Functions and the Module Pattern",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Classes",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "ES6 Modules",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "Webpack",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Library",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Tic Tac Toe",
+                "status": "postponed",
+                "tasks": []
+              },
+              {
+                "image_source": "random-numbers.jpg",
+                "image_name": "Numbers on blue background",
+                "title": "Random Numbers Game",
+                "status": "postponed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects & Prototypes",
+                "technology": "JS"
+              },
+              {
+                "name": "Scoopfuls of scopes",
+                "technology": "JS"
+              },
+              {
+                "name": "Closures",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "Private variables and functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Prototypal inheritance with factories",
+                "technology": "JS"
+              },
+              {
+                "name": "The module pattern: IIFEs",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 40,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
