@@ -2907,6 +2907,442 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 3,
+          "name": "march"
+        },
+        "weeks": [
+          {
+            "week": 28,
+            "learning": [
+              {
+                "image": {
+                  "source": "webpack.png",
+                  "name": "Webpack 5"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "Getting Started",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Asset Management",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Output Management",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Development",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Code Splitting",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Tree Shaking",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Lazy Loading",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Restaurant Page",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Navbar",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "import & export modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 21,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 29,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "JSON",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "OOP Principles",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Todo List",
+                "status": "postponed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Working with JSON",
+                "technology": "JSON"
+              },
+              {
+                "name": "JSON.parse() & JSON.stringify()",
+                "technology": "JS"
+              },
+              {
+                "name": "Single Responsibility Principle",
+                "technology": "OOP"
+              },
+              {
+                "name": "SOLID principles",
+                "technology": "OOP"
+              },
+              {
+                "name": "Loosely coupled objects",
+                "technology": "OOP"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 15,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 30,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Todo List",
+                "status": "in-progress",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Sidebar",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "List Group",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Links & Buttons",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Web Storage API",
+                "technology": "Browser"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 23,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 31,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Todo List",
+                "status": "in-progress",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "List Group",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Links & Buttons",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "localStorage",
+                "technology": "JS"
+              },
+              {
+                "name": "JSON.parse() & JSON.stringify()",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 26,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
