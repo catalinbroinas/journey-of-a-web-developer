@@ -3343,6 +3343,389 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 4,
+          "name": "april"
+        },
+        "weeks": [
+          {
+            "week": 32,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Todo List",
+                "status": "in-progress",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "localStorage",
+                "technology": "JS"
+              },
+              {
+                "name": "JSON.parse() & JSON.stringify()",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 25,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 33,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Todo List",
+                "status": "in-progress",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Dialog",
+                "technology": "HTML"
+              },
+              {
+                "name": "Forms & Forms validation",
+                "technology": "JS & CSS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "localStorage",
+                "technology": "JS"
+              },
+              {
+                "name": "JSON.parse() & JSON.stringify()",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 27,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 34,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Todo List",
+                "status": "completed",
+                "tasks": []
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Dialog",
+                "technology": "HTML"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "Forms & Forms validation",
+                "technology": "JS & CSS"
+              },
+              {
+                "name": "Icons",
+                "technology": "Material Design Icons"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "localStorage",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 24,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 35,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript in the Real World",
+                "tasks": [
+                  {
+                    "name": "Linting",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Dynamic User Interface Interactions",
+                    "status": "unstarted"
+                  },
+                  {
+                    "name": "Form Validation with Javascript",
+                    "status": "unstarted"
+                  },
+                  {
+                    "name": "What is ES6?",
+                    "status": "unstarted"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Airbnb JavaScript Style Guide",
+                "technology": "JS"
+              },
+              {
+                "name": "Google JavaScript Style Guide",
+                "technology": "JS"
+              },
+              {
+                "name": "JavaScript Standard Style",
+                "technology": "JS"
+              },
+              {
+                "name": "Linting - ESLint",
+                "technology": "Coding"
+              },
+              {
+                "name": "Formatters - Prettier",
+                "technology": "Coding"
+              },
+              {
+                "name": "Using ESLint and Prettier",
+                "technology": "Coding Tools"
+              }
+            ],
+            "working_time": {
+              "days": 3,
+              "hours": 14,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
