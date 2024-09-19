@@ -2468,8 +2468,12 @@
                 "image_source": "odin.jpg",
                 "image_name": "The Odin Project",
                 "title": "Tic Tac Toe",
-                "status": "in-progress",
-                "tasks": []
+                "tasks": [
+                  {
+                    "name": "Functionality - JavaScript logic",
+                    "status": "in-progress"
+                  }
+                ]
               },
               {
                 "image_source": "mdb.jpg",
@@ -2481,31 +2485,15 @@
             ],
             "concepts": [
               {
-                "name": "Layout",
-                "technology": "CSS"
-              },
-              {
-                "name": "Sidebar",
-                "technology": "CSS"
-              },
-              {
-                "name": "List Group",
-                "technology": "HTML & CSS"
-              },
-              {
-                "name": "Links & Buttons",
-                "technology": "HTML & CSS"
-              },
-              {
-                "name": "Utilities",
-                "technology": "CSS"
-              },
-              {
-                "name": "Styles",
-                "technology": "CSS"
+                "name": "Number",
+                "technology": "JS"
               },
               {
                 "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
                 "technology": "JS"
               },
               {
@@ -2531,10 +2519,6 @@
               {
                 "name": "The module pattern: IIFEs",
                 "technology": "JS"
-              },
-              {
-                "name": "DOM Manipulation and Events",
-                "technology": "JS"
               }
             ],
             "working_time": {
@@ -2554,6 +2538,363 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 25,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "Classes",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Tic Tac Toe",
+                "tasks": [
+                  {
+                    "name": "Functionality - JavaScript logic",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "User Interface design",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 22,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 26,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "Classes",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Tic Tac Toe",
+                "tasks": [
+                  {
+                    "name": "User Interface design",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "CSS"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Page background: waves",
+                "technology": "SVG"
+              },
+              {
+                "name": "Forms & Forms validation",
+                "technology": "HTML & CSS"
+              },
+              {
+                "name": "Icons",
+                "technology": "Material Design Icons"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Classes & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Getters and Setters",
+                "technology": "JS"
+              },
+              {
+                "name": "Function binding",
+                "technology": "JS"
+              },
+              {
+                "name": "Private class fields and methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Use inheritance with classes",
+                "technology": "JS"
+              },
+              {
+                "name": "Composition is generally preferred to inheritance",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 20,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 27,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript - Organizing Code",
+                "tasks": [
+                  {
+                    "name": "ES6 Modules",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Webpack",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Library",
+                "tasks": [
+                  {
+                    "name": "Refactor code: use Classes",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed",
+                "tasks": []
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Classes & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "import & export modules",
+                "technology": "JS"
+              },
+              {
+                "name": "CommonJS vs ES6 modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Entry points",
+                "technology": "JS"
+              },
+              {
+                "name": "Bundlers: purpose and how they work",
+                "technology": "JS"
+              },
+              {
+                "name": "Webpack",
+                "technology": "Webpack"
+              },
+              {
+                "name": "Webpack concepts",
+                "technology": "Webpack"
+              },
+              {
+                "name": "Configure Webpack",
+                "technology": "Webpack"
+              },
+              {
+                "name": "Asset Management",
+                "technology": "Webpack"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 26,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
               },
               {
                 "image": "git.png",
