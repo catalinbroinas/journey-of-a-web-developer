@@ -5536,6 +5536,394 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 9,
+          "name": "september"
+        },
+        "weeks": [
+          {
+            "week": 53,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Week Section - Data from JSON",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Week Navigation - Data from JSON",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Display weekly progress",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Filter data based on the navigation menu",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "postponed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Spacing",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Typography",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Tooltip",
+                "technology": "MDB 5 & JS"
+              },
+              {
+                "name": "String & Number Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Promises",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Insertion",
+                "technology": "JSON"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 35,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 54,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Week Navigation - Improve design",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Week Section - Improve design",
+                    "status": "unstarted"
+                  },
+                  {
+                    "name": "Populate JSON file with all weeks",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Styling forms",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Tooltip",
+                "technology": "MDB 5 & JS"
+              },
+              {
+                "name": "String & Number Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Promises",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Insertion",
+                "technology": "JSON"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 23,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 55,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Week Section - Improve design",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Populate JSON file with all weeks",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Alert element",
+                "technology": "SASS"
+              },
+              {
+                "name": "Card & List Group",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Custom Theme Colors",
+                "technology": "SASS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Promises",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Insertion",
+                "technology": "JSON"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
