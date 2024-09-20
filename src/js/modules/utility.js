@@ -1,6 +1,6 @@
 function DomUtilityManager() {
     const statusIconClasses = {
-        added: ['fa-solid', 'fa-circle', 'text-dark', 'ms-md-5', 'ms-3'],
+        added: ['fa-regular', 'fa-circle', 'text-dark', 'ms-md-5', 'ms-3'],
         completed: ['fa-solid', 'fa-circle-check', 'text-success', 'ms-md-5', 'ms-3'],
         'in-progress': ['fa-solid', 'fa-spinner', 'text-primary', 'ms-md-5', 'ms-3'],
         unstarted: ['fa-solid', 'fa-circle-xmark', 'text-danger', 'ms-md-5', 'ms-3'],
