@@ -4500,6 +4500,547 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 7,
+          "name": "july"
+        },
+        "weeks": [
+          {
+            "week": 44,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "A Bit of Computer Science",
+                "tasks": [
+                  {
+                    "name": "HashMap Data Structure",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "euro-2024.jpg",
+                "image_name": "Olympiastadion",
+                "title": "EURO 2024",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Linked Lists",
+                "status": "postponed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS & JSON"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 22,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 45,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "A Bit of Computer Science",
+                "tasks": [
+                  {
+                    "name": "HashMap Data Structure",
+                    "status": "unstarted"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "euro-2024.jpg",
+                "image_name": "Olympiastadion",
+                "title": "EURO 2024",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted"
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Linked Lists",
+                "status": "unstarted"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS & JSON"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 15,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 46,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "A Bit of Computer Science",
+                "tasks": [
+                  {
+                    "name": "HashMap Data Structure",
+                    "status": "postponed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "euro-2024.jpg",
+                "image_name": "Olympiastadion",
+                "title": "EURO 2024",
+                "status": "completed"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Linked Lists",
+                "status": "postponed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS & JSON"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 31,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 47,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "A Bit of Computer Science",
+                "tasks": [
+                  {
+                    "name": "HashMap Data Structure",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Linked Lists",
+                "status": "completed"
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "HashMap",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Loops",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 26,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 48,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "HashMap",
+                "status": "completed"
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Binary Search Trees",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Loops",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 27,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
