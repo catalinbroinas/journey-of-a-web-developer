@@ -3726,6 +3726,390 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 5,
+          "name": "may"
+        },
+        "weeks": [
+          {
+            "week": 36,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript in the Real World",
+                "tasks": [
+                  {
+                    "name": "Dynamic User Interface Interactions",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Form Validation with Javascript",
+                    "status": "in-progress"
+                  },
+                  {
+                    "name": "What is ES6?",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [],
+            "concepts": [
+              {
+                "name": "Drop-down menus",
+                "technology": "JS"
+              },
+              {
+                "name": "Image carousel",
+                "technology": "JS"
+              },
+              {
+                "name": "Constraint Validation API",
+                "technology": "JS"
+              },
+              {
+                "name": "Form Validation",
+                "technology": "JS & CSS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 22,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 37,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Javascript in the Real World",
+                "tasks": [
+                  {
+                    "name": "Form Validation with Javascript",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Asynchronous JavaScript and APIs",
+                "tasks": [
+                  {
+                    "name": "Asynchronous Code",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Working with APIs",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Async and Await?",
+                    "status": "unstarted"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Constraint Validation API",
+                "technology": "JS"
+              },
+              {
+                "name": "Form Validation",
+                "technology": "JS & CSS"
+              },
+              {
+                "name": "Callbacks",
+                "technology": "JS"
+              },
+              {
+                "name": "Promises",
+                "technology": "JS"
+              },
+              {
+                "name": "`then()` function",
+                "technology": "JS"
+              },
+              {
+                "name": "APIs",
+                "technology": "JS"
+              },
+              {
+                "name": "Fetching data",
+                "technology": "JS"
+              },
+              {
+                "name": "CORS",
+                "technology": "Browser & JS"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 21,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 38,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Asynchronous JavaScript and APIs",
+                "tasks": [
+                  {
+                    "name": "Async and Await?",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Weather App",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "unstarted"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "The async keyword",
+                "technology": "JS"
+              },
+              {
+                "name": "The await keyword",
+                "technology": "JS"
+              },
+              {
+                "name": "Error handling",
+                "technology": "JS"
+              },
+              {
+                "name": "API keys, secrets, and security",
+                "technology": "API"
+              },
+              {
+                "name": "Weather API",
+                "technology": "API"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 15,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack 5"
+              },
+              {
+                "image": "weatherApi.png",
+                "name": "Weather API logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 39,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Weather App",
+                "status": "completed"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "CSS"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "CSS"
+              },
+              {
+                "name": "Forms & Forms validation",
+                "technology": "CSS & JS"
+              },
+              {
+                "name": "Icons",
+                "technology": "Material Design Icons"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Promises",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Weather API",
+                "technology": "API"
+              },
+              {
+                "name": "format() & parseISO()",
+                "technology": "data-fns"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 22,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack 5"
+              },
+              {
+                "image": "weatherApi.png",
+                "name": "Weather API logo"
+              },
+              {
+                "image": "data-fns.png",
+                "name": "Data fns logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
