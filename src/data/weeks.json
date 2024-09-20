@@ -5041,6 +5041,501 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 8,
+          "name": "august"
+        },
+        "weeks": [
+          {
+            "week": 49,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Binary Search Trees",
+                "status": "completed"
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Knights Travails",
+                "status": "completed"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Math & Number",
+                "technology": "JS"
+              },
+              {
+                "name": "Array",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Loops",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 30,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 50,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "status": "completed"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Variables",
+                "technology": "SASS"
+              },
+              {
+                "name": "Mixins",
+                "technology": "SASS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 20,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 51,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "Organizing Your Javascript Code",
+                "tasks": [
+                  {
+                    "name": "ES6 Modules",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "npm",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Webpack",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Revisiting Webpack",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "webpack.png",
+                  "name": "Webpack 5"
+                },
+                "title": "",
+                "tasks": [
+                  {
+                    "name": "Concepts",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Getting Started",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Asset Management",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Production",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Navigation",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Week Section - static design",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Styling Forms",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              },
+              {
+                "name": "import & export modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Entry points",
+                "technology": "JS"
+              },
+              {
+                "name": "CommonJS vs ES6 modules",
+                "technology": "JS"
+              },
+              {
+                "name": "npm",
+                "technology": "npm"
+              },
+              {
+                "name": "The package.json file",
+                "technology": "npm & JSON"
+              },
+              {
+                "name": "Installing packages",
+                "technology": "npm"
+              },
+              {
+                "name": "devDependencies & dependencies",
+                "technology": "npm"
+              },
+              {
+                "name": "npm scripts",
+                "technology": "npm & JSON"
+              },
+              {
+                "name": "Webpack modes",
+                "technology": "Webpack"
+              },
+              {
+                "name": "Template repositories",
+                "technology": "gitHub"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 40,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 52,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Week Section - Data from JSON",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              },
+              {
+                "name": "Array & Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Insertion",
+                "technology": "JSON"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 21,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
