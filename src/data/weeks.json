@@ -4110,6 +4110,396 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 6,
+          "name": "june"
+        },
+        "weeks": [
+          {
+            "week": 40,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "A Bit of Computer Science",
+                "tasks": [
+                  {
+                    "name": "A Very Brief Intro to CS",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Recursive Methods",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "status": "unstarted"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "in-progress"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Carousel",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Algorithm",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Pseudo-code",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Recursion",
+                "technology": "Computer Science"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 14,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 41,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Recursion",
+                "status": "unstarted"
+              },
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "status": "postponed"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Animations",
+                "technology": "CSS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 4,
+              "hours": 20,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 42,
+            "learning": [],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Recursion",
+                "status": "completed"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Recursion",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 25,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          },
+          {
+            "week": 43,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.jpg",
+                  "name": "The Odin Project"
+                },
+                "title": "A Bit of Computer Science",
+                "tasks": [
+                  {
+                    "name": "Time Complexity",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Space Complexity",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Common Date Structures and Algorithms",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "euro-2024.jpg",
+                "image_name": "Olympiastadion",
+                "title": "EURO 2024",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Blog`s template",
+                "status": "postponed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Navbar",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Carousel",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Efficiency basics",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Asymptotic notations",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Big O",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Measuring space complexity",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Data Structures",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Stacks & Queues",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Binary Search,",
+                "technology": "Computer Science"
+              },
+              {
+                "name": "Binary tree traversal",
+                "technology": "Computer Science"
+              }
+            ],
+            "working_time": {
+              "days": 5,
+              "hours": 22,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5 logo"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3 logo"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript logo"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5 logo"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm logo"
+              },
+              {
+                "image": "git.png",
+                "name": "Git logo"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub logo"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
