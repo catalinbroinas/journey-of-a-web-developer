@@ -156,7 +156,8 @@ function WeekDomManager() {
                 headerClass: ['d-flex', 'align-items-center', 'p-3'],
                 headerTitleText: title || 'Project Name',
                 headerTitleClass: ['text-center', 'flex-grow-1', 'm-0'],
-                headerIconClass: status ? domUtility.getStatusIconClass(status) : []
+                headerIconClass: status ? domUtility.getStatusIconClass(status) : [],
+                headerIconTitle: status ? domUtility.getStatusIconText(status) : ''
             },
             cardBody: tasks && tasks.length > 0 ? {
                 bodyClass: ['py-0', 'px-3'],

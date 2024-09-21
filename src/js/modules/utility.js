@@ -2,13 +2,25 @@ function DomUtilityManager() {
     const statusIconClasses = {
         added: ['fa-regular', 'fa-circle', 'text-dark', 'ms-md-5', 'ms-3'],
         completed: ['fa-solid', 'fa-circle-check', 'text-success', 'ms-md-5', 'ms-3'],
+        'tasks-completed': ['fa-solid', 'fa-check-to-slot', 'text-success', 'ms-md-5', 'ms-3'],
         'in-progress': ['fa-solid', 'fa-spinner', 'text-primary', 'ms-md-5', 'ms-3'],
         unstarted: ['fa-solid', 'fa-circle-xmark', 'text-danger', 'ms-md-5', 'ms-3'],
         postponed: ['fa-solid', 'fa-hourglass-half', 'text-info', 'ms-md-5', 'ms-3'],
         default: ['fa-solid', 'fa-circle-question', 'text-muted', 'ms-md-5', 'ms-3']
     };
 
+    const statusIconText = {
+        added: 'New activity added',
+        completed: 'Activity completed',
+        'tasks-completed': 'All tasks completed',
+        'in-progress': 'In progress, not yet finished',
+        unstarted: 'No work was done',
+        postponed: 'Deferred activity',
+        default: 'Status unknown'
+    };
+
     const getStatusIconClass = (status) => statusIconClasses[status] || statusIconClasses.default;
+    const getStatusIconText = (status) => statusIconText[status] || statusIconText.default;
 
     const clearPageContent = (container) => {
         while (container.firstChild) {
@@ -207,7 +219,8 @@ function DomUtilityManager() {
         headerClass = [],
         headerTitleText = '',
         headerTitleClass = [],
-        headerIconClass = []
+        headerIconClass = [],
+        headerIconTitle = ''
     }) => {
         // Create card header container
         const cardHeader = createDOMElement({
@@ -230,8 +243,18 @@ function DomUtilityManager() {
         if (headerIconClass.length > 0) {
             const icon = createDOMElement({
                 elementTag: 'i',
-                elementClass: headerIconClass
+                elementClass: headerIconClass,
+                elementAttributes: headerIconTitle ? {
+                    'data-mdb-tooltip-init': '',
+                    'data-mdb-placement': 'bottom',
+                    'title': headerIconTitle
+                } : {}
             });
+
+            // Init tooltip
+            if (headerIconTitle) {
+                const tooltipInstance = new mdb.Tooltip(icon);
+            }
 
             cardHeader.appendChild(icon);
         }
@@ -405,6 +428,7 @@ function DomUtilityManager() {
         createAlertElement,
         buildCard,
         getStatusIconClass,
+        getStatusIconText,
         createOptionElement,
         createSelectOptions,
         updateSelectOptions
