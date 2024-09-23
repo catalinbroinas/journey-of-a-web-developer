@@ -35,6 +35,19 @@
                     "status": "completed"
                   }
                 ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "projects": [
@@ -124,6 +137,19 @@
                   },
                   {
                     "name": "Tutorial CodeAcademy",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
                     "status": "completed"
                   }
                 ]
@@ -543,6 +569,19 @@
                     "status": "completed"
                   }
                 ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "projects": [
@@ -845,6 +884,19 @@
                     "status": "unstarted"
                   }
                 ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "projects": [
@@ -1027,6 +1079,19 @@
                 "tasks": [
                   {
                     "name": "Conclusion",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
                     "status": "completed"
                   }
                 ]
