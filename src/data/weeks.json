@@ -1815,7 +1815,34 @@
         "weeks": [
           {
             "week": 19,
-            "learning": [],
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
             "projects": [
               {
                 "image_source": "new-year-2024.jpg",
@@ -1827,8 +1854,8 @@
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "completed",
+                "title": "Template",
+                "status": "tasks-completed",
                 "tasks": []
               }
             ],
@@ -1873,8 +1900,8 @@
                 "name": "HTML 5 logo"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "javascript-icon.png",
@@ -1896,27 +1923,40 @@
           },
           {
             "week": 20,
-            "learning": [],
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
             "projects": [
               {
                 "image_source": "new-year-2024.jpg",
                 "image_name": "City on night period",
                 "title": "New Year 2024",
-                "status": "completed",
-                "tasks": []
-              },
-              {
-                "image_source": "random-numbers.jpg",
-                "image_name": "Numbers on blue background",
-                "title": "Random Numbers Game",
-                "status": "postponed",
-                "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
+                "status": "tasks-completed",
                 "tasks": []
               }
             ],
@@ -1953,8 +1993,8 @@
                 "name": "HTML 5 logo"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "javascript-icon.png",
@@ -2010,6 +2050,32 @@
                     "status": "completed"
                   }
                 ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "projects": [
@@ -2024,7 +2090,7 @@
                 "image_source": "random-numbers.jpg",
                 "image_name": "Numbers on blue background",
                 "title": "Random Numbers Game",
-                "status": "completed",
+                "status": "tasks-completed",
                 "tasks": []
               },
               {
@@ -2037,7 +2103,7 @@
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
+                "title": "Template",
                 "status": "completed",
                 "tasks": []
               }
@@ -2123,6 +2189,10 @@
                 "name": "Javascript logo"
               },
               {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5 logo"
               },
@@ -2163,6 +2233,32 @@
                     "status": "postponed"
                   }
                 ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "projects": [
@@ -2174,23 +2270,9 @@
                 "tasks": []
               },
               {
-                "image_source": "odin.jpg",
-                "image_name": "The Odin Project",
-                "title": "Tic Tac Toe",
-                "status": "postponed",
-                "tasks": []
-              },
-              {
-                "image_source": "random-numbers.jpg",
-                "image_name": "Numbers on blue background",
-                "title": "Random Numbers Game",
-                "status": "postponed",
-                "tasks": []
-              },
-              {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
+                "title": "Template",
                 "status": "completed",
                 "tasks": []
               }
@@ -2288,6 +2370,10 @@
                 "name": "Javascript logo"
               },
               {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
+              },
+              {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5 logo"
               },
@@ -2320,6 +2406,32 @@
                     "status": "in-progress"
                   }
                 ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "bootstrap.png",
+                  "name": "Bootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "projects": [
@@ -2333,7 +2445,7 @@
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
+                "title": "Template",
                 "status": "completed",
                 "tasks": []
               }
@@ -2397,6 +2509,10 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript logo"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "mdb5.png",
