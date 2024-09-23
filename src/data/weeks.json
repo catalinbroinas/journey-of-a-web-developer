@@ -5793,7 +5793,34 @@
           },
           {
             "week": 55,
-            "learning": [],
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Using the Fetch API",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "dataCamp.jpg",
+                  "name": "DataCamp logo"
+                },
+                "title": "Git",
+                "tasks": [
+                  {
+                    "name": "Git Reset and Revert",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
             "projects": [
               {
                 "image_source": "bridge-road.jpg",
@@ -5814,7 +5841,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -5880,8 +5907,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": 6,
+              "hours": 34,
               "notice": {}
             },
             "technologies": [
