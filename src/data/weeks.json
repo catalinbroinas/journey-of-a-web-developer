@@ -42,7 +42,7 @@
                 "image_source": "bridge.jpg",
                 "image_name": "Bridge",
                 "title": "My 27 Biography",
-                "status": "completed",
+                "status": "tasks-completed",
                 "tasks": []
               }
             ],
@@ -83,8 +83,8 @@
                 "name": "HTML 5 logo"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "mdb5.png",
@@ -183,8 +183,8 @@
                 "name": "HTML 5 logo"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "javascript-icon.png",
@@ -204,7 +204,7 @@
                   "source": "odin.jpg",
                   "name": "The Odin Project"
                 },
-                "title": "",
+                "title": "Foundations",
                 "tasks": [
                   {
                     "name": "Introduction",
@@ -320,7 +320,7 @@
                   "source": "odin.jpg",
                   "name": "The Odin Project"
                 },
-                "title": "",
+                "title": "Foundations",
                 "tasks": [
                   {
                     "name": "CSS Foundations",
@@ -591,8 +591,8 @@
                 "name": "HTML 5 logo"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "javascript-icon.png",
@@ -854,13 +854,6 @@
                 "title": "Etch-a-Sketch",
                 "status": "completed",
                 "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "unstarted",
-                "tasks": []
               }
             ],
             "concepts": [
@@ -1100,7 +1093,21 @@
           },
           {
             "week": 12,
-            "learning": [],
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for projects",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
             "projects": [
               {
                 "image_source": "odin.jpg",
@@ -1114,13 +1121,6 @@
                 "image_name": "The Odin Project",
                 "title": "Calculator",
                 "status": "completed",
-                "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
                 "tasks": []
               }
             ],
@@ -1192,13 +1192,6 @@
                 "image_name": "The Odin Project",
                 "title": "Odin Repository",
                 "status": "completed",
-                "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
                 "tasks": []
               }
             ],
@@ -1322,15 +1315,7 @@
                 ]
               }
             ],
-            "projects": [
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
-                "tasks": []
-              }
-            ],
+            "projects": [],
             "concepts": [
               {
                 "name": "Emmet abbreviations",
@@ -1466,13 +1451,6 @@
                 "title": "Sign-up Form",
                 "status": "completed",
                 "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
-                "tasks": []
               }
             ],
             "concepts": [
@@ -1597,13 +1575,6 @@
                 "title": "Admin Dashboard",
                 "status": "completed",
                 "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
-                "tasks": []
               }
             ],
             "concepts": [
@@ -1690,20 +1661,27 @@
           },
           {
             "week": 17,
-            "learning": [],
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
             "projects": [
               {
                 "image_source": "random-numbers.jpg",
                 "image_name": "Numbers on blue background",
                 "title": "Random Numbers",
                 "status": "completed",
-                "tasks": []
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
-                "status": "postponed",
                 "tasks": []
               }
             ],
@@ -1783,7 +1761,7 @@
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
-                "title": "Blog`s template",
+                "title": "Template",
                 "status": "in-progress",
                 "tasks": []
               }
@@ -1813,8 +1791,8 @@
                 "name": "HTML 5 logo"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "image": "sass-icon.png",
+                "name": "SASS logo"
               },
               {
                 "image": "mdb5.png",
