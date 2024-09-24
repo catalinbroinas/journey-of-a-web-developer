@@ -182,6 +182,38 @@
    to { opacity: 1; }
 }
 
+.scroll-button {
+   appearance: none;
+   cursor: pointer;
+   position: fixed;
+   z-index: 100;
+   bottom: 30px;
+   right: 30px;
+   border: none;
+   background-color: transparent;
+   color: $secondary-light;
+   padding: 0;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+   transition: box-shadow 0.3s ease;
+
+   &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   }
+
+   i {
+      font-size: 48px;
+      color: $primary-dark;
+      transition: color 0.3s ease;
+   }
+   i:hover {
+      color: $secondary-dark;
+   }
+}
+
 // Content
 .logo-icons {
    width: 75px;
@@ -232,6 +264,10 @@
    .hidden-select {
       display: none;
    }
+   .scroll-button {
+      bottom: 24px;
+      right: 24px;
+    }
 }
 
 // Small devices (portrait)

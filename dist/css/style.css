@@ -19704,6 +19704,36 @@ fieldset:disabled .btn-group-vertical > .btn {
     opacity: 1;
   }
 }
+.scroll-button {
+  appearance: none;
+  cursor: pointer;
+  position: fixed;
+  z-index: 100;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.scroll-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.scroll-button i {
+  font-size: 48px;
+  color: #2962FF;
+  transition: color 0.3s ease;
+}
+.scroll-button i:hover {
+  color: #304FFE;
+}
+
 .logo-icons {
   width: 75px;
   height: auto;
@@ -19744,6 +19774,10 @@ fieldset:disabled .btn-group-vertical > .btn {
 @media only screen and (max-width: 991px) {
   .hidden-select {
     display: none;
+  }
+  .scroll-button {
+    bottom: 24px;
+    right: 24px;
   }
 }
 @media only screen and (max-width: 767px) and (orientation: portrait) {
