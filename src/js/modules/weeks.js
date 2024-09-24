@@ -87,7 +87,8 @@ function WeekDomManager() {
             itemClass: ['text', 'px-4'],
             itemsWithIcon: tasks.map((task) => ({
                 text: task.name,
-                iconClass: domUtility.getStatusIconClass(task.status)
+                iconClass: domUtility.getStatusIconClass(task.status),
+                iconTitle: domUtility.getStatusIconText(task.status)
             }))
         });
 
@@ -164,7 +165,8 @@ function WeekDomManager() {
                 bodyListItemsClass: ['text'],
                 bodyListItemsWithIcon: tasks.map((task) => ({
                     text: task.name,
-                    iconClass: domUtility.getStatusIconClass(task.status)
+                    iconClass: domUtility.getStatusIconClass(task.status),
+                    iconTitle: domUtility.getStatusIconText(task.status)
                 }))
             } : {}
         });

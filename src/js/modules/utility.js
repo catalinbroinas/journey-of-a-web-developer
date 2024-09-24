@@ -97,7 +97,7 @@ function DomUtilityManager() {
 
         // Adding list items with icons
         if (itemsWithIcon.length) {
-            itemsWithIcon.forEach(({ text, iconClass }) => {
+            itemsWithIcon.forEach(({ text, iconClass, iconTitle = '' }) => {
                 const listItem = createDOMElement({
                     elementTag: 'li',
                     elementClass: ['list-group-item', 'd-flex', 'justify-content-between', 'align-items-center'].concat(itemClass)
@@ -105,8 +105,18 @@ function DomUtilityManager() {
 
                 const icon = createDOMElement({
                     elementTag: 'i',
-                    elementClass: iconClass
+                    elementClass: iconClass,
+                    elementAttributes: iconTitle ? {
+                        'data-mdb-tooltip-init': '',
+                        'data-mdb-placement': 'bottom',
+                        'title': iconTitle
+                    } : {}
                 });
+
+                // Init tooltip
+                if (iconTitle) {
+                    const tooltipInstance = new mdb.Tooltip(icon);
+                }
 
                 listItem.appendChild(icon);
                 listItem.insertAdjacentText('afterbegin', text);
