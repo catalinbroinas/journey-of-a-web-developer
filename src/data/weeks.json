@@ -93,11 +93,11 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "mdb5.png",
@@ -206,15 +206,15 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
@@ -318,11 +318,11 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "mdb5.png",
@@ -414,11 +414,11 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "mdb5.png",
@@ -514,15 +514,15 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
@@ -530,11 +530,11 @@
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -627,15 +627,15 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
@@ -643,11 +643,11 @@
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -741,27 +741,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -845,23 +845,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -934,23 +934,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -1047,23 +1047,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1136,23 +1136,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1215,23 +1215,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1298,23 +1298,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1447,11 +1447,11 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               }
             ]
           }
@@ -1580,23 +1580,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1704,23 +1704,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1792,23 +1792,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -1853,15 +1853,15 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               }
             ]
           }
@@ -1962,27 +1962,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -2055,27 +2055,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -2243,31 +2243,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -2424,31 +2424,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -2565,35 +2565,35 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "bootstrap.png",
-                "name": "Bootstrap 5 logo"
+                "name": "Bootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -2694,23 +2694,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -2803,23 +2803,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -2936,23 +2936,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3061,31 +3061,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -3202,31 +3202,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3290,19 +3290,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3394,31 +3394,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3510,31 +3510,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -3614,31 +3614,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3718,31 +3718,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3826,31 +3826,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -3918,19 +3918,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -3994,23 +3994,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -4095,23 +4095,23 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -4196,19 +4196,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
@@ -4220,11 +4220,11 @@
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -4316,19 +4316,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
@@ -4344,11 +4344,11 @@
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -4436,27 +4436,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -4525,27 +4525,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -4627,31 +4627,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -4763,31 +4763,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -4893,35 +4893,35 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5013,35 +5013,35 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5131,35 +5131,35 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5241,15 +5241,15 @@
             "technologies": [
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5357,27 +5357,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -5493,27 +5493,27 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5586,31 +5586,31 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5782,39 +5782,39 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "css-icon.png",
-                "name": "CSS 3 logo"
+                "name": "CSS 3"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "webpack.png",
-                "name": "Webpack logo"
+                "name": "Webpack 5"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -5912,35 +5912,35 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
@@ -6052,19 +6052,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "fontAwesome.png",
@@ -6072,19 +6072,19 @@
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -6172,19 +6172,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "fontAwesome.png",
@@ -6192,19 +6192,19 @@
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           },
@@ -6331,19 +6331,19 @@
             "technologies": [
               {
                 "image": "html-icon.png",
-                "name": "HTML 5 logo"
+                "name": "HTML 5"
               },
               {
                 "image": "sass-icon.png",
-                "name": "SASS logo"
+                "name": "SASS"
               },
               {
                 "image": "javascript-icon.png",
-                "name": "Javascript logo"
+                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
-                "name": "MDBootstrap 5 logo"
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "fontAwesome.png",
@@ -6351,19 +6351,19 @@
               },
               {
                 "image": "npm.png",
-                "name": "npm logo"
+                "name": "npm"
               },
               {
                 "image": "json.png",
-                "name": "JSON logo"
+                "name": "JSON"
               },
               {
                 "image": "git.png",
-                "name": "Git logo"
+                "name": "Git"
               },
               {
                 "image": "gitHub.png",
-                "name": "gitHub logo"
+                "name": "gitHub"
               }
             ]
           }
