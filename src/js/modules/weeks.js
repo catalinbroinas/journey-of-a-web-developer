@@ -397,9 +397,15 @@ function WeekDomManager() {
                     elementClass: ['img-fluid', 'logo-icons'],
                     elementAttributes: {
                         'alt': icon.name,
-                        'src': `img/icons/${icon.image}`
+                        'src': `img/icons/${icon.image}`,
+                        'data-mdb-tooltip-init': '',
+                        'data-mdb-placement': 'bottom',
+                        'title': icon.name
                     }
                 });
+
+                // Init tooltip
+                const tooltipInstance = new mdb.Tooltip(imageElement);
 
                 item.appendChild(imageElement);
                 itemsWrapper.appendChild(item);
