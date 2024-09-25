@@ -3,7 +3,11 @@ import { DomUtilityManager, StringUtilityManager } from "./utility.js";
 async function WeekDataProvider() {
     const loadWeeksData = async () => {
         try {
-            const response = await fetch('/src/data/weeks.json', { mode: "cors" });
+            const isGitHubPages = location.pathname.includes('/journey-of-a-web-developer/');
+            const url = isGitHubPages
+                ? `${location.pathname}src/data/weeks.json`  // GitHub Pages
+                : '/src/data/weeks.json';                   // Local server
+            const response = await fetch(url, { mode: "cors" });
             if (!response.ok) {
                 throw new Error(`Weekly progress data not found. Status: ${response.status}`);
             }
