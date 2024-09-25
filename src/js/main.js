@@ -1,4 +1,5 @@
 import { WeekDataProvider, WeekDomManager } from "./modules/weeks.js";
+import { DomUtilityManager } from "./modules/utility.js";
 
 async function MainDataProvider() {
     // Load weeks data
@@ -26,6 +27,7 @@ async function MainDataProvider() {
 async function MainDomManager() {
     // DOM features
     const weekDomManager = WeekDomManager();
+    const utilityDomManager = DomUtilityManager();
 
     // Data features
     const mainDataProvider = await MainDataProvider();
@@ -93,10 +95,17 @@ async function MainDomManager() {
         }
     };
 
-    return { initWeeklyApp };
+    // Initialize application events
+    const initAppEvents = () => {
+        const scrollButton = document.querySelector('#back-to-top');
+        utilityDomManager.scrollToTop(scrollButton, 1000);
+    };
+
+    return { initWeeklyApp, initAppEvents };
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
     const domManager = await MainDomManager();
     domManager.initWeeklyApp();
+    domManager.initAppEvents();
 });

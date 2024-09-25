@@ -431,6 +431,38 @@ function DomUtilityManager() {
         selectElement.appendChild(fragment);
     };
 
+    const scrollToTop = (button, showAtScroll = 0) => {
+        // Check if the button is available
+        if (!button) {
+            console.error('Scroll button not found.');
+            return;
+        }
+
+        // Default no display button
+        button.style.display = 'none';
+        let isButtonVisible = false;
+
+        // Display button after scrolling 1000px
+        globalThis.addEventListener('scroll', () => {
+            const scrollPosition = document.body.scrollTop || document.documentElement.scrollTop;
+
+            if (scrollPosition > showAtScroll && !isButtonVisible) {
+                button.style.display = 'flex';
+                isButtonVisible = true;
+            } else if (scrollPosition <= showAtScroll && isButtonVisible) {
+                button.style.display = 'none';
+                isButtonVisible = false;
+            }
+        });
+
+        // Scroll to top
+        button.addEventListener('click', () => {
+            setTimeout(() => {
+                globalThis.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+            }, 500);
+        });
+    };
+
     return {
         clearPageContent,
         createDOMElement,
@@ -441,7 +473,8 @@ function DomUtilityManager() {
         getStatusIconText,
         createOptionElement,
         createSelectOptions,
-        updateSelectOptions
+        updateSelectOptions,
+        scrollToTop
     };
 }
 
