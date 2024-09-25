@@ -219,7 +219,7 @@ function DomUtilityManager() {
     const createCardImage = (imageSource = '', imageName = '', imageClass = []) => {
         return createDOMElement({
             elementTag: 'img',
-            elementAttributes: { 'src': `/img/${imageSource}`, 'alt': imageName },
+            elementAttributes: { 'src': `img/${imageSource}`, 'alt': imageName },
             elementClass: imageClass
         });
     };
