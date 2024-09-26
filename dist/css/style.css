@@ -19636,13 +19636,16 @@ fieldset:disabled .btn-group-vertical > .btn {
   width: 20rem;
 }
 .custom-checkbox .form-check-label {
-  font-weight: bold;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 1rem;
 }
 
 .form-select {
   background-color: #E3F2FD;
   color: #304FFE;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   border: none;
@@ -19651,12 +19654,14 @@ fieldset:disabled .btn-group-vertical > .btn {
 .form-select option {
   background-color: #E3F2FD;
   color: #304FFE;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 .form-select option[disabled] {
   color: #332D2D;
 }
 .form-select option:checked {
-  font-weight: bold;
+  font-weight: 900;
 }
 .form-select:hover, .form-select:focus {
   background-color: #FBFBFB;

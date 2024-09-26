@@ -110,7 +110,8 @@
    width: 20rem;
 
    .form-check-label {
-      font-weight: bold;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 700;
       font-size: 1rem;
    }
 }
@@ -118,6 +119,8 @@
 .form-select {
    background-color: $primary-light;
    color: $secondary-dark;
+   font-family: "Roboto", Arial, Helvetica, sans-serif;
+   font-weight: 500;
    border-radius: 5px;
    padding: 0.5rem 1rem;
    border: none;
@@ -125,7 +128,9 @@
    
    option {
       background-color: $primary-light;
-      color: $secondary-dark; 
+      color: $secondary-dark;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 500; 
    }
 
    option[disabled] {
@@ -133,7 +138,7 @@
    }
 
    option:checked {
-      font-weight: bold;
+      font-weight: 900;
    }
 
    &:hover,
