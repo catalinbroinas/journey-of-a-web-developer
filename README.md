@@ -24,6 +24,17 @@ This is the beta version of this project. In the future, the project may take on
 - **`main`:** The current version of this project, updated every week.
 - **`old`:** Contains the old version of this project, which was implemented as part of my private project "My Biography".
 
+## Learning Platforms
+
+The main platform for learning is **The Odin Project**. Below are the main platforms used for learning:
+
+- **The Odin Project:** Comprehensive web development curriculum covering HTML, CSS, JavaScript, and more. [Link](https://www.theodinproject.com/)
+- **MDN Web Docs:** Extensive documentation for web technologies and languages. [Link](https://developer.mozilla.org/en-US/)
+- **freeCodeCamp:** Interactive coding lessons and projects in web development. [Link](https://www.freecodecamp.org/)
+- **W3Schools:** Tutorials and references for web development languages. [Link](https://www.w3schools.com/)
+- **Codecademy:** Interactive coding classes in various programming languages. [Link](https://www.codecademy.com/)
+- **MDBootstrap:** Resources for using Material Design Bootstrap in web development. [Link](https://mdbootstrap.com/)
+
 ## Next Steps
 
 - **Implementing new features and enhancing design**:
