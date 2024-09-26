@@ -2,31 +2,27 @@
 
 This repository documents my journey as a web developer, starting from August 28, 2023. It includes detailed records of my weekly progress, tutorials, courses, quizzes, exercises, and projects. The information is structured by week, showcasing the main topics covered and the total days and hours worked.
 
-## Live Demo
-
-You can view the live demo of this project [here](https://catalinbroinas.github.io/journey-of-a-web-developer/).
-
-## Notes
-
-- For local development, use `npm install` to get all necessary dependencies.
-- For deployment on GitHub Pages, CDN links are used for fonts and icons to ensure availability.
-
 ## Overview
 
 - **Project Origin:** Developed as part of my private project "My Biography."
-- **Current State:** This repository reflects the results of work and learning from August 28, 2023, to the present.
+- **Current State:** This repository reflects the results of work and learning from August 28, 2023, to September 28, 2024, including the first 56 weeks of my journey.
 - **Content:** Each week is detailed with the main topics, activities, and learning milestones achieved.
 
-## Learning platforms
-Main platforms used for learning:
-- **The Odin Project:** [Link](https://www.theodinproject.com/)
-- **MDN Web Docs:** [Link](https://developer.mozilla.org/en-US/)
-- **freeCodeCamp:** [Link](https://www.freecodecamp.org/)
-- **W3Schools:** [Link](https://www.w3schools.com/)
-- **Codecademy:** [Link](https://www.codecademy.com/)
-- **MDBootstrap:** [Link](https://mdbootstrap.com/)
+## Notes
 
-The main platform for learning is **The Odin Project**.
+- This version is intended for local development only. Use `npm install` to install all necessary dependencies.
+- This version will no longer receive updates. It contains the first 56 weeks of my journey—from August 28, 2023, to September 28, 2024.
+
+## Learning Platforms
+
+The main platform for learning is **The Odin Project**. Below are the main platforms used for learning:
+
+- **The Odin Project:** Comprehensive web development curriculum covering HTML, CSS, JavaScript, and more. [Link](https://www.theodinproject.com/)
+- **MDN Web Docs:** Extensive documentation for web technologies and languages. [Link](https://developer.mozilla.org/en-US/)
+- **freeCodeCamp:** Interactive coding lessons and projects in web development. [Link](https://www.freecodecamp.org/)
+- **W3Schools:** Tutorials and references for web development languages. [Link](https://www.w3schools.com/)
+- **Codecademy:** Interactive coding classes in various programming languages. [Link](https://www.codecademy.com/)
+- **MDBootstrap:** Resources for using Material Design Bootstrap in web development. [Link](https://mdbootstrap.com/)
 
 ## Screenshots
 
