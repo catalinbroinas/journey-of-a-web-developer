@@ -1,31 +1,32 @@
 # My Journey in Web Development
 
-Welcome to the main branch of my journey in web development! This branch is currently under active development as I work on new features and improvements.
+This repository documents my journey as a web developer, starting from August 28, 2023. It includes detailed records of my weekly progress, tutorials, courses, quizzes, exercises, and projects. The information is structured by week, showcasing the main topics covered and the total days and hours worked.
 
 ## Overview
 
 This project documents my journey as a web developer, including all the work, learning, and projects I have undertaken. The main focus is on continuously improving and expanding my skills in web development.
 
-## Current Status
-
-- The `main` branch is under development.
-- The stable and fully functional version is available on the `old` branch.
-
 ## Live Demo
 
-You can view a live demo of the stable version of the project [here](https://catalinbroinas.github.io/journey-of-a-web-developer/).
+You can view the live demo of this project [here](https://catalinbroinas.github.io/journey-of-a-web-developer/). Feedback and suggestions for improvement are welcome!
+
+## Notes
+
+- The first 55 weeks are based on the private project "My Biography," which served as the foundation for this project. More details can be found on the `old` branch.
+- This version includes more comprehensive information than the previous one. The first 54 weeks have been reconstituted from the courses and projects I completed. As a result, the 'Concepts in depth' section may still lack detailed information or contain more general content, specifically for these weeks.
+
+## Current Status
+
+This is the beta version of this project. In the future, the project may take on a new format — more consistent, clearer, and containing more relevant information.
 
 ## Branches
 
-- **`main`:** The current development branch.
-- **`old`:** The branch with the completed and stable version of the project, representing all the work up to now.
+- **`main`:** The current version of this project, updated every week.
+- **`old`:** Contains the old version of this project, which was implemented as part of my private project "My Biography".
 
 ## Next Steps
 
-- **Replace static HTML with JSON data format:**
-  * Refactor the existing static content into a JSON format to make the project more dynamic and easier to update.
-  * Implement logic to parse and render the JSON data on the frontend.
-- **Implementation of new features and design enhancements:**
-  * Add new features to provide more insights into my current progress and enhance the design for a better user experience.
-- **Continuous learning and integration of new web development practices:**
-  * Update this project every week with my progress, reflecting new skills acquired.
+- **Implementing new features and enhancing design**:
+  * Continuously introduce features to provide deeper insights into my progress and refine the user interface for an improved experience.
+- **Ongoing learning and integration of modern web development practices**:
+  * Regularly update the project with weekly progress, highlighting newly acquired skills.
