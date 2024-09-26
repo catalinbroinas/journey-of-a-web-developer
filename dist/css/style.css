@@ -19670,12 +19670,12 @@ fieldset:disabled .btn-group-vertical > .btn {
 }
 
 .custom-alert {
-  display: flex;
+  display: inline-flex;
   flex-flow: row nowrap;
   justify-content: start;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 1rem;
   font-size: 1.75rem;
   border-left: 0.5rem solid #332D2D;
   border-radius: 0.25rem;
