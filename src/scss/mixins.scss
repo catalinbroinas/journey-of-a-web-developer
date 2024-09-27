@@ -1,24 +1,19 @@
-// Old code from my private project
 // Text
-@mixin title
-{
-    font-family: $font-title;
-    font-weight: 900;
-    color: $secondary-main;
-}
-@mixin sub-title
-{
-    font-family: $font-title;
+@mixin title {
+    font-family: $font;
     font-weight: 700;
     color: $secondary-main;
 }
-@mixin text
-{
-    font-family: $font-text;
-    font-weight: normal;
+@mixin sub-title {
+    font-family: $font;
+    font-weight: 500;
     color: $secondary-main;
 }
-// Old code from my private project
+@mixin text {
+    font-family: $font;
+    font-weight: 400;
+    color: $secondary-main;
+}
 
 // Components
 @mixin hr-heading($color: black) {

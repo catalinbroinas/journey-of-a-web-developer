@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import '/node_modules/typeface-roboto/index.css';
-@import '/node_modules/typeface-open-sans/index.css';
 :root,
 [data-mdb-theme=light] {
   --mdb-red: #f44336;
@@ -17402,22 +17401,22 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free";
 }
 
+body {
+  font-family: "Roboto", Arial, Verdana, sans-serif;
+  font-weight: 400;
+  color: #332D2D;
+}
+
 .title {
   font-family: "Roboto", Arial, Verdana, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   color: #332D2D;
   text-align: center;
 }
 
 .sub-title {
   font-family: "Roboto", Arial, Verdana, sans-serif;
-  font-weight: 700;
-  color: #332D2D;
-}
-
-.text {
-  font-family: "Open Sans", Verdana, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   color: #332D2D;
 }
 

@@ -1,7 +1,6 @@
 // Fonts and icons
 @import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import '/node_modules/typeface-roboto/index.css';
-@import '/node_modules/typeface-open-sans/index.css';
 
 // Variables and mixins
 @import 'variables';
@@ -15,6 +14,9 @@
 @import 'mdb.free';
 
 // Typography
+body {
+   @include text;
+}
 .title
 {
    @include title;
@@ -23,10 +25,6 @@
 .sub-title
 {
    @include sub-title;
-}
-.text
-{
-   @include text;
 }
 
 // Old code from my private project
