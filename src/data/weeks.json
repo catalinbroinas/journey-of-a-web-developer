@@ -6366,6 +6366,182 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 56,
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "globalThis",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Element: scrollTo() method",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Element: scrollIntoView() method",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Element: scroll event",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "css-tricks.png",
+                  "name": "CSS Tricks logo"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "Get URL and URL Parts",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "basedash.jpg",
+                  "name": "Basedash logo"
+                },
+                "title": "Javascript",
+                "tasks": [
+                  {
+                    "name": "One-line if statements",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Update data",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Publish the new version",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Improve UI design",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Layout",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Utilities",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Content & Styles",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Components",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Higher-Order Functions",
+                "technology": "JS"
+              },
+              {
+                "name": "Promises",
+                "technology": "JS"
+              },
+              {
+                "name": "Factory function",
+                "technology": "JS"
+              },
+              {
+                "name": "ES6 Modules",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Manipulation",
+                "technology": "JS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Data Insertion",
+                "technology": "JSON"
+              }
+            ],
+            "working_time": {
+              "days": 6,
+              "hours": 28,
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
