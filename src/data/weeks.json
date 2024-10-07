@@ -6556,14 +6556,30 @@
             "learning": [
               {
                 "image": {
-                  "source": "mdnWebDocs.png",
-                  "name": "MDN Web Docs logo"
+                  "source": "mdb5.jpg",
+                  "name": "MDBootstrap 5 logo"
                 },
-                "title": "References",
+                "title": "Tutorials",
                 "tasks": [
                   {
-                    "name": "Project Concepts",
-                    "status": "added"
+                    "name": "Basics",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Bootstrap",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "MDBootstrap",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "MDB Advanced features",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Create a Blog",
+                    "status": "completed"
                   }
                 ]
               },
@@ -6572,11 +6588,19 @@
                   "source": "mdb5.jpg",
                   "name": "MDBootstrap 5 logo"
                 },
-                "title": "Documentation",
+                "title": "Projects",
                 "tasks": [
                   {
-                    "name": "Project Concepts",
-                    "status": "added"
+                    "name": "Landing Page",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Portfolio",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Backpacking Blog",
+                    "status": "completed"
                   }
                 ]
               }
@@ -6586,30 +6610,44 @@
                 "image_source": "my-photo.JPG",
                 "image_name": "Photo with me",
                 "title": "My Portfolio",
-                "status": "added"
+                "status": "unstarted"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
-                "name": "UI Design",
-                "technology": "MDB 5 & SASS"
+                "name": "UI & UX design",
+                "technology": "Web Design"
               },
               {
-                "name": "Data Manipulation",
-                "technology": "JS"
+                "name": "Responsive web design",
+                "technology": "Web Design"
               },
               {
-                "name": "DOM Manipulation and Events",
-                "technology": "JS"
+                "name": "Material Minimal",
+                "technology": "Web Design"
               },
               {
-                "name": "Data Insertion",
-                "technology": "JSON"
+                "name": "Optimization",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Utilities API",
+                "technology": "MDB 5"
+              },
+              {
+                "name": "Customization",
+                "technology": "MDB 5"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "24",
               "notice": {}
             },
             "technologies": [
@@ -6628,10 +6666,6 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
               },
               {
                 "image": "npm.png",
