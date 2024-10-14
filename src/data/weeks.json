@@ -6697,36 +6697,36 @@
                 "tasks": [
                   {
                     "name": "Foundations",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Hierarchy",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Design process",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Material Minimal",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Design hacks",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
               {
                 "image": {
-                  "source": "mdnWebDocs.png",
-                  "name": "MDN Web Docs logo"
+                  "source": "vite.jpg",
+                  "name": "Vite logo"
                 },
-                "title": "References",
+                "title": "Guide",
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -6739,7 +6739,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -6749,30 +6749,40 @@
                 "image_source": "my-photo.JPG",
                 "image_name": "Photo with me",
                 "title": "My Portfolio",
-                "status": "added"
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
-                "name": "UI Design",
-                "technology": "MDB 5 & SASS"
+                "name": "UI & UX design",
+                "technology": "Web Design"
               },
               {
-                "name": "Data Manipulation",
-                "technology": "JS"
+                "name": "Carousel",
+                "technology": "MDB 5"
               },
               {
-                "name": "DOM Manipulation and Events",
-                "technology": "JS"
+                "name": "vite-plugin-imagemin",
+                "technology": "Vite"
               },
               {
-                "name": "Data Insertion",
-                "technology": "JSON"
+                "name": "rollupOptions",
+                "technology": "Vite"
+              },
+              {
+                "name": "rollup-plugin-copy",
+                "technology": "Vite"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "32",
               "notice": {}
             },
             "technologies": [
@@ -6799,6 +6809,10 @@
               {
                 "image": "npm.png",
                 "name": "npm"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
               },
               {
                 "image": "json.png",
