@@ -6833,19 +6833,6 @@
             "learning": [
               {
                 "image": {
-                  "source": "mdnWebDocs.png",
-                  "name": "MDN Web Docs logo"
-                },
-                "title": "References",
-                "tasks": [
-                  {
-                    "name": "Project Concepts",
-                    "status": "added"
-                  }
-                ]
-              },
-              {
-                "image": {
                   "source": "mdb5.jpg",
                   "name": "MDBootstrap 5 logo"
                 },
@@ -6853,7 +6840,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -6863,7 +6850,7 @@
                 "image_source": "my-photo.JPG",
                 "image_name": "Photo with me",
                 "title": "My Portfolio",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
@@ -6872,21 +6859,21 @@
                 "technology": "MDB 5 & SASS"
               },
               {
-                "name": "Data Manipulation",
-                "technology": "JS"
+                "name": "Carousel",
+                "technology": "MDB 5 & JS"
+              },
+              {
+                "name": "Modal",
+                "technology": "MDB 5"
               },
               {
                 "name": "DOM Manipulation and Events",
                 "technology": "JS"
-              },
-              {
-                "name": "Data Insertion",
-                "technology": "JSON"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "44",
               "notice": {}
             },
             "technologies": [
