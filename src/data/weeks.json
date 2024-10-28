@@ -6931,15 +6931,15 @@
                 "tasks": [
                   {
                     "name": "A Deeper Look at Git",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Working with Remotes",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Using Git in the Real World",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -6952,15 +6952,26 @@
                 "tasks": [
                   {
                     "name": "Add documentation",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Social Media Links",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve UI & UX design",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "euro-2024.jpg",
+                "image_name": "Olympiastadion",
+                "title": "EURO 2024",
+                "tasks": [
+                  {
+                    "name": "Improve UI design",
+                    "status": "completed"
                   }
                 ]
               }
@@ -6971,13 +6982,29 @@
                 "technology": "MDB 5 & SASS"
               },
               {
-                "name": "DOM Manipulation and Events",
-                "technology": "JS"
+                "name": "commit --amend",
+                "technology": "git"
+              },
+              {
+                "name": "rebase",
+                "technology": "git"
+              },
+              {
+                "name": "reset",
+                "technology": "git"
+              },
+              {
+                "name": "merge",
+                "technology": "git"
+              },
+              {
+                "name": "push",
+                "technology": "git"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "28",
               "notice": {}
             },
             "technologies": [
@@ -6990,16 +7017,8 @@
                 "name": "SASS"
               },
               {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
-              },
-              {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
               },
               {
                 "image": "npm.png",
