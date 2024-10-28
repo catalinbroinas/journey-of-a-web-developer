@@ -7041,6 +7041,116 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 61,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Intermediate Git",
+                "tasks": [
+                  {
+                    "name": "Using Git in the Real World",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Testing Javascript",
+                "tasks": [
+                  {
+                    "name": "Testing Basics",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Projects",
+                "tasks": [
+                  {
+                    "name": "Testing Practice",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Improve Responsive Design",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI Design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
