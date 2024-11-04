@@ -7054,7 +7054,7 @@
                 "tasks": [
                   {
                     "name": "Using Git in the Real World",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -7067,7 +7067,7 @@
                 "tasks": [
                   {
                     "name": "Testing Basics",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -7080,7 +7080,7 @@
                 "tasks": [
                   {
                     "name": "Testing Practice",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -7093,50 +7093,58 @@
                 "tasks": [
                   {
                     "name": "Improve Responsive Design",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "UI Design",
-                "technology": "MDB 5 & SASS"
+                "name": "clone repository",
+                "technology": "git & gitHub"
+              },
+              {
+                "name": "upstream & main",
+                "technology": "git & gitHub"
+              },
+              {
+                "name": "pull request",
+                "technology": "git & gitHub"
+              },
+              {
+                "name": "install and config",
+                "technology": "Jest"
+              },
+              {
+                "name": "using babel",
+                "technology": "Jest"
+              },
+              {
+                "name": "using ES6",
+                "technology": "Jest"
+              },
+              {
+                "name": "using matchers",
+                "technology": "Jest"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
-              {
-                "image": "html-icon.png",
-                "name": "HTML 5"
-              },
-              {
-                "image": "sass-icon.png",
-                "name": "SASS"
-              },
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
               },
               {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
+                "image": "jest.webp",
+                "name": "Jest"
               },
               {
                 "image": "npm.png",
                 "name": "npm"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "json.png",
