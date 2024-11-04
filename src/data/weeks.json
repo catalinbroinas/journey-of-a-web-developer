@@ -7161,6 +7161,85 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 11,
+          "name": "november"
+        },
+        "weeks": [
+          {
+            "week": 62,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Testing Javascript",
+                "tasks": [
+                  {
+                    "name": "More Testing",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Battleship",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "using babel",
+                "technology": "Jest"
+              },
+              {
+                "name": "using ES6",
+                "technology": "Jest"
+              },
+              {
+                "name": "using matchers",
+                "technology": "Jest"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "jest.webp",
+                "name": "Jest"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
