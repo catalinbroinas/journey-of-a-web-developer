@@ -7180,7 +7180,7 @@
                 "tasks": [
                   {
                     "name": "More Testing",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -7190,26 +7190,30 @@
                 "image_source": "odin.jpg",
                 "image_name": "The Odin Project",
                 "title": "Battleship",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
               {
-                "name": "using babel",
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Unit Testing",
                 "technology": "Jest"
               },
               {
-                "name": "using ES6",
-                "technology": "Jest"
-              },
-              {
-                "name": "using matchers",
+                "name": "beforeEach",
                 "technology": "Jest"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "25",
               "notice": {}
             },
             "technologies": [
