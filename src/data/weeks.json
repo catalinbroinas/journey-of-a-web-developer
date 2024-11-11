@@ -7242,6 +7242,90 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 63,
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Battleship",
+                "tasks": [
+                  {
+                    "name": "Implement core game logic",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Unit Tests",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Basic UI",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Unit Testing",
+                "technology": "Jest"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "jest.webp",
+                "name": "Jest"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
