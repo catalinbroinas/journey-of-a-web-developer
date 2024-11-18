@@ -7255,7 +7255,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -7268,15 +7268,15 @@
                 "tasks": [
                   {
                     "name": "Implement core game logic",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Unit Tests",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Basic UI",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               }
@@ -7293,11 +7293,15 @@
               {
                 "name": "Unit Testing",
                 "technology": "Jest"
+              },
+              {
+                "name": "Mock Functions",
+                "technology": "Jest"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "30",
               "notice": {}
             },
             "technologies": [
