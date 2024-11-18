@@ -7230,6 +7230,10 @@
                 "name": "npm"
               },
               {
+                "image": "webpack.png",
+                "name": "Webpack 5"
+              },
+              {
                 "image": "json.png",
                 "name": "JSON"
               },
@@ -7316,6 +7320,10 @@
               {
                 "image": "npm.png",
                 "name": "npm"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack 5"
               },
               {
                 "image": "json.png",
