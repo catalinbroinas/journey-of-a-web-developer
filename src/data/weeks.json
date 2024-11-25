@@ -7456,6 +7456,110 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 65,
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Battleship",
+                "tasks": [
+                  {
+                    "name": "Implement UI",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Improve core game logic",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Unit Tests",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Dynamic UI",
+                "technology": "JS & CSS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              },
+              {
+                "name": "Objects",
+                "technology": "JS"
+              },
+              {
+                "name": "Array Methods",
+                "technology": "JS"
+              },
+              {
+                "name": "Unit Testing",
+                "technology": "Jest"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "jest.webp",
+                "name": "Jest"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack 5"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
