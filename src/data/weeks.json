@@ -7576,6 +7576,98 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "number": 12,
+          "name": "december"
+        },
+        "weeks": [
+          {
+            "week": 66,
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "Battleship",
+                "tasks": [
+                  {
+                    "name": "Improve UI/UX",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Dynamic UI",
+                "technology": "JS & CSS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "jest.webp",
+                "name": "Jest"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "webpack.png",
+                "name": "Webpack 5"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
