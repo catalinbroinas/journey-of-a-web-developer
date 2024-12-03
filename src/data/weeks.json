@@ -7469,7 +7469,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -7482,30 +7482,36 @@
                 "tasks": [
                   {
                     "name": "Implement UI",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve core game logic",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Unit Tests",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "completed"
               }
             ],
             "concepts": [
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              },
               {
                 "name": "Dynamic UI",
                 "technology": "JS & CSS"
               },
               {
                 "name": "DOM Manipulation and Events",
-                "technology": "JS"
-              },
-              {
-                "name": "Objects",
                 "technology": "JS"
               },
               {
@@ -7518,8 +7524,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "30",
               "notice": {}
             },
             "technologies": [
@@ -7534,6 +7540,14 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
               },
               {
                 "image": "jest.webp",
