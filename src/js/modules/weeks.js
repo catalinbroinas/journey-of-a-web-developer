@@ -240,7 +240,7 @@ function WeekDomManager() {
                 itemClass: ['text', 'px-4'],
                 itemsWithBadge: concepts.map((concept) => ({
                     text: concept.name,
-                    badgeClass: ['badge-light', 'px-3', 'py-2', 'ms-5'],
+                    badgeClass: ['badge-light', `badge-custom`, 'px-3', 'py-2', 'ms-5'],
                     badgeText: concept.technology
                 }))
             });
