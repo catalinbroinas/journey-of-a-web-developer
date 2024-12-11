@@ -53,6 +53,7 @@
 }
 
 #weekly-progress-intro {
+   max-width: 100vw;
    background-image: url('../../img/backgrounds/bridge-road.jpg');
 }
 
@@ -307,6 +308,30 @@
 }
 
 // Extra Small Devices
+@media only screen and (max-width: 575px) {
+   .intro {
+      .intro-title {
+         font-size: 2rem;
+      }
+      .intro-sub-title {
+         font-size: 1.5rem;
+      }
+      .intro-text {
+         font-size: 1rem;
+      }
+   }
+
+   #weekly-progress-intro {
+      height: 60vh;
+
+      // Specific for landscape orientation
+      @media (orientation: landscape) {
+         height: 100vh;
+      }
+   }
+}
+
+// Extra Small Devices
 @media only screen and (max-width: 429px) {
    .badge-custom {
       width: fit-content;
@@ -314,5 +339,17 @@
       white-space: normal;
       overflow-wrap: break-word;
       flex-shrink: 0;
+   }
+}
+
+// Extra Small devices (portrait)
+@media only screen and (max-width: 399px) {
+   #weekly-progress-intro {
+      height: 80vh;
+
+      // Specific for landscape orientation
+      @media (orientation: landscape) {
+         height: 100vh;
+      }
    }
 }
