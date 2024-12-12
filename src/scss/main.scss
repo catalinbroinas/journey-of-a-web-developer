@@ -118,6 +118,11 @@
 }
 
 .form-select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   box-sizing: border-box;
+   max-width: 100%;
    background-color: $primary-light;
    color: $secondary-dark;
    font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -147,6 +152,7 @@
       background-color: $primary-main;
       color: $secondary-main;
       border: 2px solid $primary-dark;
+      outline: none;
    }
 }
 
@@ -328,6 +334,11 @@
       @media (orientation: landscape) {
          height: 100vh;
       }
+   }
+
+   .form-select,
+   .custom-checkbox {
+      max-width: 80%;
    }
 }
 

@@ -19643,6 +19643,11 @@ fieldset:disabled .btn-group-vertical > .btn {
 }
 
 .form-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  max-width: 100%;
   background-color: #E3F2FD;
   color: #304FFE;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -19668,6 +19673,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-color: #FBFBFB;
   color: #332D2D;
   border: 2px solid #2962FF;
+  outline: none;
 }
 
 .custom-alert {
@@ -19828,6 +19834,12 @@ fieldset:disabled .btn-group-vertical > .btn {
 @media only screen and (max-width: 575px) and (orientation: landscape) {
   #weekly-progress-intro {
     height: 100vh;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .form-select,
+  .custom-checkbox {
+    max-width: 80%;
   }
 }
 @media only screen and (max-width: 429px) {
