@@ -237,10 +237,10 @@ function WeekDomManager() {
         // Create the task list
         if (concepts?.length) {
             const conceptList = domUtility.createList({
-                itemClass: ['text', 'px-4'],
+                itemClass: ['flex-sm-nowrap', 'flex-wrap', 'text', 'px-4'],
                 itemsWithBadge: concepts.map((concept) => ({
                     text: concept.name,
-                    badgeClass: ['badge-light', `badge-custom`, 'px-3', 'py-2', 'ms-5'],
+                    badgeClass: ['badge-light', 'px-3', 'py-2', 'ms-md-5', 'ms-3'],
                     badgeText: concept.technology
                 }))
             });

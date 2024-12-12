@@ -19842,15 +19842,6 @@ fieldset:disabled .btn-group-vertical > .btn {
     max-width: 80%;
   }
 }
-@media only screen and (max-width: 429px) {
-  .badge-custom {
-    width: fit-content;
-    max-width: 120px;
-    white-space: normal;
-    overflow-wrap: break-word;
-    flex-shrink: 0;
-  }
-}
 @media only screen and (max-width: 399px) {
   #weekly-progress-intro {
     height: 80vh;
