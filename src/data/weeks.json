@@ -7676,6 +7676,19 @@
             "learning": [
               {
                 "image": {
+                  "source": "gitHub.jpg",
+                  "name": "gitHub logo"
+                },
+                "title": "Authentication",
+                "tasks": [
+                  {
+                    "name": "Connecting to GitHub with SSH",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
                   "source": "mdb5.jpg",
                   "name": "MDBootstrap 5 logo"
                 },
@@ -7683,23 +7696,46 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
             ],
             "projects": [
               {
+                "image_source": "bridge-road.jpg",
+                "image_name": "Bridge",
+                "title": "Journey of a Web Developer",
+                "tasks": [
+                  {
+                    "name": "Improve Responsive Design",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
               {
-                "name": "UI design",
+                "name": "SSH key",
+                "technology": "git & gitHub"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              },
+              {
+                "name": "UI/UX design",
                 "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Dynamic UI",
+                "technology": "JS & CSS"
               },
               {
                 "name": "DOM Manipulation and Events",
@@ -7707,8 +7743,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "21",
               "notice": {}
             },
             "technologies": [
@@ -7727,6 +7763,10 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
               },
               {
                 "image": "npm.png",
