@@ -7798,7 +7798,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -7808,7 +7808,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
@@ -7817,17 +7817,13 @@
                 "technology": "MDB 5 & SASS"
               },
               {
-                "name": "Dynamic UI",
-                "technology": "JS & CSS"
-              },
-              {
                 "name": "DOM Manipulation and Events",
                 "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "12",
               "notice": {}
             },
             "technologies": [
