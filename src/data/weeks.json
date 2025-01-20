@@ -7868,5 +7868,85 @@
         ]
       }
     ]
+  },
+  {
+    "year": 2025,
+    "months": [
+      {
+        "month": {
+          "name": "january",
+          "number": 1
+        },
+        "weeks": [
+          {
+            "week": 69,
+            "learning": [
+              {
+                "image": {
+                  "source": "mdb5.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "completed"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "completed"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI/UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "4",
+              "hours": "12",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
