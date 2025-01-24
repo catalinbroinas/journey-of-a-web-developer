@@ -7957,28 +7957,49 @@
                 "tasks": [
                   {
                     "name": "Transforms",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Transitions",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Keyframes",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
               {
                 "image": {
-                  "source": "mdb5.jpg",
-                  "name": "MDBootstrap 5 logo"
+                  "source": "joshComeau.png",
+                  "name": "Josh W. Comeau"
                 },
-                "title": "Documentation",
+                "title": "CSS",
                 "tasks": [
                   {
-                    "name": "Project Concepts",
-                    "status": "added"
+                    "name": "The World of CSS Transforms",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "What The Heck, z-index??",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "joshComeau.png",
+                  "name": "Josh W. Comeau"
+                },
+                "title": "Animation",
+                "tasks": [
+                  {
+                    "name": "An Interactive Guide to CSS Transitions",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "An Interactive Guide to Keyframe Animations",
+                    "status": "completed"
                   }
                 ]
               }
@@ -7988,18 +8009,54 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
               {
-                "name": "UI/UX design",
-                "technology": "MDB 5 & SASS"
+                "name": "rotate & rotate3d",
+                "technology": "CSS"
+              },
+              {
+                "name": "scale & scale3d",
+                "technology": "CSS"
+              },
+              {
+                "name": "translate & translate3d",
+                "technology": "CSS"
+              },
+              {
+                "name": "skew",
+                "technology": "CSS"
+              },
+              {
+                "name": "perspective",
+                "technology": "CSS"
+              },
+              {
+                "name": "will-change",
+                "technology": "CSS"
+              },
+              {
+                "name": "Stacking context",
+                "technology": "CSS"
+              },
+              {
+                "name": "Animation performance",
+                "technology": "CSS"
+              },
+              {
+                "name": "Respecting motion preferences",
+                "technology": "CSS"
+              },
+              {
+                "name": "Animation - Fill Modes",
+                "technology": "CSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
@@ -8008,20 +8065,16 @@
                 "name": "HTML 5"
               },
               {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
-              },
-              {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
               },
               {
                 "image": "npm.png",
