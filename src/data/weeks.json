@@ -8093,6 +8093,105 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 71,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Accessibility",
+                "tasks": [
+                  {
+                    "name": "Introduction to Web Accessibility",
+                    "status": "added"
+                  },
+                  {
+                    "name": "The Web Content Accessibility Guidelines (WCAG)",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Semantic HTML",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Accessible Colors",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Keyboard Navigation",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Meaningful Text",
+                    "status": "added"
+                  },
+                  {
+                    "name": "WAI-ARIA",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Accessibility Auditing",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "ePace.jpg",
+                "image_name": "Green field",
+                "title": "E Pace",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI/UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
