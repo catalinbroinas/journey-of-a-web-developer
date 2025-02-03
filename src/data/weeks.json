@@ -8106,35 +8106,35 @@
                 "tasks": [
                   {
                     "name": "Introduction to Web Accessibility",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "The Web Content Accessibility Guidelines (WCAG)",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Semantic HTML",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Accessible Colors",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Keyboard Navigation",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Meaningful Text",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "WAI-ARIA",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Accessibility Auditing",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8144,18 +8144,56 @@
                 "image_source": "ePace.jpg",
                 "image_name": "Green field",
                 "title": "E Pace",
-                "status": "added"
+                "status": "unstarted"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
               {
-                "name": "UI/UX design",
-                "technology": "MDB 5 & SASS"
+                "name": "Navigation with screen readers",
+                "technology": "a11y"
+              },
+              {
+                "name": "Color contrast",
+                "technology": "a11y"
+              },
+              {
+                "name": "Conveying information",
+                "technology": "a11y"
+              },
+              {
+                "name": "Focus & Focus style",
+                "technology": "a11y"
+              },
+              {
+                "name": "Tab order",
+                "technology": "a11y"
+              },
+              {
+                "name": "Hidden content",
+                "technology": "a11y"
+              },
+              {
+                "name": "Alternative text",
+                "technology": "a11y"
+              },
+              {
+                "name": "ARIA attributes",
+                "technology": "a11y"
+              },
+              {
+                "name": "Accessibility DevTools & Lighthouse",
+                "technology": "a11y"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "18",
               "notice": {}
             },
             "technologies": [
