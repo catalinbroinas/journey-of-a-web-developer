@@ -8251,19 +8251,19 @@
                 "tasks": [
                   {
                     "name": "Introduction to Responsive Design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Natural Responsiveness",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Responsive Images",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Media Queries",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8273,18 +8273,40 @@
                 "image_source": "ePace.jpg",
                 "image_name": "green field - symbol of peace",
                 "title": "E Pace",
-                "status": "added"
+                "status": "unstarted"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
-                "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "name": "Viewport meta tag",
+                "technology": "HTML"
+              },
+              {
+                "name": "srcset & sizes attributes",
+                "technology": "HTMl"
+              },
+              {
+                "name": "<picture> element",
+                "technology": "HTML"
+              },
+              {
+                "name": "background & object-fit",
+                "technology": "CSS"
+              },
+              {
+                "name": "Design: mobile-first vs desktop-first",
+                "technology": "Responsive Design"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
