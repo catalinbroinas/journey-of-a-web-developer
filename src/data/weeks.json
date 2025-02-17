@@ -8460,6 +8460,118 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 74,
+            "learning": [
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "References",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb5.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "ePace.jpg",
+                "image_name": "green field - symbol of peace",
+                "title": "E Pace",
+                "tasks": [
+                  {
+                    "name": "UI & UX design",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "tech.jpg",
+                "image_name": "Desk with desktop",
+                "title": "DA Tech Solutions",
+                "tasks": [
+                  {
+                    "name": "Planning and design",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Implementation Layout",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
