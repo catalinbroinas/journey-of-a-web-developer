@@ -8356,7 +8356,20 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb5.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Project Concepts",
+                    "status": "completed"
                   }
                 ]
               }
@@ -8366,7 +8379,7 @@
                 "image_source": "ePace.jpg",
                 "image_name": "green field - symbol of peace",
                 "title": "E Pace",
-                "status": "added"
+                "status": "in-progress"
               },
               {
                 "image_source": "tech.jpg",
@@ -8375,24 +8388,34 @@
                 "tasks": [
                   {
                     "name": "Planning and design",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Implementation Layout",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "16",
               "notice": {}
             },
             "technologies": [
