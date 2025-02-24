@@ -8473,7 +8473,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8486,7 +8486,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8499,7 +8499,7 @@
                 "tasks": [
                   {
                     "name": "UI & UX design",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8510,11 +8510,11 @@
                 "tasks": [
                   {
                     "name": "Planning and design",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Implementation Layout",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -8523,11 +8523,23 @@
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              },
+              {
+                "name": "Accessibility",
+                "technology": "HTML"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
