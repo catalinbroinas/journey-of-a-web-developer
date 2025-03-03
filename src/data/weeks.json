@@ -8597,7 +8597,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8610,7 +8610,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8623,15 +8623,15 @@
                 "tasks": [
                   {
                     "name": "Improve UI & UX design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Add documentation",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8642,11 +8642,11 @@
                 "tasks": [
                   {
                     "name": "Planning and design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Implementation Layout",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -8655,11 +8655,23 @@
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "MDB 5 & Media Queries"
+              },
+              {
+                "name": "Accessibility",
+                "technology": "HTML"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "21",
               "notice": {}
             },
             "technologies": [
