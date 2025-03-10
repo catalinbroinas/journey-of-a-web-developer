@@ -8737,7 +8737,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8750,7 +8750,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8763,7 +8763,7 @@
                 "tasks": [
                   {
                     "name": "Implement UI/UX design",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8774,11 +8774,11 @@
                 "tasks": [
                   {
                     "name": "Planning and design",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Implment UI design",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -8787,21 +8787,21 @@
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "18",
               "notice": {}
             },
             "technologies": [
               {
                 "image": "html-icon.png",
                 "name": "HTML 5"
-              },
-              {
-                "image": "css-icon.png",
-                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
@@ -8818,10 +8818,6 @@
               {
                 "image": "fontAwesome.png",
                 "name": "Font Awesome"
-              },
-              {
-                "image": "webpack.png",
-                "name": "Webpack 5"
               },
               {
                 "image": "vite.png",
