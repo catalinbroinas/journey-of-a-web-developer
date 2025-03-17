@@ -8853,20 +8853,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
-                  }
-                ]
-              },
-              {
-                "image": {
-                  "source": "mdb5.jpg",
-                  "name": "MDBootstrap 5 logo"
-                },
-                "title": "Documentation",
-                "tasks": [
-                  {
-                    "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8879,7 +8866,7 @@
                 "tasks": [
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -8890,24 +8877,32 @@
                 "tasks": [
                   {
                     "name": "Planning and design",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Implment UI design",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "name": "Accessibility",
+                "technology": "HTML"
+              },
+              {
+                "name": "SEO",
+                "technology": "HTML"
+              },
+              {
+                "name": "Performance",
+                "technology": "HTML"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
@@ -8916,28 +8911,12 @@
                 "name": "HTML 5"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
-              },
-              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
-              },
-              {
-                "image": "webpack.png",
-                "name": "Webpack 5"
               },
               {
                 "image": "vite.png",
