@@ -8945,6 +8945,32 @@
             "learning": [
               {
                 "image": {
+                  "source": "joshComeau.png",
+                  "name": "Josh W. Comeau"
+                },
+                "title": "CSS",
+                "tasks": [
+                  {
+                    "name": "An Interactive Guide to CSS Grid",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "css-tricks.png",
+                  "name": "CSS Tricks"
+                },
+                "title": "Guides",
+                "tasks": [
+                  {
+                    "name": "CSS Grid Layout Guide",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
                   "source": "mdnWebDocs.png",
                   "name": "MDN Web Docs logo"
                 },
@@ -8952,7 +8978,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -8965,24 +8991,48 @@
                 "tasks": [
                   {
                     "name": "Planning and design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Implment UI design",
-                    "status": "added"
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Accessibility & SEO Optimization",
+                    "status": "completed"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "UI & UX design",
-                "technology": "HTML & CSS"
+                "name": "CSS Grid",
+                "technology": "CSS"
+              },
+              {
+                "name": "clip-path",
+                "technology": "CSS"
+              },
+              {
+                "name": "transform",
+                "technology": "CSS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "CSS & Media Query"
+              },
+              {
+                "name": "Accessibility",
+                "technology": "HTML"
+              },
+              {
+                "name": "SEO",
+                "technology": "HTML"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "28",
               "notice": {}
             },
             "technologies": [
@@ -8993,10 +9043,6 @@
               {
                 "image": "css-icon.png",
                 "name": "CSS 3"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
               },
               {
                 "image": "webpack.png",
