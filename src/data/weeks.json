@@ -9078,7 +9078,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -9091,7 +9091,7 @@
                 "tasks": [
                   {
                     "name": "Project Concepts",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -9103,12 +9103,16 @@
                 "title": "Pure Natural",
                 "tasks": [
                   {
-                    "name": "Planning and design",
-                    "status": "added"
+                    "name": "Project planning and design",
+                    "status": "completed"
                   },
                   {
-                    "name": "Implment layout",
-                    "status": "added"
+                    "name": "Implement layout",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "UI & UX design",
+                    "status": "completed"
                   }
                 ]
               }
@@ -9120,8 +9124,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "21",
               "notice": {}
             },
             "technologies": [
@@ -9132,10 +9136,6 @@
               {
                 "image": "sass-icon.png",
                 "name": "SASS"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
