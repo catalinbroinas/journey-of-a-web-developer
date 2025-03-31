@@ -9168,6 +9168,131 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "name": "april",
+          "number": 4
+        },
+        "weeks": [
+          {
+            "week": 80,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "React - Introduction",
+                "tasks": [
+                  {
+                    "name": "How This Course Will Work",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Introduction To React",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Setting Up A React Environment",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Getting Started With React",
+                "tasks": [
+                  {
+                    "name": "React Components",
+                    "status": "added"
+                  },
+                  {
+                    "name": "What Is JSX",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Add client content",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Apply client design adjustments",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "DOM Manipulation and Events",
+                "technology": "JS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
