@@ -9187,15 +9187,15 @@
                 "tasks": [
                   {
                     "name": "How This Course Will Work",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Introduction To React",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Setting Up A React Environment",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -9208,11 +9208,11 @@
                 "tasks": [
                   {
                     "name": "React Components",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "What Is JSX",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -9225,28 +9225,52 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Apply client design adjustments",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "name": "Create a React app",
+                "technology": "React & Vite"
               },
               {
-                "name": "DOM Manipulation and Events",
+                "name": "createElement",
+                "technology": "React"
+              },
+              {
+                "name": "Fragment",
+                "technology": "React"
+              },
+              {
+                "name": "Writing Markup with JSX",
+                "technology": "React"
+              },
+              {
+                "name": "JavaScript in JSX",
+                "technology": "React"
+              },
+              {
+                "name": "React Developer Tools",
+                "technology": "DevTools"
+              },
+              {
+                "name": "import & export",
                 "technology": "JS"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
@@ -9259,20 +9283,20 @@
                 "name": "Javascript"
               },
               {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
