@@ -9315,6 +9315,119 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 81,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "Getting Started With React",
+                "tasks": [
+                  {
+                    "name": "Rendering Techniques",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Keys In React",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Passing Data Between Components",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "States and effects",
+                "tasks": [
+                  {
+                    "name": "Introduction To State",
+                    "status": "added"
+                  },
+                  {
+                    "name": "More On State",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Apply client design adjustments",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Add client content",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
