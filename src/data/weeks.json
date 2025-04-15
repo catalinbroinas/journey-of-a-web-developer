@@ -9452,6 +9452,113 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 82,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "States and effects",
+                "tasks": [
+                  {
+                    "name": "More On State",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Apply client design adjustments",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Add client content",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "CV Application",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Sharing state between components",
+                "technology": "React"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
