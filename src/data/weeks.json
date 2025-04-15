@@ -9328,15 +9328,15 @@
                 "tasks": [
                   {
                     "name": "Rendering Techniques",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Keys In React",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Passing Data Between Components",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -9349,11 +9349,11 @@
                 "tasks": [
                   {
                     "name": "Introduction To State",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "More On State",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -9366,24 +9366,56 @@
                 "tasks": [
                   {
                     "name": "Apply client design adjustments",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "name": "Rendering lists",
+                "technology": "React"
+              },
+              {
+                "name": "Conditional rendering",
+                "technology": "React"
+              },
+              {
+                "name": "Using keys",
+                "technology": "React"
+              },
+              {
+                "name": "Using props",
+                "technology": "React"
+              },
+              {
+                "name": "Using useState hook",
+                "technology": "React"
+              },
+              {
+                "name": "Render and commit",
+                "technology": "React"
+              },
+              {
+                "name": "Reconciliation algorithm",
+                "technology": "React"
+              },
+              {
+                "name": "Controlled & uncontrolled components",
+                "technology": "React"
+              },
+              {
+                "name": "Array methods",
+                "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "25",
               "notice": {}
             },
             "technologies": [
@@ -9402,14 +9434,6 @@
               {
                 "image": "vite.png",
                 "name": "Vite"
-              },
-              {
-                "image": "sass-icon.png",
-                "name": "SASS"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
