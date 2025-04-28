@@ -9478,7 +9478,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -9491,11 +9491,11 @@
                 "tasks": [
                   {
                     "name": "Apply client design adjustments",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -9503,24 +9503,45 @@
                 "image_source": "odin.jpg",
                 "image_name": "The Odin Project",
                 "title": "CV Application",
-                "status": "added"
+                "tasks": [
+                  {
+                    "name": "Implement UI design",
+                    "status": "completed"
+                  }
+                ]
               }
             ],
             "concepts": [
               {
                 "name": "Sharing state between components",
                 "technology": "React"
+              },
+              {
+                "name": "Rendering UI",
+                "technology": "React"
+              },
+              {
+                "name": "CSS Grid",
+                "technology": "CSS"
+              },
+              {
+                "name": "Styling forms",
+                "technology": "CSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "23",
               "notice": {}
             },
             "technologies": [
               {
                 "image": "html-icon.png",
                 "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
@@ -9533,14 +9554,6 @@
               {
                 "image": "vite.png",
                 "name": "Vite"
-              },
-              {
-                "image": "sass-icon.png",
-                "name": "SASS"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               },
               {
                 "image": "npm.png",
