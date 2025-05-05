@@ -9706,6 +9706,134 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "name": "may",
+          "number": 5
+        },
+        "weeks": [
+          {
+            "week": 84,
+            "learning": [
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "odin.jpg",
+                "image_name": "The Odin Project",
+                "title": "CV Application",
+                "tasks": [
+                  {
+                    "name": "Improve UI/UX",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Improve Responsive Design",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Apply client design adjustments",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Add client content",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Rendering UI",
+                "technology": "React"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
