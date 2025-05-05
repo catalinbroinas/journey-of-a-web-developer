@@ -9585,27 +9585,25 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
                   }
                 ]
               }
             ],
             "projects": [
-              {
-                "image_source": "pure-natural.png",
-                "image_name": "Pure Natural logo",
-                "title": "Pure Natural",
-                "tasks": [
-                  {
-                    "name": "Apply client design adjustments",
-                    "status": "added"
-                  },
-                  {
-                    "name": "Add client content",
-                    "status": "added"
-                  }
-                ]
-              },
               {
                 "image_source": "odin.jpg",
                 "image_name": "The Odin Project",
@@ -9613,24 +9611,59 @@
                 "tasks": [
                   {
                     "name": "Improve UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Implement functionality",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Apply client design adjustments",
+                    "status": "postponed"
+                  },
+                  {
+                    "name": "Add client content",
+                    "status": "postponed"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "Dynamic UI",
+                "name": "Conditional rendering",
                 "technology": "React"
+              },
+              {
+                "name": "Rendering lists",
+                "technology": "React"
+              },
+              {
+                "name": "Passing props between components",
+                "technology": "React"
+              },
+              {
+                "name": "Sharing state between components",
+                "technology": "React"
+              },
+              {
+                "name": "Form handling",
+                "technology": "React"
+              },
+              {
+                "name": "Array methods",
+                "technology": "JS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "31",
               "notice": {}
             },
             "technologies": [
@@ -9649,14 +9682,6 @@
               {
                 "image": "react.webp",
                 "name": "React"
-              },
-              {
-                "image": "sass-icon.png",
-                "name": "SASS"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               },
               {
                 "image": "vite.png",
