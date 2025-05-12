@@ -9725,7 +9725,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -9738,7 +9738,20 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "vite.jpg",
+                  "name": "Vite logo"
+                },
+                "title": "Guide",
+                "tasks": [
+                  {
+                    "name": "Deploying a Static Site",
+                    "status": "completed"
                   }
                 ]
               }
@@ -9751,39 +9764,50 @@
                 "tasks": [
                   {
                     "name": "Improve UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve Responsive Design",
-                    "status": "added"
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Improve accessibility",
+                    "status": "completed"
                   }
                 ]
               },
               {
-                "image_source": "pure-natural.png",
-                "image_name": "Pure Natural logo",
-                "title": "Pure Natural",
-                "tasks": [
-                  {
-                    "name": "Apply client design adjustments",
-                    "status": "added"
-                  },
-                  {
-                    "name": "Add client content",
-                    "status": "added"
-                  }
-                ]
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "completed"
               }
             ],
             "concepts": [
               {
-                "name": "Rendering UI",
+                "name": "Accessibility & SEO optimization",
+                "technology": "HTML"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "CSS"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "UI rendering & conditional logic",
                 "technology": "React"
+              },
+              {
+                "name": "App deployment",
+                "technology": "Netlify"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "36",
               "notice": {}
             },
             "technologies": [
