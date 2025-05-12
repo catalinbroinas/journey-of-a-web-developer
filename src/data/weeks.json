@@ -9856,6 +9856,121 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 85,
+            "learning": [
+              {
+                "image": {
+                  "source": "odin.png",
+                  "name": "The Odin Project"
+                },
+                "title": "React - States And Effects",
+                "tasks": [
+                  {
+                    "name": "How To Deal With Side Effects",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Get Started",
+                "tasks": [
+                  {
+                    "name": "Quick Start",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Tutorial: Tic-Tac-Toe",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Thinking in React",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Implement UI based client specifications",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI & UX design",
+                "technology": "HTML"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
