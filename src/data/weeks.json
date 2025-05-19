@@ -9869,7 +9869,7 @@
                 "tasks": [
                   {
                     "name": "How To Deal With Side Effects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -9882,15 +9882,32 @@
                 "tasks": [
                   {
                     "name": "Quick Start",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Tutorial: Tic-Tac-Toe",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Thinking in React",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Escape Hatches",
+                "tasks": [
+                  {
+                    "name": "Lifecycle of Reactive Effects",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "You Might Not Need an Effect",
+                    "status": "completed"
                   }
                 ]
               }
@@ -9903,7 +9920,7 @@
                 "tasks": [
                   {
                     "name": "Implement UI based client specifications",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -9911,18 +9928,46 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
+                "name": "Passing Data Between Components",
+                "technology": "React"
+              },
+              {
+                "name": "Sharing state between components",
+                "technology": "React"
+              },
+              {
+                "name": "UI rendering & conditional logic",
+                "technology": "React"
+              },
+              {
+                "name": "Using useEffect hook",
+                "technology": "React"
+              },
+              {
+                "name": "Remove unnecessary Effects",
+                "technology": "React"
+              },
+              {
+                "name": "Using useMemo hook",
+                "technology": "React"
+              },
+              {
                 "name": "UI & UX design",
-                "technology": "HTML"
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Responsive design",
+                "technology": "CSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "31",
               "notice": {}
             },
             "technologies": [
