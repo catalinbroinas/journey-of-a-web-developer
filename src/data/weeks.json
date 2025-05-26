@@ -10029,11 +10029,45 @@
                 "tasks": [
                   {
                     "name": "Installation",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Setup",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Describing the UI",
+                "tasks": [
+                  {
+                    "name": "Describing the UI",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Your First Component",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "vite.jpg",
+                  "name": "Vite logo"
+                },
+                "title": "Guide",
+                "tasks": [
+                  {
+                    "name": "CLI",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Using Plugins",
+                    "status": "completed"
                   }
                 ]
               }
@@ -10045,12 +10079,16 @@
                 "title": "Pure Natural",
                 "tasks": [
                   {
+                    "name": "Improve UI/UX",
+                    "status": "completed"
+                  },
+                  {
                     "name": "Apply client design adjustments",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -10058,18 +10096,34 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
+              {
+                "name": "React environment setup",
+                "technology": "React"
+              },
+              {
+                "name": "Creating and structuring components",
+                "technology": "React"
+              },
+              {
+                "name": "Rendering components",
+                "technology": "React"
+              },
+              {
+                "name": "Config & plugin integration",
+                "technology": "Vite"
+              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "23",
               "notice": {}
             },
             "technologies": [
