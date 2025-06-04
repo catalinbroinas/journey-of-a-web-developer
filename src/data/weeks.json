@@ -10185,47 +10185,32 @@
                 "tasks": [
                   {
                     "name": "Importing and Exporting Components",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Writing Markup with JSX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "JavaScript in JSX with Curly Braces",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Passing Props to a Component",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Conditional Rendering",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Rendering Lists",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
             ],
             "projects": [
-              {
-                "image_source": "pure-natural.png",
-                "image_name": "Pure Natural logo",
-                "title": "Pure Natural",
-                "tasks": [
-                  {
-                    "name": "Apply client design adjustments",
-                    "status": "added"
-                  },
-                  {
-                    "name": "Add client content",
-                    "status": "added"
-                  }
-                ]
-              },
               {
                 "image_source": "league-two-grounds.jpg",
                 "image_name": "MK Stadium",
@@ -10233,24 +10218,44 @@
                 "tasks": [
                   {
                     "name": "Implement UI",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Implement functionality",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
             ],
             "concepts": [
               {
+                "name": "Creating and structuring components",
+                "technology": "React"
+              },
+              {
+                "name": "Passing Data Between Components",
+                "technology": "React"
+              },
+              {
+                "name": "Rendering components",
+                "technology": "React"
+              },
+              {
+                "name": "Conditional rendering logic",
+                "technology": "React"
+              },
+              {
                 "name": "UI & UX design",
-                "technology": "HTML"
+                "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Licenses and copyrights",
+                "technology": "Web Dev"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "23",
               "notice": {}
             },
             "technologies": [
