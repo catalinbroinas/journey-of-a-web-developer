@@ -10325,11 +10325,11 @@
                 "tasks": [
                   {
                     "name": "Keeping Components Pure",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Understanding Your UI as a Tree",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -10342,11 +10342,11 @@
                 "tasks": [
                   {
                     "name": "Adding Interactivity",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Responding to Events",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -10359,51 +10359,32 @@
                 "tasks": [
                   {
                     "name": "Populate stadium data",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI/UX design",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Enhance accessibility & performance",
-                    "status": "added"
-                  }
-                ]
-              },
-              {
-                "image_source": "pure-natural.png",
-                "image_name": "Pure Natural logo",
-                "title": "Pure Natural",
-                "tasks": [
-                  {
-                    "name": "Add client content",
-                    "status": "added"
-                  },
-                  {
-                    "name": "Apply client design adjustments",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "UI rendering & conditional logic",
+                "name": "Creating and structuring components",
                 "technology": "React"
               },
               {
                 "name": "Passing Data Between Components",
                 "technology": "React"
-              },
-              {
-                "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
@@ -10412,24 +10393,12 @@
                 "name": "HTML 5"
               },
               {
-                "image": "css-icon.png",
-                "name": "CSS 3"
-              },
-              {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
               },
               {
                 "image": "react.webp",
                 "name": "React"
-              },
-              {
-                "image": "sass-icon.png",
-                "name": "SASS"
-              },
-              {
-                "image": "mdb5.png",
-                "name": "MDBootstrap 5"
               },
               {
                 "image": "vite.png",
