@@ -10421,6 +10421,133 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 89,
+            "learning": [
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Adding Interactivity",
+                "tasks": [
+                  {
+                    "name": "State: A Component's Memory",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Render and Commit",
+                    "status": "added"
+                  },
+                  {
+                    "name": "State as a Snapshot",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Queueing a Series of State Updates",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Add client content",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Apply client design adjustments",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "league-two-grounds.jpg",
+                "image_name": "MK Stadium",
+                "title": "League Two Grounds",
+                "tasks": [
+                  {
+                    "name": "Refine UI/UX design",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Enhance accessibility & performance",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI rendering & conditional logic",
+                "technology": "React"
+              },
+              {
+                "name": "Passing Data Between Components",
+                "technology": "React"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "HTML"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
