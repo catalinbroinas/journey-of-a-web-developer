@@ -10434,19 +10434,19 @@
                 "tasks": [
                   {
                     "name": "State: A Component's Memory",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Render and Commit",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "State as a Snapshot",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Queueing a Series of State Updates",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -10459,11 +10459,7 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
-                  },
-                  {
-                    "name": "Apply client design adjustments",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -10474,13 +10470,19 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Enhance accessibility & performance",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -10493,23 +10495,23 @@
                 "technology": "React"
               },
               {
+                "name": "Sharing state between components",
+                "technology": "React"
+              },
+              {
                 "name": "UI & UX design",
-                "technology": "HTML"
+                "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
               {
                 "image": "html-icon.png",
                 "name": "HTML 5"
-              },
-              {
-                "image": "css-icon.png",
-                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
@@ -10520,16 +10522,16 @@
                 "name": "React"
               },
               {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
