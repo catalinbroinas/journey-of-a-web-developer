@@ -10681,6 +10681,124 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 91,
+            "learning": [
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Managing State",
+                "tasks": [
+                  {
+                    "name": "Sharing State Between Components",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Preserving and Resetting State",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Extracting State Logic into a Reducer",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Passing Data Deeply with Context",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Scaling Up with Reducer and Context",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "league-two-grounds.webp",
+                "image_name": "MK Stadium",
+                "title": "League Two Grounds",
+                "tasks": [
+                  {
+                    "name": "Enhance accessibility & performance",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI rendering & conditional logic",
+                "technology": "React"
+              },
+              {
+                "name": "Passing Data Between Components",
+                "technology": "React"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "HTML"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "css-icon.png",
+                "name": "CSS 3"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
