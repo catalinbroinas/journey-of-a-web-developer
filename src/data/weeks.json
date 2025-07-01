@@ -10694,23 +10694,23 @@
                 "tasks": [
                   {
                     "name": "Sharing State Between Components",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Preserving and Resetting State",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Extracting State Logic into a Reducer",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Passing Data Deeply with Context",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Scaling Up with Reducer and Context",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -10723,7 +10723,7 @@
                 "tasks": [
                   {
                     "name": "Enhance accessibility & performance",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -10731,36 +10731,52 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "Lifting state up",
+                "technology": "React"
+              },
+              {
+                "name": "State tied to component position",
+                "technology": "React"
+              },
+              {
+                "name": "Using useReducer hook",
+                "technology": "React"
+              },
+              {
+                "name": "Using Context",
+                "technology": "React"
+              },
               {
                 "name": "UI rendering & conditional logic",
                 "technology": "React"
               },
               {
-                "name": "Passing Data Between Components",
+                "name": "Passing data between components",
+                "technology": "React"
+              },
+              {
+                "name": "Sharing state between components",
                 "technology": "React"
               },
               {
                 "name": "UI & UX design",
-                "technology": "HTML"
+                "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "17",
               "notice": {}
             },
             "technologies": [
               {
                 "image": "html-icon.png",
                 "name": "HTML 5"
-              },
-              {
-                "image": "css-icon.png",
-                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
@@ -10771,16 +10787,16 @@
                 "name": "React"
               },
               {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
