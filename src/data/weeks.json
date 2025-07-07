@@ -10836,19 +10836,19 @@
                 "tasks": [
                   {
                     "name": "Escape Hatches",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Referencing Values with Refs",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Manipulating the DOM with Refs",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Synchronizing with Effects",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -10861,7 +10861,7 @@
                 "tasks": [
                   {
                     "name": "Enhance accessibility & performance",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -10869,7 +10869,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -10882,27 +10882,19 @@
                 "technology": "React"
               },
               {
-                "name": "Sharing state between components",
-                "technology": "React"
-              },
-              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "3",
+              "hours": "9",
               "notice": {}
             },
             "technologies": [
               {
                 "image": "html-icon.png",
                 "name": "HTML 5"
-              },
-              {
-                "image": "css-icon.png",
-                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
@@ -10913,16 +10905,16 @@
                 "name": "React"
               },
               {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
