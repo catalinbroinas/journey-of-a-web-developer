@@ -10946,19 +10946,19 @@
                 "tasks": [
                   {
                     "name": "Escape Hatches",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Referencing Values with Refs",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Manipulating the DOM with Refs",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Synchronizing with Effects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -10971,7 +10971,7 @@
                 "tasks": [
                   {
                     "name": "Enhance accessibility & performance",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -10979,20 +10979,24 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
               {
-                "name": "UI rendering & conditional logic",
+                "name": "Using useRef hook",
                 "technology": "React"
               },
               {
-                "name": "Passing data between components",
+                "name": "Using useEffect hook",
                 "technology": "React"
               },
               {
-                "name": "Sharing state between components",
+                "name": "DOM manipulation with refs",
+                "technology": "React"
+              },
+              {
+                "name": "UI logic & component communication",
                 "technology": "React"
               },
               {
@@ -11001,18 +11005,14 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "22",
               "notice": {}
             },
             "technologies": [
               {
                 "image": "html-icon.png",
                 "name": "HTML 5"
-              },
-              {
-                "image": "css-icon.png",
-                "name": "CSS 3"
               },
               {
                 "image": "javascript-icon.png",
@@ -11023,16 +11023,16 @@
                 "name": "React"
               },
               {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
                 "image": "sass-icon.png",
                 "name": "SASS"
               },
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
