@@ -11064,15 +11064,15 @@
                 "tasks": [
                   {
                     "name": "You Might Not Need an Effect",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Lifecycle of Reactive Effects",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Separating Events from Effects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -11085,7 +11085,7 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -11096,7 +11096,7 @@
                 "tasks": [
                   {
                     "name": "Enhance accessibility & performance",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -11104,10 +11104,22 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
+              {
+                "name": "Using useEffect hook",
+                "technology": "React"
+              },
+              {
+                "name": "Using useMemo hook",
+                "technology": "React"
+              },
+              {
+                "name": "Using useEffectEvent hook",
+                "technology": "React"
+              },
               {
                 "name": "UI logic & component communication",
                 "technology": "React"
@@ -11115,11 +11127,15 @@
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
+              },
+              {
+                "name": "Using cherry-pick",
+                "technology": "git"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "30",
               "notice": {}
             },
             "technologies": [
