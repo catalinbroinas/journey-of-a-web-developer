@@ -11193,11 +11193,11 @@
                 "tasks": [
                   {
                     "name": "Removing Effect Dependencies",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Reusing Logic with Custom Hooks",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -11210,15 +11210,15 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Render products with React",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Improve Lighthouse score",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -11226,10 +11226,18 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "Using useEffect & useEffectEvent hook",
+                "technology": "React"
+              },
+              {
+                "name": "Creating and using custom hooks",
+                "technology": "React"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -11240,8 +11248,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "16",
               "notice": {}
             },
             "technologies": [
