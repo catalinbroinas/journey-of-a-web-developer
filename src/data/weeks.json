@@ -11294,6 +11294,121 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 96,
+            "learning": [
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React"
+                },
+                "title": "Reference",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdnWebDocs.png",
+                  "name": "MDN Web Docs logo"
+                },
+                "title": "Reference",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Add client content",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Render products with React",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Refine UI/UX design",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Component interaction",
+                "technology": "React"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
