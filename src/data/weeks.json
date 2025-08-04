@@ -11307,7 +11307,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -11320,7 +11320,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -11333,15 +11333,15 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Render products with React",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI/UX design",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -11349,7 +11349,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -11363,8 +11363,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "25",
               "notice": {}
             },
             "technologies": [
