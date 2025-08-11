@@ -11430,7 +11430,20 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "mdb5.jpg",
+                  "name": "MDBootstrap 5 logo"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
                   }
                 ]
               },
@@ -11443,7 +11456,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -11456,11 +11469,11 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Improve Lighthouse score",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -11468,7 +11481,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
@@ -11482,8 +11495,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "16",
               "notice": {}
             },
             "technologies": [
