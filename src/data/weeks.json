@@ -11658,14 +11658,14 @@
             "learning": [
               {
                 "image": {
-                  "source": "react.png",
-                  "name": "React"
+                  "source": "joshComeau.png",
+                  "name": "Josh W. Comeau"
                 },
-                "title": "Reference",
+                "title": "React",
                 "tasks": [
                   {
-                    "name": "Concepts needed for project",
-                    "status": "added"
+                    "name": "Common Beginner Mistakes with React",
+                    "status": "completed"
                   }
                 ]
               },
@@ -11678,7 +11678,20 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "vite.jpg",
+                  "name": "Vite logo"
+                },
+                "title": "Guide",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for project",
+                    "status": "completed"
                   }
                 ]
               }
@@ -11691,11 +11704,11 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Improve Lighthouse score",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -11703,10 +11716,18 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "PurgeCSS & Postcss",
+                "technology": "Vite"
+              },
+              {
+                "name": "Optimization",
+                "technology": "Vite"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -11717,8 +11738,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "14",
               "notice": {}
             },
             "technologies": [
