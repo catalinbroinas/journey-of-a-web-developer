@@ -11908,7 +11908,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -11921,7 +11921,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -11934,11 +11934,11 @@
                 "tasks": [
                   {
                     "name": "Improve UI/UX design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve Lighthouse score",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -11946,7 +11946,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -11956,8 +11956,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
