@@ -12001,21 +12001,7 @@
           },
           {
             "week": 102,
-            "learning": [
-              {
-                "image": {
-                  "source": "mdnWebDocs.png",
-                  "name": "MDN Web Docs logo"
-                },
-                "title": "Reference",
-                "tasks": [
-                  {
-                    "name": "Concepts needed for project",
-                    "status": "added"
-                  }
-                ]
-              }
-            ],
+            "learning": [],
             "projects": [
               {
                 "image_source": "my-photo.JPG",
@@ -12024,7 +12010,7 @@
                 "tasks": [
                   {
                     "name": "Improve Lighthouse score",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -12032,7 +12018,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -12042,8 +12028,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "10",
               "notice": {}
             },
             "technologies": [
@@ -12054,10 +12040,6 @@
               {
                 "image": "sass-icon.png",
                 "name": "SASS"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
               },
               {
                 "image": "mdb5.png",
