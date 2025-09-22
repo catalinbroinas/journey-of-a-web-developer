@@ -12059,14 +12059,14 @@
             "learning": [
               {
                 "image": {
-                  "source": "mdnWebDocs.png",
-                  "name": "MDN Web Docs logo"
+                  "source": "reference.webp",
+                  "name": "Reference"
                 },
                 "title": "Reference",
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12079,7 +12079,11 @@
                 "tasks": [
                   {
                     "name": "Improve Lighthouse score",
-                    "status": "added"
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Refactor code & organize project",
+                    "status": "completed"
                   }
                 ]
               },
@@ -12087,18 +12091,26 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "Rebase",
+                "technology": "Git & gitHub"
+              },
+              {
+                "name": "Build & optimization",
+                "technology": "Vite"
+              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "24",
               "notice": {}
             },
             "technologies": [
@@ -12113,10 +12125,6 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
