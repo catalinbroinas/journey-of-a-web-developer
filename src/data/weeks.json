@@ -12164,7 +12164,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12177,23 +12177,17 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimize UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Template",
-                "status": "added"
               }
             ],
             "concepts": [
@@ -12207,8 +12201,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "21",
               "notice": {}
             },
             "technologies": [
