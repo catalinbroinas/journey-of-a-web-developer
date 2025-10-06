@@ -12268,7 +12268,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12281,38 +12281,28 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
-              },
-              {
-                "image_source": "mdb.jpg",
-                "image_name": "MDBootstrap logo",
-                "title": "Template",
-                "status": "added"
               }
             ],
             "concepts": [
-              {
-                "name": "Component interaction",
-                "technology": "React"
-              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "14",
               "notice": {}
             },
             "technologies": [
@@ -12323,14 +12313,6 @@
               {
                 "image": "sass-icon.png",
                 "name": "SASS"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
