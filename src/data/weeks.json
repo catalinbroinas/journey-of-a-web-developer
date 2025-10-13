@@ -12352,7 +12352,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12365,15 +12365,15 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -12381,7 +12381,13 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
+              },
+              {
+                "image_source": "react.webp",
+                "image_name": "React logo",
+                "title": "GitHub template",
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -12390,13 +12396,17 @@
                 "technology": "React"
               },
               {
+                "name": "Build & optimization",
+                "technology": "Vite"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "18",
               "notice": {}
             },
             "technologies": [
@@ -12419,6 +12429,10 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
               },
               {
                 "image": "vite.png",
