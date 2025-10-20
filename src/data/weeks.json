@@ -12468,7 +12468,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12481,15 +12481,15 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -12497,13 +12497,29 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "GitHub template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
               {
-                "name": "Component interaction",
-                "technology": "React"
+                "name": "At-Rules & modular structure",
+                "technology": "SASS"
+              },
+              {
+                "name": "Reusable mixins & variables",
+                "technology": "SASS"
+              },
+              {
+                "name": "Form styling & interactions",
+                "technology": "SASS"
+              },
+              {
+                "name": "Project structure",
+                "technology": "React App"
+              },
+              {
+                "name": "Component organization",
+                "technology": "React App"
               },
               {
                 "name": "UI & UX design",
@@ -12511,8 +12527,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "28",
               "notice": {}
             },
             "technologies": [
