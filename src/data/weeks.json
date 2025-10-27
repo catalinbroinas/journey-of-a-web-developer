@@ -12586,7 +12586,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12599,28 +12599,50 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
               {
                 "image_source": "react.webp",
                 "image_name": "React logo",
+                "title": "GitHub template",
+                "status": "completed"
+              },
+              {
+                "image_source": "react.webp",
+                "image_name": "React logo",
                 "title": "React template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
-                "name": "Component interaction",
+                "name": "Values",
+                "technology": "SASS"
+              },
+              {
+                "name": "Flow control",
+                "technology": "SASS"
+              },
+              {
+                "name": "Project structure",
+                "technology": "React"
+              },
+              {
+                "name": "Component organization",
+                "technology": "React"
+              },
+              {
+                "name": "Rendering components",
                 "technology": "React"
               },
               {
@@ -12629,8 +12651,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "27",
               "notice": {}
             },
             "technologies": [
