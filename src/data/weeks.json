@@ -12710,7 +12710,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12723,15 +12723,15 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -12739,10 +12739,22 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "React template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
+              {
+                "name": "Values & flow control",
+                "technology": "SASS"
+              },
+              {
+                "name": "Project structure",
+                "technology": "React"
+              },
+              {
+                "name": "Component organization",
+                "technology": "React"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -12753,8 +12765,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "30",
               "notice": {}
             },
             "technologies": [
