@@ -12942,7 +12942,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -12955,15 +12955,15 @@
                 "tasks": [
                   {
                     "name": "Add client content",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "postponed"
                   },
                   {
                     "name": "Optimize performance",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               },
@@ -12971,10 +12971,22 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "React template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
+              {
+                "name": "Project structure",
+                "technology": "React App"
+              },
+              {
+                "name": "Component organization",
+                "technology": "React App"
+              },
+              {
+                "name": "Dynamic content filtering",
+                "technology": "React"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -12985,8 +12997,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "35",
               "notice": {}
             },
             "technologies": [
