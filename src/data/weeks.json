@@ -13168,7 +13168,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for project",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -13181,7 +13181,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               }
@@ -13194,15 +13194,15 @@
                 "tasks": [
                   {
                     "name": "Implement functionality",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimization",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -13210,10 +13210,18 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "GitHub template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
+              {
+                "name": "Project structure",
+                "technology": "React App"
+              },
+              {
+                "name": "Component organization",
+                "technology": "React App"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -13224,8 +13232,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "30",
               "notice": {}
             },
             "technologies": [
