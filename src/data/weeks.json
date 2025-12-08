@@ -13299,7 +13299,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -13312,7 +13312,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               }
@@ -13325,7 +13325,7 @@
                 "tasks": [
                   {
                     "name": "Optimization",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -13333,16 +13333,24 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "GitHub template",
-                "status": "added"
+                "status": "tasks-completed"
               },
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Landing Page",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "Form Styling",
+                "technology": "SASS"
+              },
+              {
+                "name": "Project structure",
+                "technology": "React App"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -13353,8 +13361,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "22",
               "notice": {}
             },
             "technologies": [
