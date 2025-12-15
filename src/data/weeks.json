@@ -13513,6 +13513,100 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 116,
+            "learning": [
+              {
+                "image": {
+                  "source": "reference.webp",
+                  "name": "Reference"
+                },
+                "title": "Reference",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for projects",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Landing Page",
+                "tasks": [
+                  {
+                    "name": "Refine UI/UX",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Optimization",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDB logo",
+                "title": "MDB Vite template",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
