@@ -13526,7 +13526,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -13539,19 +13539,25 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimization",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
+                "title": "Template",
+                "status": "in-progress"
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDB logo",
                 "title": "MDB Vite template",
-                "status": "added"
+                "status": "postponed"
               }
             ],
             "concepts": [
@@ -13561,8 +13567,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "26",
               "notice": {}
             },
             "technologies": [
@@ -13577,10 +13583,6 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
