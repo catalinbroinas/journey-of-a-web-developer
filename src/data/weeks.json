@@ -13720,7 +13720,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -13730,19 +13730,19 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "GitHub MDB template",
-                "status": "added"
+                "status": "completed"
               },
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "completed"
               }
             ],
             "concepts": [
               {
                 "name": "Project structure",
-                "technology": "Vite + MDB 5 + SASS"
+                "technology": "MDB 5 & SASS"
               },
               {
                 "name": "UI & UX design",
@@ -13750,8 +13750,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
@@ -13770,10 +13770,6 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
