@@ -13801,7 +13801,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -13814,7 +13814,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -13826,12 +13826,16 @@
                 "title": "Pure Natural",
                 "tasks": [
                   {
+                    "name": "Improve Responsive Design",
+                    "status": "completed"
+                  },
+                  {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Optimization",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -13839,22 +13843,18 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
-              {
-                "name": "Project structure",
-                "technology": "Vite + MDB 5 + SASS"
-              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "13",
               "notice": {}
             },
             "technologies": [
@@ -13865,14 +13865,6 @@
               {
                 "image": "sass-icon.png",
                 "name": "SASS"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
