@@ -13904,7 +13904,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -13917,7 +13917,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -13930,11 +13930,11 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimization",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -13942,18 +13942,22 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "Project structure",
+                "technology": "Vite + JS + SASS"
+              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "24",
               "notice": {}
             },
             "technologies": [
@@ -13968,10 +13972,6 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
