@@ -14113,6 +14113,117 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 122,
+            "learning": [
+              {
+                "image": {
+                  "source": "reference.webp",
+                  "name": "Reference"
+                },
+                "title": "Documentation",
+                "tasks": [
+                  {
+                    "name": "Concepts needed for projects",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React logo"
+                },
+                "title": "Learn",
+                "tasks": [
+                  {
+                    "name": "Review and deepening",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "random-numbers.jpg",
+                "image_name": "Numbers on blue background",
+                "title": "Guess the Number / Word",
+                "tasks": [
+                  {
+                    "name": "Basic UI",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Core game logic",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "mdb.jpg",
+                "image_name": "MDBootstrap logo",
+                "title": "Template",
+                "status": "added"
+              }
+            ],
+            "concepts": [
+              {
+                "name": "React Components",
+                "technology": "React"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SASS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "Javascript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
