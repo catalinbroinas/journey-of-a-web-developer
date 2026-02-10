@@ -14019,7 +14019,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14032,7 +14032,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -14045,11 +14045,11 @@
                 "tasks": [
                   {
                     "name": "Refine UI for ultra wide devices",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Optimization",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14057,18 +14057,22 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
+              {
+                "name": "Performance Optimization",
+                "technology": "HTMl + SCSS + JS + Vite"
+              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "21",
               "notice": {}
             },
             "technologies": [
@@ -14083,10 +14087,6 @@
               {
                 "image": "javascript-icon.png",
                 "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
