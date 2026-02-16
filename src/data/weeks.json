@@ -14126,7 +14126,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14139,7 +14139,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -14152,11 +14152,11 @@
                 "tasks": [
                   {
                     "name": "Basic UI",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Core game logic",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14164,22 +14164,22 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
               {
-                "name": "React Components",
+                "name": "Component interaction",
                 "technology": "React"
               },
               {
                 "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "technology": "HTML & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "24",
               "notice": {}
             },
             "technologies": [
