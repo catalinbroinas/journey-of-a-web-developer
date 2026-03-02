@@ -14352,7 +14352,7 @@
                 "tasks": [
                   {
                     "name": "Concepts needed for projects",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14365,7 +14365,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               }
@@ -14378,11 +14378,11 @@
                 "tasks": [
                   {
                     "name": "Minor optimizations",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Publish & GitHug documentation",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14390,7 +14390,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -14400,12 +14400,12 @@
               },
               {
                 "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "technology": "HTML & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
