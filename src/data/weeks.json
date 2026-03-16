@@ -14569,7 +14569,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -14582,11 +14582,11 @@
                 "tasks": [
                   {
                     "name": "Core game logic",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -14594,7 +14594,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDBootstrap logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -14608,8 +14608,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "24",
               "notice": {}
             },
             "technologies": [
