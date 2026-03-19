@@ -14679,29 +14679,24 @@
                 "title": "Quiz Game",
                 "tasks": [
                   {
+                    "name": "Feedback logic",
+                    "status": "completed"
+                  },
+                  {
                     "name": "Minor optimizations",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Publish & GitHug documentation",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
               {
                 "image_source": "react.webp",
                 "image_name": "React logo",
-                "title": "Memory Card",
-                "tasks": [
-                  {
-                    "name": "Basic UI",
-                    "status": "added"
-                  },
-                  {
-                    "name": "Core game logic",
-                    "status": "added"
-                  }
-                ]
+                "title": "React template",
+                "status": "added"
               }
             ],
             "concepts": [
