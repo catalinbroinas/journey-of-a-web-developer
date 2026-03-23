@@ -14667,7 +14667,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -14696,22 +14696,26 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "React template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
+              {
+                "name": "Project structure",
+                "technology": "React App"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
               },
               {
                 "name": "UI & UX design",
-                "technology": "MDB 5 & SASS"
+                "technology": "HTML & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "22",
               "notice": {}
             },
             "technologies": [
