@@ -14870,7 +14870,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -14880,19 +14880,19 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "GitHub template",
-                "status": "added"
+                "status": "in-progress"
               },
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
-                "name": "Project structure",
-                "technology": "React App"
+                "name": "SCSS-based design system",
+                "technology": "SCSS"
               },
               {
                 "name": "UI & UX design",
@@ -14900,8 +14900,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "21",
               "notice": {}
             },
             "technologies": [
@@ -14912,14 +14912,6 @@
               {
                 "image": "sass-icon.png",
                 "name": "SASS"
-              },
-              {
-                "image": "javascript-icon.png",
-                "name": "Javascript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
               },
               {
                 "image": "mdb5.png",
