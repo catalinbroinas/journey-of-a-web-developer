@@ -15040,7 +15040,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "postponed"
                   }
                 ]
               }
@@ -15050,18 +15050,18 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "GitHub template",
-                "status": "added"
+                "status": "tasks-completed"
               },
               {
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
-                "name": "Project structure",
+                "name": "SCSS-based design system",
                 "technology": "React App"
               },
               {
@@ -15070,8 +15070,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "22",
               "notice": {}
             },
             "technologies": [
