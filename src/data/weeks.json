@@ -15121,7 +15121,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -15131,7 +15131,7 @@
                 "image_source": "react.webp",
                 "image_name": "React logo",
                 "title": "GitHub template",
-                "status": "added"
+                "status": "tasks-completed"
               },
               {
                 "image_source": "odin.jpg",
@@ -15140,7 +15140,7 @@
                 "tasks": [
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -15148,7 +15148,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -15157,13 +15157,17 @@
                 "technology": "React App"
               },
               {
+                "name": "Component organization",
+                "technology": "React"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SASS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "3",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
