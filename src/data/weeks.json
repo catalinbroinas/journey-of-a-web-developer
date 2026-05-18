@@ -15331,7 +15331,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -15344,7 +15344,7 @@
                 "tasks": [
                   {
                     "name": "Core game logic",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -15352,7 +15352,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -15362,12 +15362,12 @@
               },
               {
                 "name": "UI & UX design",
-                "technology": "SCSS"
+                "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
