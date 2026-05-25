@@ -15425,7 +15425,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -15438,7 +15438,7 @@
                 "tasks": [
                   {
                     "name": "Core game logic",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -15446,13 +15446,21 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
               {
+                "name": "Component architecture",
+                "technology": "React"
+              },
+              {
                 "name": "Component interaction",
                 "technology": "React"
+              },
+              {
+                "name": "Accessibility",
+                "technology": "HTML"
               },
               {
                 "name": "UI & UX design",
@@ -15460,8 +15468,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
