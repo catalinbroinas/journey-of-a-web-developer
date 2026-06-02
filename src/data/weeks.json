@@ -15527,7 +15527,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -15540,15 +15540,15 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Save progress with localStorage",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -15559,12 +15559,16 @@
                 "tasks": [
                   {
                     "name": "Plan project architecture & features",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
             ],
             "concepts": [
+              {
+                "name": "Web Storage API",
+                "technology": "JS"
+              },
               {
                 "name": "Component interaction",
                 "technology": "React"
@@ -15579,8 +15583,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "15",
               "notice": {}
             },
             "technologies": [
