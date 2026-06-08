@@ -15650,7 +15650,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -15663,11 +15663,11 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "tasks-completed"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "tasks-completed"
                   }
                 ]
               },
@@ -15678,18 +15678,18 @@
                 "tasks": [
                   {
                     "name": "Plan project architecture & features",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
             ],
             "concepts": [
               {
-                "name": "Component interaction",
+                "name": "Performance & code optimization",
                 "technology": "React"
               },
               {
@@ -15697,13 +15697,17 @@
                 "technology": "MPA"
               },
               {
+                "name": "Config & plugin integration",
+                "technology": "Vite"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "18",
               "notice": {}
             },
             "technologies": [
