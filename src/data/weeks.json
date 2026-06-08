@@ -15752,6 +15752,109 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 138,
+            "learning": [
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React logo"
+                },
+                "title": "Learn",
+                "tasks": [
+                  {
+                    "name": "Review and deepening",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "worldCup2026.webp",
+                "image_name": "Guadalajara stadium",
+                "title": "World Cup 2026",
+                "tasks": [
+                  {
+                    "name": "Project structure & architecture",
+                    "status": "added"
+                  },
+                  {
+                    "name": "UI Design",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "football.webp",
+                "image_name": "Football",
+                "title": "Template",
+                "tasks": [
+                  {
+                    "name": "UI Design",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Project structure & architecture",
+                "technology": "MPA"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SCSS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "JavaScript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
