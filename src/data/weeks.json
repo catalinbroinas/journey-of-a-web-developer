@@ -15875,6 +15875,125 @@
                 "name": "gitHub"
               }
             ]
+          },
+          {
+            "week": 139,
+            "learning": [
+              {
+                "image": {
+                  "source": "react.png",
+                  "name": "React logo"
+                },
+                "title": "Learn",
+                "tasks": [
+                  {
+                    "name": "Review and deepening",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "image_source": "worldCup2026.webp",
+                "image_name": "Guadalajara stadium",
+                "title": "World Cup 2026",
+                "tasks": [
+                  {
+                    "name": "UI Design",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
+                "image_source": "football.webp",
+                "image_name": "Football",
+                "title": "Template",
+                "tasks": [
+                  {
+                    "name": "Core app functionality",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Content integration",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Refine UI",
+                    "status": "added"
+                  }
+                ]
+              }
+            ],
+            "concepts": [
+              {
+                "name": "Component interaction",
+                "technology": "React"
+              },
+              {
+                "name": "Data management",
+                "technology": "React"
+              },
+              {
+                "name": "Project structure & architecture",
+                "technology": "MPA"
+              },
+              {
+                "name": "UI & UX design",
+                "technology": "MDB 5 & SCSS"
+              }
+            ],
+            "working_time": {
+              "days": "",
+              "hours": "",
+              "notice": {}
+            },
+            "technologies": [
+              {
+                "image": "html-icon.png",
+                "name": "HTML 5"
+              },
+              {
+                "image": "sass-icon.png",
+                "name": "SASS"
+              },
+              {
+                "image": "javascript-icon.png",
+                "name": "JavaScript"
+              },
+              {
+                "image": "react.webp",
+                "name": "React"
+              },
+              {
+                "image": "mdb5.png",
+                "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
+              },
+              {
+                "image": "vite.png",
+                "name": "Vite"
+              },
+              {
+                "image": "npm.png",
+                "name": "npm"
+              },
+              {
+                "image": "json.png",
+                "name": "JSON"
+              },
+              {
+                "image": "git.png",
+                "name": "Git"
+              },
+              {
+                "image": "gitHub.png",
+                "name": "gitHub"
+              }
+            ]
           }
         ]
       }
