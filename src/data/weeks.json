@@ -15888,7 +15888,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -15901,7 +15901,7 @@
                 "tasks": [
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -15912,15 +15912,15 @@
                 "tasks": [
                   {
                     "name": "Core app functionality",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -15944,8 +15944,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
