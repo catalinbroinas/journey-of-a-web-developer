@@ -16007,7 +16007,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -16020,7 +16020,7 @@
                 "tasks": [
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -16031,11 +16031,11 @@
                 "tasks": [
                   {
                     "name": "Enhance functionality & features",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Refine UI",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -16046,13 +16046,17 @@
                 "technology": "React"
               },
               {
+                "name": "Project structure & architecture",
+                "technology": "MPA"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "14",
               "notice": {}
             },
             "technologies": [
