@@ -16126,7 +16126,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -16139,15 +16139,15 @@
                 "tasks": [
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Core app functionality",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -16158,11 +16158,11 @@
                 "tasks": [
                   {
                     "name": "Enhance functionality & features",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Refine UI",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -16173,13 +16173,17 @@
                 "technology": "React"
               },
               {
+                "name": "Data management",
+                "technology": "React"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "18",
               "notice": {}
             },
             "technologies": [
@@ -16202,10 +16206,6 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
               },
               {
                 "image": "vite.png",
