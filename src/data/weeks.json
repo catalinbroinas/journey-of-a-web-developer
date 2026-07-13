@@ -16241,7 +16241,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -16254,15 +16254,15 @@
                 "tasks": [
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Core app functionality",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -16273,11 +16273,11 @@
                 "tasks": [
                   {
                     "name": "Enhance functionality & features",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Refine UI",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -16285,12 +16285,20 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
               {
+                "name": "SCSS architecture",
+                "technology": "SCSS"
+              },
+              {
                 "name": "Component interaction",
+                "technology": "React"
+              },
+              {
+                "name": "Data management",
                 "technology": "React"
               },
               {
@@ -16299,8 +16307,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "13",
               "notice": {}
             },
             "technologies": [
