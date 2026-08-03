@@ -16605,7 +16605,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -16618,15 +16618,15 @@
                 "tasks": [
                   {
                     "name": "UI Design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Core app functionality",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -16634,7 +16634,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
@@ -16648,8 +16648,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
