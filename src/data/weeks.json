@@ -16829,7 +16829,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -16842,15 +16842,15 @@
                 "tasks": [
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Improve UI/UX",
-                    "status": "added"
+                    "status": "tasks-completed"
                   },
                   {
                     "name": "Enhance functionality & features",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
@@ -16861,7 +16861,7 @@
                 "tasks": [
                   {
                     "name": "Improve data processing",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -16869,7 +16869,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -16887,8 +16887,8 @@
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
