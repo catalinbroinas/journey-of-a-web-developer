@@ -16940,21 +16940,7 @@
           },
           {
             "week": 148,
-            "learning": [
-              {
-                "image": {
-                  "source": "react.png",
-                  "name": "React logo"
-                },
-                "title": "Learn",
-                "tasks": [
-                  {
-                    "name": "Review and deepening",
-                    "status": "added"
-                  }
-                ]
-              }
-            ],
+            "learning": [],
             "projects": [
               {
                 "image_source": "worldCup2026.webp",
@@ -16963,42 +16949,34 @@
                 "tasks": [
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Enhance functionality & features",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               },
               {
-                "image_source": "mdb.jpg",
-                "image_name": "MDB logo",
-                "title": "Template",
-                "status": "added"
+                "image_source": "chapter-30.webp",
+                "image_name": "City",
+                "title": "Chapter 30",
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
-              {
-                "name": "Data management",
-                "technology": "React"
-              },
-              {
-                "name": "Component interaction",
-                "technology": "React"
-              },
               {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
@@ -17011,24 +16989,8 @@
                 "name": "SASS"
               },
               {
-                "image": "javascript-icon.png",
-                "name": "JavaScript"
-              },
-              {
-                "image": "react.webp",
-                "name": "React"
-              },
-              {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
-              },
-              {
-                "image": "vite.png",
-                "name": "Vite"
               },
               {
                 "image": "npm.png",
