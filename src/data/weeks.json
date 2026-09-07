@@ -17141,21 +17141,7 @@
         "weeks": [
           {
             "week": 150,
-            "learning": [
-              {
-                "image": {
-                  "source": "react.png",
-                  "name": "React logo"
-                },
-                "title": "Learn",
-                "tasks": [
-                  {
-                    "name": "Review and deepening",
-                    "status": "added"
-                  }
-                ]
-              }
-            ],
+            "learning": [],
             "projects": [
               {
                 "image_source": "worldCup2026.webp",
@@ -17164,11 +17150,11 @@
                 "tasks": [
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -17176,7 +17162,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
@@ -17185,17 +17171,13 @@
                 "technology": "React"
               },
               {
-                "name": "Component interaction",
-                "technology": "React"
-              },
-              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "22",
               "notice": {}
             },
             "technologies": [
