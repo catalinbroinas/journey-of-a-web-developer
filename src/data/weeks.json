@@ -17320,14 +17320,27 @@
             "learning": [
               {
                 "image": {
-                  "source": "react.png",
-                  "name": "React logo"
+                  "source": "vite.jpg",
+                  "name": "Vite logo"
                 },
-                "title": "Learn",
+                "title": "Guide",
                 "tasks": [
                   {
-                    "name": "Review and deepening",
-                    "status": "added"
+                    "name": "Building for Production",
+                    "status": "completed"
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "source": "reference.webp",
+                  "name": "Reference"
+                },
+                "title": "SEO fundamentals",
+                "tasks": [
+                  {
+                    "name": "robots.txt",
+                    "status": "completed"
                   }
                 ]
               }
@@ -17340,11 +17353,15 @@
                 "tasks": [
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Refine UI/UX",
+                    "status": "tasks-completed"
                   }
                 ]
               },
@@ -17352,7 +17369,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
@@ -17365,13 +17382,21 @@
                 "technology": "React"
               },
               {
+                "name": "Build & optimization",
+                "technology": "Vite"
+              },
+              {
+                "name": "SEO optimization",
+                "technology": "HTML"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
