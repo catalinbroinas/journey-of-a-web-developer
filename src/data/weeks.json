@@ -17448,21 +17448,7 @@
           },
           {
             "week": 153,
-            "learning": [
-              {
-                "image": {
-                  "source": "react.png",
-                  "name": "React logo"
-                },
-                "title": "Learn",
-                "tasks": [
-                  {
-                    "name": "Review and deepening",
-                    "status": "added"
-                  }
-                ]
-              }
-            ],
+            "learning": [],
             "projects": [
               {
                 "image_source": "worldCup2026.webp",
@@ -17471,11 +17457,22 @@
                 "tasks": [
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "tasks-completed"
+                  }
+                ]
+              },
+              {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Refine Intro",
+                    "status": "completed"
                   }
                 ]
               },
@@ -17483,7 +17480,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
@@ -17492,17 +17489,13 @@
                 "technology": "React"
               },
               {
-                "name": "Component interaction",
-                "technology": "React"
-              },
-              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "4",
+              "hours": "18",
               "notice": {}
             },
             "technologies": [
@@ -17525,10 +17518,6 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
               },
               {
                 "image": "vite.png",
