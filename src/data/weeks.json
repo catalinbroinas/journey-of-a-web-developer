@@ -17546,14 +17546,14 @@
             "learning": [
               {
                 "image": {
-                  "source": "react.png",
-                  "name": "React logo"
+                  "source": "reference.webp",
+                  "name": "Reference"
                 },
                 "title": "Learn",
                 "tasks": [
                   {
-                    "name": "Review and deepening",
-                    "status": "added"
+                    "name": "Concepts needed for projects",
+                    "status": "completed"
                   }
                 ]
               }
@@ -17566,7 +17566,7 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -17577,11 +17577,11 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -17589,7 +17589,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
@@ -17598,13 +17598,25 @@
                 "technology": "React"
               },
               {
+                "name": "Performance optimization",
+                "technology": "React"
+              },
+              {
+                "name": "SEO optimization",
+                "technology": "HTML"
+              },
+              {
+                "name": "SCSS architecture",
+                "technology": "SCSS"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "23",
               "notice": {}
             },
             "technologies": [
