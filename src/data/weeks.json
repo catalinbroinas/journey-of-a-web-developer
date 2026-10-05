@@ -17693,10 +17693,19 @@
             ],
             "projects": [
               {
-                "image_source": "react.webp",
-                "image_name": "React logo",
-                "title": "React template",
-                "status": "added"
+                "image_source": "my-projects.webp",
+                "image_name": "Web pages open on a monitor",
+                "title": "My Projects",
+                "tasks": [
+                  {
+                    "name": "UI/UX design",
+                    "status": "added"
+                  },
+                  {
+                    "name": "Core app functionality",
+                    "status": "added"
+                  }
+                ]
               },
               {
                 "image_source": "mdb.jpg",
