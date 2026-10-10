@@ -17686,7 +17686,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -17699,11 +17699,11 @@
                 "tasks": [
                   {
                     "name": "UI/UX design",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Core app functionality",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -17711,7 +17711,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -17720,13 +17720,21 @@
                 "technology": "React"
               },
               {
+                "name": "Data management",
+                "technology": "React"
+              },
+              {
+                "name": "Project structure & architecture",
+                "technology": "React App"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "30",
               "notice": {}
             },
             "technologies": [
