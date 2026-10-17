@@ -17796,7 +17796,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -17809,15 +17809,15 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Improve accessibility & performance",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "tasks-completed"
                   }
                 ]
               },
@@ -17828,7 +17828,7 @@
                 "tasks": [
                   {
                     "name": "Minor optimizations",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -17836,7 +17836,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -17849,13 +17849,21 @@
                 "technology": "React"
               },
               {
+                "name": "Performance optimization",
+                "technology": "React"
+              },
+              {
+                "name": "SEO optimization",
+                "technology": "HTML"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "32",
               "notice": {}
             },
             "technologies": [
