@@ -17925,7 +17925,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -17937,12 +17937,16 @@
                 "title": "My Projects",
                 "tasks": [
                   {
-                    "name": "Content integration",
-                    "status": "added"
+                    "name": "Refine UI/UX",
+                    "status": "completed"
                   },
                   {
                     "name": "Minor refinements",
-                    "status": "added"
+                    "status": "tasks-completed"
+                  },
+                  {
+                    "name": "Content integration",
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -17950,7 +17954,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -17963,13 +17967,17 @@
                 "technology": "React"
               },
               {
+                "name": "Project architecture",
+                "technology": "Web development"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
