@@ -18061,6 +18061,17 @@
                 ]
               },
               {
+                "image_source": "pure-natural.png",
+                "image_name": "Pure Natural logo",
+                "title": "Pure Natural",
+                "tasks": [
+                  {
+                    "name": "Minor refinements",
+                    "status": "added"
+                  }
+                ]
+              },
+              {
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
