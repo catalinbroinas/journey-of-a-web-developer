@@ -18039,7 +18039,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -18052,11 +18052,11 @@
                 "tasks": [
                   {
                     "name": "Minor refinements",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Content integration",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -18067,7 +18067,7 @@
                 "tasks": [
                   {
                     "name": "Minor refinements",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -18075,7 +18075,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "postponed"
               }
             ],
             "concepts": [
@@ -18092,13 +18092,17 @@
                 "technology": "Web development"
               },
               {
+                "name": "SCSS architecture",
+                "technology": "SCSS"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "36",
               "notice": {}
             },
             "technologies": [
