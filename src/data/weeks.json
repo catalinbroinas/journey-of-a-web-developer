@@ -18172,7 +18172,7 @@
                 "tasks": [
                   {
                     "name": "Review and deepening",
-                    "status": "added"
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -18189,11 +18189,11 @@
                   },
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Minor optimizations",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -18201,7 +18201,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "in-progress"
               }
             ],
             "concepts": [
@@ -18214,13 +18214,17 @@
                 "technology": "React"
               },
               {
+                "name": "Performance optimization",
+                "technology": "React"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "34",
               "notice": {}
             },
             "technologies": [
@@ -18243,10 +18247,6 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
-              },
-              {
-                "image": "fontAwesome.png",
-                "name": "Font Awesome"
               },
               {
                 "image": "vite.png",
