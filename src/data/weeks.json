@@ -18281,8 +18281,24 @@
                 "title": "Learn",
                 "tasks": [
                   {
-                    "name": "Review and deepening",
-                    "status": "added"
+                    "name": "Routing",
+                    "status": "tasks-completed"
+                  },
+                  {
+                    "name": "Data Fetching",
+                    "status": "tasks-completed"
+                  },
+                  {
+                    "name": "Code-splitting",
+                    "status": "tasks-completed"
+                  },
+                  {
+                    "name": "Improving Application Performance",
+                    "status": "tasks-completed"
+                  },
+                  {
+                    "name": "Review",
+                    "status": "in-progress"
                   }
                 ]
               }
@@ -18295,11 +18311,15 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "in-progress"
                   },
                   {
-                    "name": "Optimization",
-                    "status": "added"
+                    "name": "Refactor project architecture",
+                    "status": "completed"
+                  },
+                  {
+                    "name": "Performance optimization",
+                    "status": "in-progress"
                   }
                 ]
               },
@@ -18307,7 +18327,7 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "tasks-completed"
               }
             ],
             "concepts": [
@@ -18316,13 +18336,17 @@
                 "technology": "React"
               },
               {
+                "name": "Project architecture",
+                "technology": "Web development"
+              },
+              {
                 "name": "UI & UX design",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "6",
+              "hours": "26",
               "notice": {}
             },
             "technologies": [
