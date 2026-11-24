@@ -18404,11 +18404,11 @@
                 "tasks": [
                   {
                     "name": "Review",
-                    "status": "added"
+                    "status": "unstarted"
                   },
                   {
                     "name": "Routing",
-                    "status": "added"
+                    "status": "unstarted"
                   }
                 ]
               }
@@ -18421,11 +18421,11 @@
                 "tasks": [
                   {
                     "name": "Refine UI/UX",
-                    "status": "added"
+                    "status": "completed"
                   },
                   {
                     "name": "Performance optimization",
-                    "status": "added"
+                    "status": "completed"
                   }
                 ]
               },
@@ -18433,22 +18433,26 @@
                 "image_source": "mdb.jpg",
                 "image_name": "MDB logo",
                 "title": "Template",
-                "status": "added"
+                "status": "unstarted"
               }
             ],
             "concepts": [
               {
-                "name": "Component interaction",
-                "technology": "React"
+                "name": "Project structure & architecture",
+                "technology": "Web development"
               },
               {
-                "name": "UI & UX design",
+                "name": "Performance optimization",
+                "technology": "Web development"
+              },
+              {
+                "name": "UI & UX refinement",
                 "technology": "MDB 5 & SCSS"
               }
             ],
             "working_time": {
-              "days": "",
-              "hours": "",
+              "days": "5",
+              "hours": "20",
               "notice": {}
             },
             "technologies": [
@@ -18471,6 +18475,10 @@
               {
                 "image": "mdb5.png",
                 "name": "MDBootstrap 5"
+              },
+              {
+                "image": "fontAwesome.png",
+                "name": "Font Awesome"
               },
               {
                 "image": "vite.png",
